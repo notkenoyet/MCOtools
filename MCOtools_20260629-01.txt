@@ -1,0 +1,398 @@
+=========================
+Demandes bloquees : =
+=========================
+
+ACTION A FAIRE SUR CES DEMANDES : ReloadRequest (106) ou Attention si FORMATTED avec beaucoup de plis, verifier l'etat de l'interfacage (procedure Wiki A3.16).
+
+ Canal      Req_ID    Deposit_ID               Affranch.                Login                                    Etat                             Nb_Plis  Date_Modif           Date_Creation        Date_Prod_Esperee   Deblocage_Envelope
+ ---------- --------- ------------------------ ------------------------ ---------------------------------------- -------------------------------- -------- -------------------- -------------------- ------------------- -------------------
+ DIGITAL    174558531 4061800002Z                                       EHPADSAINTJACQUES.RH                     DIGIPOSTE_CREATE_SUBSCRIBERS     210      Jun 29 2026  8:10AM  Jun 29 2026  7:53AM  NULL                NULL
+ DIGITAL    174559479 4061800003N                                       SOCIETEDUPARCDUFUTUROSCOPE.LOZANO        DIGIPOSTE_CREATE_SUBSCRIBERS     113      Jun 29 2026  8:18AM  Jun 29 2026  8:10AM  NULL                NULL
+ DIGITAL    174561846 4061800005P                                       LOUISSCHROLL.SIEFER                      DIGIPOSTE_CREATE_SUBSCRIBERS     40       Jun 29 2026  8:57AM  Jun 29 2026  8:46AM  NULL                NULL
+ DIGITAL    174562140 4061800005Q                                       EHPADAE.EHPADAE                          DIGIPOSTE_CREATE_SUBSCRIBERS     85       Jun 29 2026  8:59AM  Jun 29 2026  8:47AM  NULL                NULL
+ DIGITAL    174561779 4061800004U                                       NEUILLY.PAIE                             DIGIPOSTE_CREATE_SUBSCRIBERS     1054     Jun 29 2026  9:23AM  Jun 29 2026  8:45AM  NULL                NULL
+ DIGITAL    174544816 2561780106P                                       INTRASIPA.BP                             DIGIPOSTE_CREATE_SUBSCRIBERS     25       Jun 29 2026 10:13AM  Jun 27 2026  9:03AM  NULL                NULL
+ DIGITAL    174557688 2561800334O                                       BOTANIC.RHPAIE                           FORMATTED                        342      Jun 29 2026  7:56AM  Jun 29 2026  7:40AM  NULL                NULL
+ DIGITAL    174559500 4061800003S                                       MEDICOSOCIALEDEPROVENCE.MHOUDINI         FORMATTED                        40       Jun 29 2026  8:13AM  Jun 29 2026  8:11AM  NULL                NULL
+ DIGITAL    174571221 2561800851C                                       ADAPEIDUDOUBS.GB                         FORMATTED                        74       Jun 29 2026 10:14AM  Jun 29 2026  9:32AM  NULL                NULL
+ DIGITAL    174574572 2561800978N                                       SAMSE.MAURISBOIS                         FORMATTED                        190      Jun 29 2026 10:15AM  Jun 29 2026  9:47AM  NULL                NULL
+ DIGITAL    174573979 4061800007G                                       LOUISSCHROLL.SIEFER                      FORMATTED                        217      Jun 29 2026 10:17AM  Jun 29 2026  9:44AM  NULL                NULL
+ DIGITAL    174557046 4061800002D                                       CD64.001                                 FORMATTED                        2391     Jun 29 2026 10:18AM  Jun 29 2026  7:37AM  NULL                NULL
+ DIGITAL    174575357 2561801008T                                       SAMSE.MPLUSMATERIAUX                     FORMATTED                        189      Jun 29 2026 10:19AM  Jun 29 2026  9:52AM  NULL                NULL
+ DIGITAL    174561335 4061800004C                                       GROUPENOVASEP.FINORGASAS                 FORMATTED                        396      Jun 29 2026 10:21AM  Jun 29 2026  8:18AM  NULL                NULL
+ DIGITAL    174574916 2561800991U                                       SAMSE.SAMSE                              FORMATTED                        284      Jun 29 2026 10:21AM  Jun 29 2026  9:49AM  NULL                NULL
+ DIGITAL    174577244 2561801081H                                       SAMSE.BTPDISTRIBUTION                    FORMATTED                        71       Jun 29 2026 10:22AM  Jun 29 2026 10:07AM  NULL                NULL
+ DIGITAL    174576730 2561801061N                                       HOMESERVE.HOMESERVEPAIE                  FORMATTED                        239      Jun 29 2026 10:23AM  Jun 29 2026 10:06AM  NULL                NULL
+ DIGITAL    174577601 2561801095K                                       ALLIOS2                                  FORMATTED                        99       Jun 29 2026 10:25AM  Jun 29 2026 10:07AM  NULL                NULL
+ DIGITAL    174578260 2561801136Y                                       SAMSE.SAMSE                              FORMATTED                        285      Jun 29 2026 10:27AM  Jun 29 2026 10:16AM  NULL                NULL
+ DIGITAL    174578302 2561801146S                                       SAMSE.SAMSE                              FORMATTED                        282      Jun 29 2026 10:27AM  Jun 29 2026 10:16AM  NULL                NULL
+ DIGITAL    174576154 2561801039C                                       SAMSE.BOITEAOUTILS                       FORMATTED                        411      Jun 29 2026 10:28AM  Jun 29 2026 10:05AM  NULL                NULL
+ DIGITAL    174577851 2561801104S                                       SAMSE.BOITEAOUTILS                       FORMATTED                        414      Jun 29 2026 10:28AM  Jun 29 2026 10:09AM  NULL                NULL
+
+(22 lignes)
+
+ACTION A FAIRE SUR CES DEMANDES : Escalade MCO
+
+ Canal      Req_ID    Deposit_ID               Affranch.                Login                                    Etat                             Nb_Plis  Date_Modif           Date_Creation        Date_Prod_Esperee   Deblocage_Envelope
+ ---------- --------- ------------------------ ------------------------ ---------------------------------------- -------------------------------- -------- -------------------- -------------------- ------------------- -------------------
+ PAPER      174498172 2561771094H              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 27 2026  8:53AM  Jun 26 2026  8:46AM  NULL                NULL
+ PAPER      174535829 2561772536I              STANDARD                 caudalie.sachot                          TO_BATCH                         1        Jun 29 2026  6:38AM  Jun 26 2026  5:16PM  NULL                Jun 26 2026  5:00PM
+ PAPER      174564196 2561800580U              ECOPLI_GRAND_COMPTE      ATLANTICLOG.BALLY                        TO_BATCH                         1        Jun 29 2026  9:45AM  Jun 29 2026  9:02AM  NULL                NULL
+ PAPER      174568087 2561800730K              ECOPLI_GRAND_COMPTE      MYPITNEY.770095096.ADMRJURA              TO_BATCH                         1        Jun 29 2026 10:06AM  Jun 29 2026  9:04AM  NULL                NULL
+
+(4 lignes)
+
+=========================
+Demandes en erreur: =
+=========================
+
+ACTION A FAIRE SUR CES DEMANDES : RetryRequest (105)
+
+ Canal      Req_ID    Deposit_ID   Affranch.                Login                                    Etat                             Nb_Plis  Env2Batch Date_Modif           Date_Creation        Date_Prod_Esperee    Code_Erreur
+ ---------- --------- ------------ ------------------------ ---------------------------------------- -------------------------------- -------- --------- -------------------- -------------------- -------------------- -----------
+ DIGITAL    174512479 4061770013Q  ECOPLI_GRAND_COMPTE      LGTGUSTAVEF.POLEMUTUALISATION            BATCHING_ERROR                   1877     1877      Jun 29 2026 11:23AM  Jun 26 2026 12:31PM  NULL                 1600003
+ DIGITAL    174572516 2561800899V  SLOW                     ADAPEIDUDOUBS.GB                         CONVERTING_ERROR                 9        9         Jun 29 2026 11:22AM  Jun 29 2026  9:37AM  NULL                 2000006
+ DIGITAL    174576144 2561801038Y  SLOW                     ADAPEIDUDOUBS.GB                         CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026 10:05AM  NULL                 2000006
+ DIGITAL    174584083 2561801398P  SLOW                     ADAPEIDUDOUBS.GB                         CONVERTING_ERROR                 2        2         Jun 29 2026 12:03PM  Jun 29 2026 11:26AM  NULL                 2000006
+ DIGITAL    174584155 2561801401L  SLOW                     ADAPEIDUDOUBS.GB                         CONVERTING_ERROR                 1        1         Jun 29 2026 12:03PM  Jun 29 2026 11:26AM  NULL                 2000006
+ DIGITAL    174562719 2561800524M  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 5        5         Jun 29 2026 11:22AM  Jun 29 2026  8:58AM  NULL                 2000006
+ DIGITAL    174563536 2561800555I  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026  9:02AM  NULL                 2000006
+ DIGITAL    174564327 2561800585X  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  9:02AM  NULL                 2000006
+ DIGITAL    174565560 2561800633J  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  9:03AM  NULL                 2000006
+ DIGITAL    174565566 2561800633P  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026  9:03AM  NULL                 2000006
+ DIGITAL    174565605 2561800635C  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026  9:03AM  NULL                 2000006
+ DIGITAL    174565702 2561800638T  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  9:03AM  NULL                 2000006
+ DIGITAL    174565717 2561800639K  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 3        3         Jun 29 2026 11:22AM  Jun 29 2026  9:03AM  NULL                 2000006
+ DIGITAL    174569590 2561800788D  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 3        3         Jun 29 2026 11:22AM  Jun 29 2026  9:05AM  NULL                 2000006
+ DIGITAL    174572521 2561800900A  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026  9:37AM  NULL                 2000006
+ DIGITAL    174574652 2561800981S  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026  9:47AM  NULL                 2000006
+ DIGITAL    174575374 2561801009K  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 5        5         Jun 29 2026 11:22AM  Jun 29 2026  9:52AM  NULL                 2000006
+ DIGITAL    174577139 2561801077F  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026 10:07AM  NULL                 2000006
+ DIGITAL    174577860 2561801105B  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 3        3         Jun 29 2026 11:22AM  Jun 29 2026 10:09AM  NULL                 2000006
+ DIGITAL    174578008 2561801110M  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 3        3         Jun 29 2026 11:22AM  Jun 29 2026 10:13AM  NULL                 2000006
+ DIGITAL    174578603 2561801159C  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026 10:21AM  NULL                 2000006
+ DIGITAL    174578607 2561801159G  SLOW                     ASSOCIATIONKANARMOR.SERVICERH            CONVERTING_ERROR                 4        4         Jun 29 2026 11:22AM  Jun 29 2026 10:21AM  NULL                 2000006
+ DIGITAL    174573573 4061800007B  LETTRE_GRAND_COMPTE      CCINOUVELLEAQUITAINE.GAUDRIE             CONVERTING_ERROR                 1324     1324      Jun 29 2026 11:24AM  Jun 29 2026  9:41AM  NULL                 2000006
+ PAPER      174567173 2561800695B  LETTRE_GRAND_COMPTE      COMPTE-ELISE-MAILEVA                     CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  9:04AM  NULL                 1000000
+ PAPER      174576635 2561801057Z  ECOPLI_GRAND_COMPTE      EUKLES.EUKLES                            CONVERTING_ERROR                 1        1         Jun 29 2026 11:23AM  Jun 29 2026 10:06AM  NULL                 2000006
+ PAPER      174585819 2561801465X  ECOPLI_GRAND_COMPTE      EUKLES.EUKLES                            CONVERTING_ERROR                 1        1         Jun 29 2026 12:03PM  Jun 29 2026 11:42AM  NULL                 2000006
+ PAPER      174578572 2561801157W  ECOPLI_GRAND_COMPTE      EVATUTELLES.BJA                          CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026 10:20AM  NULL                 1000000
+ PAPER      174552705 2561800143E  LETTRE_GRAND_COMPTE      GLA_NORDEST                              CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  6:27AM  NULL                 2000006
+ PAPER      174572554 2561800901I  LETTRE_GRAND_COMPTE      GLA_NORDEST                              CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  9:37AM  NULL                 2000006
+ PAPER      174577505 2561801091R  ECOPLI_GRAND_COMPTE      HARMONIEAMBULANCE.VEILLON                CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026 10:07AM  NULL                 2000006
+ PAPER      174557109 2561800312H  ECOPLI_GRAND_COMPTE      MAILEVAGENEALEX                          CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  7:37AM  NULL                 2000006
+ PAPER      174570632 2561800828D  ECOPLI_GRAND_COMPTE      NSIOFFICE.CARRION                        CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  9:06AM  NULL                 2000006
+ PAPER      174561366 2561800473Y  INDUSTRIEL_G2            OGF.API                                  CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  8:18AM  NULL                 2000006
+ DIGITAL    174579328 2561801187O  SLOW                     OXYANE                                   CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026 10:34AM  NULL                 2000006
+ PAPER      174542838 2561780022E  LETTRE_GRAND_COMPTE      SCANNORD.NPLTOURCOING                    CONVERTING_ERROR                 2        2         Jun 29 2026 11:22AM  Jun 27 2026  2:17AM  NULL                 2000006
+ PAPER      174542884 2561780023Y  ECOPLI_GRAND_COMPTE      SCANNORD.NPLTOURCOING                    CONVERTING_ERROR                 3        3         Jun 29 2026 11:22AM  Jun 27 2026  2:17AM  NULL                 2000006
+ DIGITAL    174563202 2561800543A  SLOW                     SNA                                      CONVERTING_ERROR                 1        1         Jun 29 2026 11:23AM  Jun 29 2026  9:01AM  NULL                 2000006
+ PAPER      174552328 2561800128S  LETTRE_GRAND_COMPTE      UDAF24.MAGIS                             CONVERTING_ERROR                 1        1         Jun 29 2026 11:24AM  Jun 29 2026  6:21AM  NULL                 2000006
+ PAPER      174546826 2561780182T  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 29 2026 11:23AM  Jun 27 2026  7:21PM  NULL                 2000006
+ PAPER      174546827 2561780182U  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 29 2026 11:23AM  Jun 27 2026  7:31PM  NULL                 2000006
+ PAPER      174587009 2561801511Z  LETTRE_GRAND_COMPTE      VGRF.MALKI                               CONVERTING_ERROR                 1        1         Jun 29 2026 12:02PM  Jun 29 2026 12:02PM  NULL                 2000006
+ PAPER      174586895 2561801507P  LETTRE_GRAND_COMPTE      VGRF.MALKI                               CONVERTING_ERROR                 1        1         Jun 29 2026 12:03PM  Jun 29 2026 12:00PM  NULL                 2000006
+ DIGITAL    174573974 2561800955R  ECOPLI_GRAND_COMPTE      COMMUNEDEGARGES.RH                       DIGITAL_CHECK_ERROR              58       58        Jun 29 2026 11:37AM  Jun 29 2026  9:43AM  NULL                 1000000
+ DIGITAL    174456992 4061760012W  ECOPLI_GRAND_COMPTE      MAIRIE-THUMERIES.LEMOINE                 DIGITOOLS_ERROR                  69       69        Jun 29 2026 11:44AM  Jun 25 2026  2:09PM  NULL                 3400005
+ DIGITAL    174552802 4061800000N  NULL                     LJZ.PRAULT                               PARSING_ERROR                    0        1         Jun 29 2026 10:11AM  Jun 29 2026  6:31AM  NULL                 1300001
+ DIGITAL    174554332 4061800001F  NULL                     MAIRIE-LAPOSSESSION.Servicecarriere-paie PARSING_ERROR                    0        1         Jun 29 2026 10:11AM  Jun 29 2026  7:05AM  NULL                 1300001
+ PAPER      174580332 2561801226J  NULL                     MEDIAPJ.SURVILLE                         PARSING_ERROR                    0        1         Jun 29 2026 11:09AM  Jun 29 2026 10:42AM  NULL                 1100002
+ DIGITAL    174578752 4061800008N  NULL                     ONEPOINT.BP                              PARSING_ERROR                    0        1         Jun 29 2026 12:03PM  Jun 29 2026 10:25AM  NULL                 1300001
+ DIGITAL    174559481 4061800003L  NULL                     SOCIETEDUPARCDUFUTUROSCOPE.LOZANO        PARSING_ERROR                    0        1         Jun 29 2026 10:11AM  Jun 29 2026  8:10AM  NULL                 1300001
+ PAPER      174579838 2561801207K  LETTRE_GRAND_COMPTE      AMPLIFON.VILLENAVEDORNON                 VALORIZATION_ERROR               1        1         Jun 29 2026 12:03PM  Jun 29 2026 10:38AM  NULL                 2800002
+ PAPER      174520758 2561771958T  LETTRE_GRAND_COMPTE      AMPLIFONDAX                              VALORIZATION_ERROR               1        1         Jun 29 2026 10:43AM  Jun 26 2026  1:14PM  NULL                 2800002
+ PAPER      174520791 2561771959X  LETTRE_GRAND_COMPTE      AMPLIFONDAX                              VALORIZATION_ERROR               1        1         Jun 29 2026 10:43AM  Jun 26 2026  1:16PM  NULL                 2800002
+ PAPER      174583204 2561801337K  LETTRE_GRAND_COMPTE      AMPLIFONDIJONVALMY                       VALORIZATION_ERROR               1        1         Jun 29 2026 12:04PM  Jun 29 2026 11:20AM  NULL                 2800002
+ PAPER      174522649 2561772030N  LETTRE_GRAND_COMPTE      AMPLIFONGOUSSAINVILLE                    VALORIZATION_ERROR               1        1         Jun 29 2026 10:43AM  Jun 26 2026  1:34PM  NULL                 2800002
+ PAPER      174567268 2561800698V  LETTRE_GRAND_COMPTE      AMPLIFONLIMOGES                          VALORIZATION_ERROR               1        1         Jun 29 2026 10:40AM  Jun 29 2026  9:04AM  NULL                 2800002
+ PAPER      174576957 2561801070G  LETTRE_GRAND_COMPTE      AMPLIFONLIMOGES                          VALORIZATION_ERROR               1        1         Jun 29 2026 10:44AM  Jun 29 2026 10:06AM  NULL                 2800002
+ PAPER      174579497 2561801194C  LETTRE_GRAND_COMPTE      AMPLIFONLYONLAPARTDIEU                   VALORIZATION_ERROR               1        1         Jun 29 2026 12:03PM  Jun 29 2026 10:36AM  Jun 30 2026 12:00AM  2800002
+ PAPER      174575708 2561801022G  LETTRE_GRAND_COMPTE      frshop478@amplifon.com                   VALORIZATION_ERROR               1        1         Jun 29 2026 10:41AM  Jun 29 2026 10:05AM  NULL                 2800002
+ PAPER      174576932 2561801069H  LETTRE_GRAND_COMPTE      frshop478@amplifon.com                   VALORIZATION_ERROR               1        1         Jun 29 2026 10:44AM  Jun 29 2026 10:06AM  NULL                 2800002
+ PAPER      174531259 2561772361X  LETTRE_GRAND_COMPTE      frshop737@amplifon.com                   VALORIZATION_ERROR               1        1         Jun 29 2026 10:43AM  Jun 26 2026  3:50PM  NULL                 2800002
+ PAPER      174531512 2561772372I  LETTRE_GRAND_COMPTE      frshop737@amplifon.com                   VALORIZATION_ERROR               1        1         Jun 29 2026 10:43AM  Jun 26 2026  3:58PM  NULL                 2800002
+ PAPER      174587090 2561801515G  LETTRE_GRAND_COMPTE      SAFERGRANDEST.54                         VALORIZATION_ERROR               1        1         Jun 29 2026 12:03PM  Jun 29 2026 12:03PM  NULL                 2800002
+
+(62 lignes)
+
+ACTION A FAIRE SUR CES DEMANDES : Si le DEPOSIT_ID commence par 14 ou 24, appliquer la procédure R20. Sinon faire RetryRequest (105).
+
+ Canal      Req_ID    Deposit_ID   Affranch.                Login                                    Etat                             Nb_Plis  Env2Batch Date_Modif           Date_Creation        Date_Prod_Esperee    Code_Erreur
+ ---------- --------- ------------ ------------------------ ---------------------------------------- -------------------------------- -------- --------- -------------------- -------------------- -------------------- -----------
+ PAPER      174563326 2561800547H  LETTRE_GRAND_COMPTE      675Lyon                                  INTERFACING_ERROR                16       16        Jun 29 2026 10:31AM  Jun 29 2026  9:01AM  NULL                 1100002
+ PAPER      174576901 2561801068D  ECOPLI_GRAND_COMPTE      AGRISANTERRE.POLLET                      INTERFACING_ERROR                39       39        Jun 29 2026 10:45AM  Jun 29 2026 10:06AM  NULL                 1100002
+ PAPER      174577038 2561801073J  ECOPLI_GRAND_COMPTE      AGRISANTERRE.POLLET                      INTERFACING_ERROR                19       19        Jun 29 2026 10:45AM  Jun 29 2026 10:06AM  NULL                 1100002
+ PAPER      174577111 2561801076F  ECOPLI_GRAND_COMPTE      ALCURAFRANCE.LECLERC                     INTERFACING_ERROR                2        2         Jun 29 2026 10:45AM  Jun 29 2026 10:07AM  NULL                 1100002
+ PAPER      174565651 2561800636Y  LSM                      AMAP.CNR_UB535300                        INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:03AM  NULL                 1100002
+ PAPER      174565713 2561800639F  LETTRE_GRAND_COMPTE      AMAP.MACE                                INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:03AM  NULL                 1100002
+ PAPER      174576983 2561801071G  LETTRE_GRAND_COMPTE      ARTEAU.ADADIE                            INTERFACING_ERROR                1        1         Jun 29 2026 10:45AM  Jun 29 2026 10:06AM  NULL                 1100002
+ PAPER      174567047 2561800690J  LETTRE_GRAND_COMPTE      ATLANTIQUEOUVERTURES.CHEVILLON           INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:04AM  NULL                 1100002
+ PAPER      174564645 2561800598C  ECOPLI_GRAND_COMPTE      CREDITAGRICOLEASSURANCESSOLUTIONS.SUCCES INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:02AM  NULL                 1100002
+ PAPER      174565644 2561800636P  ECOPLI_GRAND_COMPTE      DOMMAGES.RENAUDON                        INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:03AM  NULL                 1100002
+ PAPER      174570955 2561800840V  LETTRE_GRAND_COMPTE      DRPGSC.LEPARC                            INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:06AM  NULL                 1100002
+ PAPER      174446402 2561761402A  NULL                     EMETTEUR                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174571040 2561800844G  LETTRE_GRAND_COMPTE      ERGOSANTE.MADA                           INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:06AM  NULL                 1100002
+ PAPER      174559897 2561800418I  ECOPLI_GRAND_COMPTE      GAMBROINDUSTRIES.SENY                    INTERFACING_ERROR                146      7         Jun 29 2026 10:31AM  Jun 29 2026  8:12AM  NULL                 1100002
+ PAPER      174575230 2561801003Y  LETTRE_GRAND_COMPTE      GRETADELAMARNE.BS                        INTERFACING_ERROR                11       11        Jun 29 2026 10:46AM  Jun 29 2026  9:50AM  NULL                 1100002
+ PAPER      174578627 2561801160A  LETTRE_GRAND_COMPTE      HOMESERVE.HOMESERVECORPORATESERVICE      INTERFACING_ERROR                4        4         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
+ PAPER      174578681 2561801162B  LETTRE_GRAND_COMPTE      IKO-AXTER.ALEXANDRE                      INTERFACING_ERROR                4        4         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
+ PAPER      174578641 2561801160O  LETTRE_GRAND_COMPTE      IMEDUPARC                                INTERFACING_ERROR                1        1         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
+ PAPER      174578623 2561801159W  LETTRE_GRAND_COMPTE      ISILOG.BAGLIONE                          INTERFACING_ERROR                2        2         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
+ PAPER      174571554 2561800862I  LETTRE_GRAND_COMPTE      itmlogistique.levavasseur                INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:33AM  NULL                 1100002
+ PAPER      174578089 2561801113Q  ECOPLI_GRAND_COMPTE      MEDIAPJ.SURVILLE                         INTERFACING_ERROR                1        1         Jun 29 2026 10:46AM  Jun 29 2026 10:14AM  NULL                 1100002
+ PAPER      174562988 2561800534U  STANDARD                 MILANPRESSE.EDITION                      INTERFACING_ERROR                9        9         Jun 29 2026 10:31AM  Jun 29 2026  9:01AM  NULL                 1100002
+ PAPER      174578671 2561801161R  LETTRE_GRAND_COMPTE      ODBAB.LDM                                INTERFACING_ERROR                1        1         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
+ PAPER      174564759 2561800602M  LETTRE_GRAND_COMPTE      POLEEMPLOIOCCITANIE.DESFRAUDES           INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:02AM  NULL                 1100002
+ PAPER      174578661 2561801161H  LETTRE_GRAND_COMPTE      SASMAITRECUBE                            INTERFACING_ERROR                1        1         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
+ PAPER      174570647 2561800828Y  LETTRE_GRAND_COMPTE      SEDOMICILIERSAS.MBABU                    INTERFACING_ERROR                56       56        Jun 29 2026 10:31AM  Jun 29 2026  9:06AM  NULL                 1100002
+ PAPER      174566387 2561800665K  ECOPLI_GRAND_COMPTE      SELARLQUALIJURIS58.API                   INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:04AM  NULL                 1100002
+ PAPER      174566505 2561800669Q  ECOPLI_GRAND_COMPTE      SELARLQUALIJURIS58.API                   INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:04AM  NULL                 1100002
+ PAPER      174564622 2561800597H  ECOPLI_GRAND_COMPTE      SENA58                                   INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:02AM  NULL                 1100002
+ PAPER      174578611 2561801159L  LETTRE_GRAND_COMPTE      SEYFERTFOREZ801.RH                       INTERFACING_ERROR                3        3         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
+ PAPER      174578614 2561801159N  LETTRE_GRAND_COMPTE      THERMSUPPORT                             INTERFACING_ERROR                1        1         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
+ PAPER      174564663 2561800598W  ECOPLI_GRAND_COMPTE      UNTOITPOURTOUS.MONTPELLIER               INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:02AM  NULL                 1100002
+ PAPER      174583451 2561801346W  LETTRE_GRAND_COMPTE      VINATIS                                  INTERFACING_ERROR                9        9         Jun 29 2026 11:58AM  Jun 29 2026 11:22AM  NULL                 1100002
+
+(33 lignes)
+
+================================
+Enveloppes non materialisees : =
+================================
+
+  Aucun element a traiter
+
+=========================
+Lots bloques : =
+=========================
+
+ACTION A FAIRE SUR CES LOTS : Escalade MCO
+
+ Bat_ID   Reference        Canal      Type                 Affranch.                Etat                             ETAB                 Nb_Env   Nb_Feuille  Nb_Page     Date_Modif          Date_Creation       Categorie
+ -------- ---------------- ---------- -------------------- ------------------------ -------------------------------- -------------------- -------- ----------- ----------- ------------------- ------------------- ------------------------
+ 88702255 37G17700656      DIGITAL    PROD                 NULL                     RECEIVED                         DIGIPOSTE            5                  7           7 Jun 26 2026 08:15AM Jun 26 2026 06:53AM DIGIPOSTE
+ 88704443 37G1770178G      DIGITAL    PROD                 NULL                     RECEIVED                         DIGIPOSTE            59               118         118 Jun 26 2026 12:39PM Jun 26 2026 08:51AM DIGIPOSTE
+ 88718703 37G1800092R      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              106         106 Jun 29 2026 08:59AM Jun 29 2026 08:58AM DIGIPOSTE
+ 88718698 37G1800092S      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              147         147 Jun 29 2026 08:59AM Jun 29 2026 08:58AM DIGIPOSTE
+ 88718711 37G1800092X      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              110         110 Jun 29 2026 09:00AM Jun 29 2026 08:58AM DIGIPOSTE
+ 88718619 37G18000934      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                  1           1 Jun 29 2026 09:02AM Jun 29 2026 08:46AM DIGIPOSTE
+ 88718620 37G18000937      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                  1           1 Jun 29 2026 09:02AM Jun 29 2026 08:46AM DIGIPOSTE
+ 88718623 37G18000939      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                  2           2 Jun 29 2026 09:02AM Jun 29 2026 08:46AM DIGIPOSTE
+ 88718622 37G18000938      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            2                  4           4 Jun 29 2026 09:02AM Jun 29 2026 08:46AM DIGIPOSTE
+ 88718628 37G1800093E      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                  2           2 Jun 29 2026 09:02AM Jun 29 2026 08:46AM DIGIPOSTE
+ 88718626 37G1800093C      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                  1           1 Jun 29 2026 09:02AM Jun 29 2026 08:46AM DIGIPOSTE
+ 88718640 37G1800093I      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                  1           1 Jun 29 2026 09:02AM Jun 29 2026 08:46AM DIGIPOSTE
+ 88718639 37G1800093H      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            14                14          14 Jun 29 2026 09:02AM Jun 29 2026 08:46AM DIGIPOSTE
+ 88718621 37G1800093A      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            50                57          57 Jun 29 2026 09:02AM Jun 29 2026 08:46AM DIGIPOSTE
+ 88718624 37G1800093F      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            78                96          96 Jun 29 2026 09:02AM Jun 29 2026 08:46AM DIGIPOSTE
+ 88718633 37G1800093G      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            76               152         152 Jun 29 2026 09:02AM Jun 29 2026 08:46AM DIGIPOSTE
+ 88718722 37G1800093K      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              101         101 Jun 29 2026 09:02AM Jun 29 2026 09:01AM DIGIPOSTE
+ 88718642 37G1800093N      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            3                  3           3 Jun 29 2026 09:03AM Jun 29 2026 08:47AM DIGIPOSTE
+ 88718645 37G1800093O      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            13                13          13 Jun 29 2026 09:03AM Jun 29 2026 08:47AM DIGIPOSTE
+ 88718647 37G1800093P      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            4                  8           8 Jun 29 2026 09:03AM Jun 29 2026 08:47AM DIGIPOSTE
+ 88718648 37G1800093Q      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            2                 30          30 Jun 29 2026 09:03AM Jun 29 2026 08:47AM DIGIPOSTE
+ 88718652 37G1800093T      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            3                 45          45 Jun 29 2026 09:03AM Jun 29 2026 08:47AM DIGIPOSTE
+ 88718649 37G1800093S      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            23                46          46 Jun 29 2026 09:03AM Jun 29 2026 08:47AM DIGIPOSTE
+ 88718644 37G1800093R      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            93               289         289 Jun 29 2026 09:03AM Jun 29 2026 08:47AM DIGIPOSTE
+ 88718732 37G1800093V      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              140         140 Jun 29 2026 09:03AM Jun 29 2026 09:02AM DIGIPOSTE
+ 88718716 37G1800115A      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                 17          17 Jun 29 2026 09:25AM Jun 29 2026 08:59AM DIGIPOSTE
+ 88718693 37G1800114F      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                  1           1 Jun 29 2026 09:25AM Jun 29 2026 08:57AM DIGIPOSTE
+ 88718715 37G18001159      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                 17          17 Jun 29 2026 09:25AM Jun 29 2026 08:59AM DIGIPOSTE
+ 88718726 37G1800115H      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            2                 10          10 Jun 29 2026 09:25AM Jun 29 2026 09:01AM DIGIPOSTE
+ 88718725 37G1800115L      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            14                15          15 Jun 29 2026 09:25AM Jun 29 2026 09:01AM DIGIPOSTE
+ 88718717 37G1800115G      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            10               110         110 Jun 29 2026 09:25AM Jun 29 2026 08:59AM DIGIPOSTE
+ 88718692 37G1800114I      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            40                78          78 Jun 29 2026 09:25AM Jun 29 2026 08:57AM DIGIPOSTE
+ 88718705 37G1800114E      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            73                77          77 Jun 29 2026 09:25AM Jun 29 2026 08:58AM DIGIPOSTE
+ 88718701 37G1800114D      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            34                57          57 Jun 29 2026 09:25AM Jun 29 2026 08:58AM DIGIPOSTE
+ 88718735 37G1800115Y      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            64               124         124 Jun 29 2026 09:25AM Jun 29 2026 09:02AM DIGIPOSTE
+ 88718714 37G1800115D      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            87                89          89 Jun 29 2026 09:25AM Jun 29 2026 08:59AM DIGIPOSTE
+ 88718733 37G1800115U      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            90               127         127 Jun 29 2026 09:25AM Jun 29 2026 09:02AM DIGIPOSTE
+ 88718694 37G1800114G      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            87                91          91 Jun 29 2026 09:25AM Jun 29 2026 08:58AM DIGIPOSTE
+ 88718727 37G1800115T      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            90               123         123 Jun 29 2026 09:25AM Jun 29 2026 09:01AM DIGIPOSTE
+ 88719343 37G18001215      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              205         205 Jun 29 2026 09:35AM Jun 29 2026 09:34AM DIGIPOSTE
+ 88719341 37G18001214      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              194         194 Jun 29 2026 09:35AM Jun 29 2026 09:34AM DIGIPOSTE
+ 88719339 37G18001216      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              127         127 Jun 29 2026 09:35AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719363 37G18001222      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 29 2026 09:43AM Jun 29 2026 09:39AM DIGIPOSTE
+ 88719382 37G18001226      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              103         103 Jun 29 2026 09:44AM Jun 29 2026 09:43AM DIGIPOSTE
+ 88719385 37G18001227      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              105         105 Jun 29 2026 09:44AM Jun 29 2026 09:43AM DIGIPOSTE
+ 88719400 37G1800122L      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              120         120 Jun 29 2026 09:46AM Jun 29 2026 09:45AM DIGIPOSTE
+ 88719389 37G1800122M      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              109         109 Jun 29 2026 09:46AM Jun 29 2026 09:43AM DIGIPOSTE
+ 88719323 37G1800122Y      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              102         102 Jun 29 2026 09:47AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719349 37G1800122Z      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              198         198 Jun 29 2026 09:47AM Jun 29 2026 09:34AM DIGIPOSTE
+ 88719318 37G1800124Q      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                  1           1 Jun 29 2026 09:49AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719317 37G1800124P      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                  2           2 Jun 29 2026 09:49AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719316 37G1800124O      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                 16          16 Jun 29 2026 09:49AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719319 37G1800124R      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                 14          14 Jun 29 2026 09:49AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719321 37G1800124S      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            2                  2           2 Jun 29 2026 09:49AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719326 37G1800124V      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            5                 10          10 Jun 29 2026 09:49AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719327 37G1800124W      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            10                10          10 Jun 29 2026 09:49AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719325 37G1800124U      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            20                21          21 Jun 29 2026 09:49AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719333 37G18001255      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            9                  9           9 Jun 29 2026 09:49AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719328 37G1800124Y      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            20                20          20 Jun 29 2026 09:49AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719329 37G18001250      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            31                34          34 Jun 29 2026 09:49AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719331 37G18001253      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            37                37          37 Jun 29 2026 09:49AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719336 37G18001256      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            39                75          75 Jun 29 2026 09:49AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719320 37G1800124T      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            57               108         108 Jun 29 2026 09:49AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719324 37G1800124Z      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            71               215         215 Jun 29 2026 09:49AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719322 37G1800124X      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            90                99          99 Jun 29 2026 09:49AM Jun 29 2026 09:33AM DIGIPOSTE
+ 88719347 37G1800128E      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            24                50          50 Jun 29 2026 09:50AM Jun 29 2026 09:34AM DIGIPOSTE
+ 88719352 37G18001299      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            29                30          30 Jun 29 2026 09:50AM Jun 29 2026 09:34AM DIGIPOSTE
+ 88719340 37G1800127G      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            36                42          42 Jun 29 2026 09:50AM Jun 29 2026 09:34AM DIGIPOSTE
+ 88719353 37G1800129N      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                 12          12 Jun 29 2026 09:51AM Jun 29 2026 09:35AM DIGIPOSTE
+ 88719608 37G1800135B      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              101         101 Jun 29 2026 09:56AM Jun 29 2026 09:54AM DIGIPOSTE
+ 88719610 37G1800135H      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              101         101 Jun 29 2026 09:56AM Jun 29 2026 09:54AM DIGIPOSTE
+ 88719609 37G1800135G      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              101         101 Jun 29 2026 09:56AM Jun 29 2026 09:54AM DIGIPOSTE
+ 88719612 37G1800135I      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              100         100 Jun 29 2026 09:56AM Jun 29 2026 09:55AM DIGIPOSTE
+ 88719605 37G1800135M      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              100         100 Jun 29 2026 09:56AM Jun 29 2026 09:54AM DIGIPOSTE
+ 88719611 37G1800135L      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              101         101 Jun 29 2026 09:56AM Jun 29 2026 09:55AM DIGIPOSTE
+ 88719613 37G1800135O      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              102         102 Jun 29 2026 09:56AM Jun 29 2026 09:55AM DIGIPOSTE
+ 88719614 37G1800135N      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              100         100 Jun 29 2026 09:56AM Jun 29 2026 09:55AM DIGIPOSTE
+ 88719377 37G1800137Z      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            39               164         164 Jun 29 2026 09:58AM Jun 29 2026 09:42AM DIGIPOSTE
+ 88719387 37G1800142G      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            2                  2           2 Jun 29 2026 09:59AM Jun 29 2026 09:43AM DIGIPOSTE
+ 88719388 37G1800142I      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            6                  6           6 Jun 29 2026 09:59AM Jun 29 2026 09:43AM DIGIPOSTE
+ 88719392 37G1800142J      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            4                  8           8 Jun 29 2026 10:00AM Jun 29 2026 09:44AM DIGIPOSTE
+ 88719396 37G1800150T      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            33                34          34 Jun 29 2026 10:01AM Jun 29 2026 09:45AM DIGIPOSTE
+ 88719401 37G1800150S      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            58                69          69 Jun 29 2026 10:01AM Jun 29 2026 09:45AM DIGIPOSTE
+ 88719402 37G1800150U      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            98               184         184 Jun 29 2026 10:01AM Jun 29 2026 09:46AM DIGIPOSTE
+ 88719409 37G1800151B      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            7                  8           8 Jun 29 2026 10:02AM Jun 29 2026 09:46AM DIGIPOSTE
+ 88719419 37G1800152Z      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            5                 10          10 Jun 29 2026 10:02AM Jun 29 2026 09:46AM DIGIPOSTE
+ 88719410 37G18001522      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            16                16          16 Jun 29 2026 10:02AM Jun 29 2026 09:46AM DIGIPOSTE
+ 88719416 37G1800152N      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            23                25          25 Jun 29 2026 10:02AM Jun 29 2026 09:46AM DIGIPOSTE
+ 88719421 37G1800154F      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            23                23          23 Jun 29 2026 10:02AM Jun 29 2026 09:46AM DIGIPOSTE
+ 88719426 37G1800154O      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            25                25          25 Jun 29 2026 10:02AM Jun 29 2026 09:46AM DIGIPOSTE
+ 88719431 37G1800155J      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            38                60          60 Jun 29 2026 10:02AM Jun 29 2026 09:46AM DIGIPOSTE
+ 88719427 37G1800155E      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            50                65          65 Jun 29 2026 10:02AM Jun 29 2026 09:46AM DIGIPOSTE
+
+(92 lignes)
+
+=========================
+Lots en erreur : =
+=========================
+
+ACTION A FAIRE SUR CES LOTS : RetryBatch (204)
+
+ Bat_ID   Reference        Canal      Type                 Affranch.                Etat                             ETAB                 Nb_Env   Nb_Feuille  Nb_Page     Date_Modif          Date_Creation       bat_error_code
+ -------- ---------------- ---------- -------------------- ------------------------ -------------------------------- -------------------- -------- ----------- ----------- ------------------- ------------------- --------------
+ 88679583 37G1750081K      PAPER      PROD                 LETTRE_GRAND_COMPTE      MATERIALIZATION_ERROR            CRECY                1                  1           1 Jun 26 2026 08:27AM Jun 24 2026 07:11AM        1000000
+ 88685040 37G17503527      PAPER      PROD                 SLOW                     MATERIALIZATION_ERROR            CRECY                11               167         334 Jun 26 2026 08:27AM Jun 24 2026 01:07PM        1000000
+ 88693241 37G1760212L      PAPER      PROD                 SLOW                     MATERIALIZATION_ERROR            CRECY                3                 39          78 Jun 26 2026 08:27AM Jun 25 2026 09:46AM        1000000
+ 88696618 37G1760374S      PAPER      PROD                 STANDARD                 MATERIALIZATION_ERROR            CRECY                1                  1           1 Jun 26 2026 08:27AM Jun 25 2026 02:06PM        1000000
+ 88696700 37G1760376J      PAPER      PROD                 LETTRE_GRAND_COMPTE      MATERIALIZATION_ERROR            CRECY                5                 15          15 Jun 26 2026 08:27AM Jun 25 2026 02:22PM        1000000
+ 88705369 37G17701996      PAPER      PROD                 SLOW                     MATERIALIZATION_ERROR            CRECY                3                 39          78 Jun 26 2026 10:04AM Jun 26 2026 09:43AM        1000000
+ 88680405 37G1750121R      PAPER      PROD                 RECOMMANDE_AR            MATERIALIZATION_ERROR            NANTEUIL             3                 75         150 Jun 26 2026 08:27AM Jun 24 2026 08:06AM        1000000
+ 88710774 37G1770449Q      PAPER      PROD                 LETTRE_GRAND_COMPTE      SENDING_ERROR                    CRECY                22                23          23 Jun 29 2026 07:19AM Jun 26 2026 03:04PM        1000000
+ 88689313 37G1760026W      PAPER      PROD                 STANDARD                 SENDING_ERROR                    PRT_BELGIQUE         1                  1           1 Jun 26 2026 08:27AM Jun 25 2026 04:48AM              0
+ 88699911 37G1760543J      PAPER      PROD                 STANDARD                 SENDING_ERROR                    REUNION              0                173         173 Jun 26 2026 08:28AM Jun 25 2026 07:32PM        1000000
+
+(10 lignes)
+
+=====================================
+Lots vides bloqués à annuler : =
+=====================================
+
+  Aucun element a traiter
+
+=================================================
+Demandes en erreurs specifiques (Escalade MCO) =
+=================================================
+
+  Aucun element a traiter
+
+=====================================================================
+Demandes bloquees en WAIT avec enveloppes a CREATED (Escalade MCO): =
+=====================================================================
+
+  Aucun element a traiter
+
+==========================================================
+Demandes bloquees en WAIT sans enveloppe (Escalade MCO): =
+==========================================================
+
+  Aucun element a traiter
+
+=================================
+Demandes bloquees de DDNS.LPL : =
+=================================
+
+  Aucun element a traiter
+
+=================================
+Depots bloques (Escalade MCO) : =
+=================================
+
+ACTION A FAIRE SUR CES DEPOTS : Escalade MCO
+
+ Deposit_ID  Partner         File_Name                                Login                          Type  Protocol Statut                    Code Erreur          Date_Recept          Date_Modif           Compte
+ ----------- --------------- ---------------------------------------- ------------------------------ ----- -------- ------------------------- ---- --------------- -------------------- -------------------- --------------------
+ 4061800004H WebClientMailev mx4061800004H00000.msg                   AGP8.6WIND                     flw   NFS      Deposit acknowledgement   0                    Jun 29 2026  8:19AM  Jun 29 2026  8:19AM  NULL
+ 4061800004I WebClientMailev mx4061800004I00000.msg                   GEOPOSTSA.PAIE                 flw   NFS      Deposit acknowledgement   0                    Jun 29 2026  8:19AM  Jun 29 2026  8:20AM  NULL
+ 4061800004J WebClientMailev mx4061800004J00000.msg                   CASINOLIONBLANC.PAIE           flw   NFS      Deposit acknowledgement   0                    Jun 29 2026  8:21AM  Jun 29 2026  8:22AM  NULL
+
+(3 lignes)
+
+===================================
+Depots en erreur (Escalade MCO) : =
+===================================
+
+ACTION A FAIRE SUR CES DEPOTS : Escalade MCO
+
+ Deposit_ID  Partner         File_Name                                Login                          Type  Protocol Statut                    Code Erreur          Date_Recept          Date_Modif           Compte
+ ----------- --------------- ---------------------------------------- ------------------------------ ----- -------- ------------------------- ---- --------------- -------------------- -------------------- --------------------
+ 2561800161B MAILEVA              DOCA.CONCENTRATEUR             ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 29 2026  6:40AM  Jun 29 2026  6:50AM  mlv-p-GFI
+ 2561800161C MAILEVA              DOCA.CONCENTRATEUR             ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 29 2026  6:40AM  Jun 29 2026  6:50AM  mlv-p-GFI
+ 2561800161D MAILEVA              DOCA.CONCENTRATEUR             ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 29 2026  6:40AM  Jun 29 2026  6:50AM  mlv-p-GFI
+ 2561800161E MAILEVA              DOCA.CONCENTRATEUR             ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 29 2026  6:40AM  Jun 29 2026  6:50AM  mlv-p-GFI
+ 2561800161F MAILEVA              DOCA.CONCENTRATEUR             ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 29 2026  6:40AM  Jun 29 2026  6:50AM  mlv-p-GFI
+ 2561800161G MAILEVA              DOCA.CONCENTRATEUR             ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 29 2026  6:40AM  Jun 29 2026  6:50AM  mlv-p-GFI
+ 2561800185B MAILEVA              DOCA.CONCENTRATEUR             ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 29 2026  6:50AM  Jun 29 2026  7:03AM  mlv-p-GFI
+ 2561800234C MAILEVA              PITNEY.770072556ASSOLESCAPUCIN ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 29 2026  7:04AM  Jun 29 2026  7:19AM  mlv-p-pitneybowes
+ 2561800234D MAILEVA              PITNEY.770072556ASSOLESCAPUCIN ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 29 2026  7:04AM  Jun 29 2026  7:19AM  mlv-p-pitneybowes
+ 2561800234E MAILEVA              PITNEY.770072556ASSOLESCAPUCIN ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 29 2026  7:04AM  Jun 29 2026  7:19AM  mlv-p-pitneybowes
+ 2561800234F MAILEVA              DOCA.CONCENTRATEUR             ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 29 2026  7:04AM  Jun 29 2026  7:19AM  mlv-p-GFI
+ 2561800234G MAILEVA              PITNEY.770072556ASSOLESCAPUCIN ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 29 2026  7:04AM  Jun 29 2026  7:19AM  mlv-p-pitneybowes
+ 2561800234H MAILEVA              COBREDIA.LADOUX                COU   FTP      Deposit rejected          400  Internal Error            Jun 29 2026  7:04AM  Jun 29 2026  7:19AM  mlv-p-prosoftteam
+ 2561800234N MAILEVA              SAROBERT.FRONTON               COU   FTP      Deposit rejected          400  Internal Error            Jun 29 2026  7:04AM  Jun 29 2026  7:19AM  mlv-p-prosoftteam
+ 2561800401Z MAILEVA              PITNEY.GESTAMP.GOUZEAUCOURT    ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 29 2026  7:40AM  Jun 29 2026  8:10AM  mlv-p-pitneybowes
+ 2561800978R MAILEVA              SIDETRADE.301790               ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 29 2026  9:47AM  Jun 29 2026  9:47AM  siclv2-release-mlv
+ 2561801013U MAILEVA              COMMUNEDEGARGES.RH             COU   FTP      Deposit rejected          400  Internal Error            Jun 29 2026  9:53AM  Jun 29 2026 10:04AM  mlv-p-prosoftteam
+ 2561801013W MAILEVA              PITNEY.770082765.OLYMPUSFR     ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 29 2026  9:53AM  Jun 29 2026 10:04AM  mlv-p-pitneybowes
+ 2561801172F MAILEVA              THIBIERGE.BOULE                COU   FTP      Deposit rejected          400  Internal Error            Jun 29 2026 10:27AM  Jun 29 2026 10:27AM  mlv-p-prosoftteam
+ 2561801174U MAILEVA              THIBIERGE.BOULE                COU   FTP      Deposit rejected          400  Internal Error            Jun 29 2026 10:29AM  Jun 29 2026 10:29AM  mlv-p-prosoftteam
+
+(20 lignes)
+
+============================================================
+Depots SOPRAHRSOFTWARE.ONET sans campagne (Escalade MCO) : =
+============================================================
+
+  Aucun element a traiter
+
+=====================================
+Lots vides Bloques (Escalade MCO) : =
+=====================================
+
+ACTION A FAIRE SUR CES DEPOTS : Escalade MCO
+
+ Bat_ID   Reference        Canal      Type                 Affranch.                Etat                             ETAB                             Nb_Env   Nb_Feuille  Nb_Page     Date_Modif          Date_Creation
+ -------- ---------------- ---------- -------------------- ------------------------ -------------------------------- -------------------------------- -------- ----------- ----------- ------------------- -------------------
+ 88719433 37G18001230      PAPER      ARCH_DOC             LETTRE_GRAND_COMPTE      CREATED                          GED_API_DOC                      0                  0           0 Jun 29 2026 09:47AM Jun 29 2026 09:47AM
+ 88719434 37G18001231      PAPER      ARCH_DOC             LETTRE_GRAND_COMPTE      CREATED                          GED_API_DOC                      0                  0           0 Jun 29 2026 09:47AM Jun 29 2026 09:47AM
+ 88719435 37G18001232      PAPER      ARCH_DOC             LETTRE_GRAND_COMPTE      CREATED                          GED_API_DOC                      0                  0           0 Jun 29 2026 09:47AM Jun 29 2026 09:47AM
+ 88719438 37G18001233      PAPER      ARCH_DOC             LETTRE_GRAND_COMPTE      CREATED                          GED_API_DOC                      0                  0           0 Jun 29 2026 09:47AM Jun 29 2026 09:47AM
+ 88719460 37G18001248      PAPER      ARCH_DOC             LETTRE_GRAND_COMPTE      CREATED                          GED_API_DOC                      0                  0           0 Jun 29 2026 09:48AM Jun 29 2026 09:48AM
+ 88720558 NULL             DIGITAL    PROD                 ECOPLI_GRAND_COMPTE      CREATED                          NANTEUIL                         0                  0           0 Jun 29 2026 10:30AM Jun 29 2026 10:30AM
+ 88719436 NULL             DIGITAL    PROD                 NULL                     CREATED                          DIGIPOSTE                        0                  0           0 Jun 29 2026 09:47AM Jun 29 2026 09:47AM
+ 88719439 NULL             DIGITAL    PROD                 NULL                     CREATED                          DIGIPOSTE                        0                  0           0 Jun 29 2026 09:47AM Jun 29 2026 09:47AM
+ 88719470 NULL             DIGITAL    PROD                 NULL                     CREATED                          DIGIPOSTE                        0                  0           0 Jun 29 2026 09:48AM Jun 29 2026 09:48AM
+ 88719472 NULL             DIGITAL    PROD                 NULL                     CREATED                          DIGIPOSTE                        0                  0           0 Jun 29 2026 09:48AM Jun 29 2026 09:48AM
+ 88719475 NULL             DIGITAL    PROD                 NULL                     CREATED                          DIGIPOSTE                        0                  0           0 Jun 29 2026 09:48AM Jun 29 2026 09:48AM
+ 88719476 NULL             DIGITAL    PROD                 NULL                     CREATED                          DIGIPOSTE                        0                  0           0 Jun 29 2026 09:48AM Jun 29 2026 09:48AM
+ 88720557 NULL             DIGITAL    PROD                 NULL                     CREATED                          DIGIPOSTE                        0                  0           0 Jun 29 2026 10:30AM Jun 29 2026 10:30AM
+ 88720559 NULL             DIGITAL    PROD                 NULL                     CREATED                          DIGIPOSTE                        0                  0           0 Jun 29 2026 10:31AM Jun 29 2026 10:31AM
+ 88720560 NULL             DIGITAL    PROD                 NULL                     CREATED                          DIGIPOSTE                        0                  0           0 Jun 29 2026 10:31AM Jun 29 2026 10:31AM
+ 88720561 NULL             DIGITAL    PROD                 NULL                     CREATED                          DIGIPOSTE                        0                  0           0 Jun 29 2026 10:31AM Jun 29 2026 10:31AM
+ 88720562 NULL             DIGITAL    PROD                 NULL                     CREATED                          DIGIPOSTE                        0                  0           0 Jun 29 2026 10:31AM Jun 29 2026 10:31AM
+ 88720563 NULL             DIGITAL    PROD                 NULL                     CREATED                          DIGIPOSTE                        0                  0           0 Jun 29 2026 10:31AM Jun 29 2026 10:31AM
+ 88720565 NULL             DIGITAL    PROD                 NULL                     CREATED                          DIGIPOSTE                        0                  0           0 Jun 29 2026 10:31AM Jun 29 2026 10:31AM
+
+(19 lignes)
+

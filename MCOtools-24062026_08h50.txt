@@ -1,0 +1,354 @@
+=========================
+Demandes bloquees : =
+=========================
+
+ACTION A FAIRE SUR CES DEMANDES : ReloadRequest (106) ou Attention si FORMATTED avec beaucoup de plis, verifier l'etat de l'interfacage (procedure Wiki A3.16).
+
+ Canal      Req_ID    Deposit_ID               Affranch.                Login                                    Etat                             Nb_Plis  Date_Modif           Date_Creation        Date_Prod_Esperee   Deblocage_Envelope
+ ---------- --------- ------------------------ ------------------------ ---------------------------------------- -------------------------------- -------- -------------------- -------------------- ------------------- -------------------
+ DIGITAL    174343095 2561741638S                                       MYPITNEY.770117249INFIRMERIEPROTESTANTEL DIGIPOSTE_CREATE_SUBSCRIBERS     1        Jun 23 2026  1:35PM  Jun 23 2026  1:35PM  NULL                NULL
+
+(1 lignes)
+
+ACTION A FAIRE SUR CES DEMANDES : Escalade MCO
+
+ Canal      Req_ID    Deposit_ID               Affranch.                Login                                    Etat                             Nb_Plis  Date_Modif           Date_Creation        Date_Prod_Esperee   Deblocage_Envelope
+ ---------- --------- ------------------------ ------------------------ ---------------------------------------- -------------------------------- -------- -------------------- -------------------- ------------------- -------------------
+ PAPER      174357307 2561742143G              ECOPLI_GRAND_COMPTE      SMEGFRANCE.GALDERIQUE                    TO_BATCH                         23       Jun 24 2026  3:00AM  Jun 23 2026  6:02PM  NULL                Jun 23 2026  5:00PM
+ PAPER      174357307 2561742143G              ECOPLI_GRAND_COMPTE      SMEGFRANCE.GALDERIQUE                    TO_BATCH                         5        Jun 24 2026  3:00AM  Jun 23 2026  6:02PM  NULL                NULL
+ PAPER      174361755 2561750039Y              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361758 2561750040B              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361762 2561750040F              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361763 2561750040G              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361765 2561750040I              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361768 2561750040L              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361769 2561750040M              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361770 2561750040N              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361772 2561750040P              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361773 2561750040Q              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361775 2561750040S              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361777 2561750040U              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361780 2561750040X              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361783 2561750041A              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361784 2561750041B              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361786 2561750041C              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361788 2561750041E              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361789 2561750041G              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361791 2561750041I              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174361793 2561750041K              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026  4:00AM  Jun 23 2026 11:32PM  NULL                NULL
+ PAPER      174301701 2561740146P              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  5:47AM  NULL                NULL
+ PAPER      174302828 2561740189Y              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:17AM  NULL                NULL
+ PAPER      174302853 2561740190X              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:17AM  NULL                NULL
+ PAPER      174302854 2561740190Y              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:17AM  NULL                NULL
+ PAPER      174302856 2561740191A              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:17AM  NULL                NULL
+ PAPER      174302859 2561740191D              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:17AM  NULL                NULL
+ PAPER      174302865 2561740191J              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:17AM  NULL                NULL
+ PAPER      174302883 2561740192B              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:17AM  NULL                NULL
+ PAPER      174302885 2561740192D              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:17AM  NULL                NULL
+ PAPER      174302900 2561740192S              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:17AM  NULL                NULL
+ PAPER      174302904 2561740192W              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:17AM  NULL                NULL
+ PAPER      174305045 2561740275S              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:47AM  NULL                NULL
+ PAPER      174305050 2561740275W              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:47AM  NULL                NULL
+ PAPER      174305057 2561740276D              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:47AM  NULL                NULL
+ PAPER      174305077 2561740276X              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:47AM  NULL                NULL
+ PAPER      174305082 2561740277C              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:47AM  NULL                NULL
+ PAPER      174305092 2561740277M              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:47AM  NULL                NULL
+ PAPER      174305093 2561740277N              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:47AM  NULL                NULL
+ PAPER      174305139 2561740279H              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  6:47AM  NULL                NULL
+ PAPER      174307195 2561740356D              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  7:17AM  NULL                NULL
+ PAPER      174307199 2561740356H              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  7:17AM  NULL                NULL
+ PAPER      174307207 2561740356P              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  7:17AM  NULL                NULL
+ PAPER      174307219 2561740357B              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  7:17AM  NULL                NULL
+ PAPER      174307229 2561740357L              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  7:17AM  NULL                NULL
+ PAPER      174307249 2561740358F              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  7:17AM  NULL                NULL
+ PAPER      174307257 2561740358N              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 24 2026 12:01AM  Jun 23 2026  7:17AM  NULL                NULL
+ PAPER      174359647 2561742232J              ECOPLI_GRAND_COMPTE      cergy95.jeannet                          TO_BATCH                         121      Jun 24 2026 12:01AM  Jun 23 2026  7:59PM  NULL                Jun 23 2026  5:00PM
+ PAPER      174359647 2561742232J              ECOPLI_GRAND_COMPTE      cergy95.jeannet                          TO_BATCH                         39       Jun 24 2026 12:01AM  Jun 23 2026  7:59PM  NULL                NULL
+
+(50 lignes)
+
+=========================
+Demandes en erreur: =
+=========================
+
+ACTION A FAIRE SUR CES DEMANDES : RetryRequest (105)
+
+ Canal      Req_ID    Deposit_ID   Affranch.                Login                                    Etat                             Nb_Plis  Env2Batch Date_Modif           Date_Creation        Date_Prod_Esperee    Code_Erreur
+ ---------- --------- ------------ ------------------------ ---------------------------------------- -------------------------------- -------- --------- -------------------- -------------------- -------------------- -----------
+ PAPER      174306485 2561740331D  ECOPLI_GRAND_COMPTE      ESSENTIELNOTAIRES.MCNAMARA               BATCHING_ERROR                   6        5         Jun 23 2026  1:29PM  Jun 23 2026  7:05AM  NULL                 1000000
+ PAPER      174307019 2561740351S  ECOPLI_GRAND_COMPTE      ESSENTIELNOTAIRES.MCNAMARA               BATCHING_ERROR                   3        2         Jun 23 2026  1:29PM  Jun 23 2026  7:13AM  NULL                 1000000
+ DIGITAL    174344144 2561741679I  SLOW                     ALPHA                                    CONVERTING_ERROR                 3        3         Jun 24 2026  6:46AM  Jun 23 2026  1:51PM  NULL                 2000006
+ PAPER      174318868 2561740763E  ECOPLI_GRAND_COMPTE      ATLANTICLOG.FERRANDO                     CONVERTING_ERROR                 1        1         Jun 24 2026  6:47AM  Jun 23 2026  9:16AM  NULL                 2000006
+ PAPER      174318872 2561740763I  ECOPLI_GRAND_COMPTE      ATLANTICLOG.FERRANDO                     CONVERTING_ERROR                 1        1         Jun 24 2026  6:47AM  Jun 23 2026  9:16AM  NULL                 2000006
+ PAPER      174355100 2561742083W  LETTRE_GRAND_COMPTE      CABINETLEBASIMMOBILIER.BENARD            CONVERTING_ERROR                 46       46        Jun 24 2026  6:41AM  Jun 23 2026  4:14PM  Jun 24 2026  1:00AM  2000006
+ PAPER      174313658 2561740602V  LETTRE_GRAND_COMPTE      EXPERTSGROUPE.MOUSNIER                   CONVERTING_ERROR                 1        1         Jun 24 2026  6:47AM  Jun 23 2026  8:39AM  NULL                 2000006
+ PAPER      174318165 2561740735X  LETTRE_GRAND_COMPTE      EXPERTSGROUPE.MOUSNIER                   CONVERTING_ERROR                 1        1         Jun 24 2026  6:47AM  Jun 23 2026  9:10AM  NULL                 2000006
+ PAPER      174349486 2561741872X  LETTRE_GRAND_COMPTE      GLA_SUDOUEST                             CONVERTING_ERROR                 1        1         Jun 24 2026  6:47AM  Jun 23 2026  2:49PM  NULL                 2000006
+ PAPER      174310226 2561740471M  ECOPLI_GRAND_COMPTE      HARMONIEAMBULANCE.VEILLON                CONVERTING_ERROR                 1        1         Jun 24 2026  6:47AM  Jun 23 2026  7:58AM  NULL                 2000006
+ PAPER      174322739 2561740896H  ECOPLI_GRAND_COMPTE      HARMONIEAMBULANCE.VEILLON                CONVERTING_ERROR                 1        1         Jun 24 2026  6:47AM  Jun 23 2026  9:48AM  NULL                 2000006
+ PAPER      174322746 2561740896O  ECOPLI_GRAND_COMPTE      HARMONIEAMBULANCE.VEILLON                CONVERTING_ERROR                 1        1         Jun 24 2026  6:47AM  Jun 23 2026  9:48AM  NULL                 2000006
+ PAPER      174325349 2561740994Y  ECOPLI_GRAND_COMPTE      HARMONIEAMBULANCE.VEILLON                CONVERTING_ERROR                 1        1         Jun 24 2026  6:47AM  Jun 23 2026 10:09AM  NULL                 2000006
+ PAPER      174339480 2561741500L  ECOPLI_GRAND_COMPTE      HARMONIEAMBULANCE.VEILLON                CONVERTING_ERROR                 1        1         Jun 24 2026  6:47AM  Jun 23 2026 12:56PM  NULL                 2000006
+ PAPER      174356324 2561742131E  SLOW                     MMPH.RILOS                               CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  5:04PM  NULL                 2000006
+ PAPER      174356359 2561742132N  ECOPLI_GRAND_COMPTE      MMPH.RILOS                               CONVERTING_ERROR                 19       19        Jun 24 2026  6:41AM  Jun 23 2026  5:04PM  NULL                 2000006
+ DIGITAL    174358335 2561742182P  STANDARD                 ONP.PAIE                                 CONVERTING_ERROR                 19       19        Jun 24 2026  6:40AM  Jun 23 2026  7:48PM  NULL                 2000006
+ DIGITAL    174358337 2561742182S  STANDARD                 ONP.PAIE                                 CONVERTING_ERROR                 34       34        Jun 24 2026  6:40AM  Jun 23 2026  7:48PM  NULL                 2000006
+ DIGITAL    174358548 2561742190U  STANDARD                 ONP.PAIE                                 CONVERTING_ERROR                 39       39        Jun 24 2026  6:40AM  Jun 23 2026  7:50PM  NULL                 2000006
+ DIGITAL    174358537 2561742190K  STANDARD                 ONP.PAIE                                 CONVERTING_ERROR                 33       33        Jun 24 2026  6:41AM  Jun 23 2026  7:50PM  NULL                 2000006
+ DIGITAL    174358540 2561742190L  STANDARD                 ONP.PAIE                                 CONVERTING_ERROR                 30       30        Jun 24 2026  6:41AM  Jun 23 2026  7:50PM  NULL                 2000006
+ DIGITAL    174358543 2561742190P  STANDARD                 ONP.PAIE                                 CONVERTING_ERROR                 33       33        Jun 24 2026  6:41AM  Jun 23 2026  7:50PM  NULL                 2000006
+ PAPER      174360491 2561742265S  ECOPLI_GRAND_COMPTE      resilier.com                             CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  9:18PM  NULL                 2000006
+ PAPER      174362445 2561750067A  LETTRE_GRAND_COMPTE      SCANNORD.NPLTOURCOING                    CONVERTING_ERROR                 1        1         Jun 24 2026  6:40AM  Jun 24 2026  2:17AM  NULL                 2000006
+ PAPER      174362477 2561750068G  ECOPLI_GRAND_COMPTE      SCANNORD.NPLTOURCOING                    CONVERTING_ERROR                 3        3         Jun 24 2026  6:41AM  Jun 24 2026  2:17AM  NULL                 2000006
+ PAPER      174362474 2561750068D  ECOPLI_GRAND_COMPTE      SCANNORD.TRUCKSERVICES                   CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 24 2026  2:17AM  NULL                 2000006
+ DIGITAL    174336756 2561741395D  STANDARD                 SocfermieredesThermesdeLectoure          CONVERTING_ERROR                 1        1         Jun 24 2026  6:47AM  Jun 23 2026 12:28PM  NULL                 2000006
+ PAPER      174315015 2561740654V  STANDARD                 SODEDIF.FOUCOU                           CONVERTING_ERROR                 1        1         Jun 24 2026  6:47AM  Jun 23 2026  8:50AM  NULL                 2000006
+ PAPER      174358136 2561742174Z  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:40AM  Jun 23 2026  7:19PM  NULL                 2000006
+ PAPER      174358137 2561742175A  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:40AM  Jun 23 2026  7:19PM  NULL                 2000006
+ PAPER      174358138 2561742175B  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:40AM  Jun 23 2026  7:19PM  NULL                 2000006
+ PAPER      174358149 2561742175M  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:40AM  Jun 23 2026  7:27PM  NULL                 2000006
+ PAPER      174358150 2561742175N  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:40AM  Jun 23 2026  7:27PM  NULL                 2000006
+ PAPER      174358151 2561742175O  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:40AM  Jun 23 2026  7:27PM  NULL                 2000006
+ PAPER      174358152 2561742175P  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:40AM  Jun 23 2026  7:29PM  NULL                 2000006
+ PAPER      174358140 2561742175D  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:21PM  NULL                 2000006
+ PAPER      174358146 2561742175J  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:25PM  NULL                 2000006
+ PAPER      174358147 2561742175K  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:25PM  NULL                 2000006
+ PAPER      174358153 2561742175Q  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:29PM  NULL                 2000006
+ PAPER      174358154 2561742175R  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:29PM  NULL                 2000006
+ PAPER      174358155 2561742175S  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:29PM  NULL                 2000006
+ PAPER      174358156 2561742175T  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:31PM  NULL                 2000006
+ PAPER      174358160 2561742175X  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:33PM  NULL                 2000006
+ PAPER      174358161 2561742175Y  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:33PM  NULL                 2000006
+ PAPER      174358162 2561742175Z  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:33PM  NULL                 2000006
+ PAPER      174358164 2561742176B  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:35PM  NULL                 2000006
+ PAPER      174358166 2561742176D  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:35PM  NULL                 2000006
+ PAPER      174358167 2561742176E  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:35PM  NULL                 2000006
+ PAPER      174358198 2561742177J  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:37PM  NULL                 2000006
+ PAPER      174358201 2561742177M  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:39PM  NULL                 2000006
+ PAPER      174358202 2561742177N  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:39PM  NULL                 2000006
+ PAPER      174358203 2561742177O  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:41PM  NULL                 2000006
+ PAPER      174358205 2561742177Q  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:41PM  NULL                 2000006
+ PAPER      174358207 2561742177S  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:43PM  NULL                 2000006
+ PAPER      174358208 2561742177T  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:43PM  NULL                 2000006
+ PAPER      174358209 2561742177U  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:45PM  NULL                 2000006
+ PAPER      174358210 2561742177V  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:45PM  NULL                 2000006
+ PAPER      174358211 2561742177W  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:45PM  NULL                 2000006
+ PAPER      174359007 2561742208N  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:54PM  NULL                 2000006
+ PAPER      174359055 2561742210J  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:54PM  NULL                 2000006
+ PAPER      174359284 2561742219G  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:56PM  NULL                 2000006
+ PAPER      174359857 2561742241H  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  8:02PM  NULL                 2000006
+ PAPER      174359930 2561742244B  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  8:02PM  NULL                 2000006
+ PAPER      174360009 2561742247C  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  8:03PM  NULL                 2000006
+ PAPER      174360097 2561742250M  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  8:03PM  NULL                 2000006
+ PAPER      174360156 2561742252U  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  8:04PM  NULL                 2000006
+ PAPER      174360160 2561742252Y  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  8:04PM  NULL                 2000006
+ PAPER      174360247 2561742256G  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  8:04PM  NULL                 2000006
+ PAPER      174360263 2561742256X  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  8:04PM  NULL                 2000006
+ PAPER      174360275 2561742257I  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  8:04PM  NULL                 2000006
+ PAPER      174360282 2561742257Q  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  8:09PM  NULL                 2000006
+ PAPER      174360284 2561742257S  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  8:14PM  NULL                 2000006
+ PAPER      174360285 2561742257T  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  8:14PM  NULL                 2000006
+ PAPER      174360299 2561742258H  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  8:20PM  NULL                 2000006
+ PAPER      174360308 2561742258Q  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  8:24PM  NULL                 2000006
+ PAPER      174360441 2561742263V  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  9:05PM  NULL                 2000006
+ PAPER      174360559 2561742268I  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  9:21PM  NULL                 2000006
+ PAPER      174360632 2561742271D  INDUSTRIEL_G2            utilisateurApi.PlumeMdarh                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  9:31PM  NULL                 2000006
+ PAPER      174353408 2561742023D  LETTRE_GRAND_COMPTE      AMPLIFONDAX                              VALORIZATION_ERROR               1        1         Jun 24 2026  6:53AM  Jun 23 2026  3:46PM  NULL                 2800002
+ PAPER      174353410 2561742023F  LETTRE_GRAND_COMPTE      AMPLIFONDAX                              VALORIZATION_ERROR               1        1         Jun 24 2026  6:53AM  Jun 23 2026  3:46PM  NULL                 2800002
+ PAPER      174337211 2561741412Q  LETTRE_GRAND_COMPTE      AMPLIFONLYONVOIRETENTENDRE               VALORIZATION_ERROR               1        1         Jun 24 2026  6:53AM  Jun 23 2026 12:31PM  NULL                 2800002
+ PAPER      174340023 2561741523Q  ECOPLI_GRAND_COMPTE      AMPLIFONSAINTJORY                        VALORIZATION_ERROR               1        1         Jun 24 2026  6:53AM  Jun 23 2026  1:01PM  NULL                 2800002
+ PAPER      174340503 2561741542C  ECOPLI_GRAND_COMPTE      AMPLIFONSAINTJORY                        VALORIZATION_ERROR               1        1         Jun 24 2026  6:53AM  Jun 23 2026  1:05PM  NULL                 2800002
+ PAPER      174339286 2561741492T  ECOPLI_GRAND_COMPTE      AMPLIFONTOURNEFEUILLE                    VALORIZATION_ERROR               1        1         Jun 24 2026  6:53AM  Jun 23 2026 12:56PM  NULL                 2800002
+ PAPER      174339466 2561741499W  ECOPLI_GRAND_COMPTE      AMPLIFONTOURNEFEUILLE                    VALORIZATION_ERROR               1        1         Jun 24 2026  6:53AM  Jun 23 2026 12:56PM  NULL                 2800002
+ PAPER      174367952 2561750288I  ECOPLI_GRAND_COMPTE      CRCDCOC.MONTPELLIER                      VALORIZATION_ERROR               7        7         Jun 24 2026  6:54AM  Jun 24 2026  6:53AM  NULL                 2800002
+ PAPER      174347543 2561741804S  LETTRE_GRAND_COMPTE      frshop293@amplifon.com                   VALORIZATION_ERROR               1        1         Jun 24 2026  6:53AM  Jun 23 2026  2:20PM  NULL                 2800002
+
+(87 lignes)
+
+================================
+Enveloppes non materialisees : =
+================================
+
+  Aucun element a traiter
+
+=========================
+Lots bloques : =
+=========================
+
+ACTION A FAIRE SUR CES LOTS : Escalade MCO
+
+ Bat_ID   Reference        Canal      Type                 Affranch.                Etat                             ETAB                 Nb_Env   Nb_Feuille  Nb_Page     Date_Modif          Date_Creation       Categorie
+ -------- ---------------- ---------- -------------------- ------------------------ -------------------------------- -------------------- -------- ----------- ----------- ------------------- ------------------- ------------------------
+ 88674043 37G1740355S      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                  1           1 Jun 23 2026 01:36PM Jun 23 2026 01:20PM DIGIPOSTE
+ 88674190 37G1740356G      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            12               166         166 Jun 23 2026 01:56PM Jun 23 2026 01:40PM DIGIPOSTE
+ 88674207 37G1740361M      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            8                  9           9 Jun 23 2026 02:09PM Jun 23 2026 01:53PM DIGIPOSTE
+ 88674373 37G1740361V      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              129         129 Jun 23 2026 02:11PM Jun 23 2026 02:10PM DIGIPOSTE
+ 88674215 37G1740361W      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              126         126 Jun 23 2026 02:11PM Jun 23 2026 02:00PM DIGIPOSTE
+ 88674376 37G17403626      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              115         115 Jun 23 2026 02:11PM Jun 23 2026 02:10PM DIGIPOSTE
+ 88674366 37G1740371N      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                  3           3 Jun 23 2026 02:24PM Jun 23 2026 02:08PM DIGIPOSTE
+ 88674377 37G1740371O      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            19                25          25 Jun 23 2026 02:26PM Jun 23 2026 02:10PM DIGIPOSTE
+ 88674387 37G1740371P      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            2                  3           3 Jun 23 2026 02:28PM Jun 23 2026 02:12PM DIGIPOSTE
+ 88674565 37G1740404D      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            2                 26          26 Jun 23 2026 02:41PM Jun 23 2026 02:25PM DIGIPOSTE
+ 88674567 37G1740404G      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            37                74          74 Jun 23 2026 02:42PM Jun 23 2026 02:26PM DIGIPOSTE
+ 88675161 37G1740404Z      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                  2           2 Jun 23 2026 03:01PM Jun 23 2026 02:45PM DIGIPOSTE
+ 88675220 37G1740424U      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            2                  2           2 Jun 23 2026 03:24PM Jun 23 2026 03:08PM DIGIPOSTE
+ 88675561 37G17404250      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              200         200 Jun 23 2026 03:30PM Jun 23 2026 03:29PM DIGIPOSTE
+ 88675564 37G1740424Z      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              200         200 Jun 23 2026 03:30PM Jun 23 2026 03:29PM DIGIPOSTE
+ 88675563 37G17404252      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              200         200 Jun 23 2026 03:30PM Jun 23 2026 03:29PM DIGIPOSTE
+ 88675565 37G17404256      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              200         200 Jun 23 2026 03:30PM Jun 23 2026 03:29PM DIGIPOSTE
+ 88675566 37G17404255      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              200         200 Jun 23 2026 03:30PM Jun 23 2026 03:29PM DIGIPOSTE
+ 88675569 37G1740430K      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            10                20          20 Jun 23 2026 03:45PM Jun 23 2026 03:29PM DIGIPOSTE
+ 88675567 37G1740430O      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            91               182         182 Jun 23 2026 03:45PM Jun 23 2026 03:29PM DIGIPOSTE
+ 88675667 37G1740450E      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                  1           1 Jun 23 2026 03:55PM Jun 23 2026 03:39PM DIGIPOSTE
+ 88676276 37G1740462X      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            7                  9           9 Jun 23 2026 04:53PM Jun 23 2026 04:37PM DIGIPOSTE
+ 88676281 37G1740462Y      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                 13          13 Jun 23 2026 04:55PM Jun 23 2026 04:39PM DIGIPOSTE
+ 88676308 37G17404644      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                  1           1 Jun 23 2026 05:06PM Jun 23 2026 04:50PM DIGIPOSTE
+ 88676553 37G17404816      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            1                 11          11 Jun 23 2026 06:49PM Jun 23 2026 06:33PM DIGIPOSTE
+ 88677701 37G1740543M      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            81               804         804 Jun 23 2026 08:04PM Jun 23 2026 07:48PM DIGIPOSTE
+ 88677862 37G1740547S      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            2                 29          29 Jun 23 2026 09:20PM Jun 23 2026 09:04PM DIGIPOSTE
+ 88677918 37G17500006      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:01PM Jun 23 2026 10:00PM DIGIPOSTE
+ 88677922 37G17500008      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:01PM Jun 23 2026 10:00PM DIGIPOSTE
+ 88677916 37G17500005      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:01PM Jun 23 2026 10:00PM DIGIPOSTE
+ 88677923 37G17500009      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:01PM Jun 23 2026 10:00PM DIGIPOSTE
+ 88677924 37G1750000B      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:01PM Jun 23 2026 10:00PM DIGIPOSTE
+ 88677917 37G17500004      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:01PM Jun 23 2026 10:00PM DIGIPOSTE
+ 88677921 37G17500007      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:01PM Jun 23 2026 10:00PM DIGIPOSTE
+ 88677920 37G1750000C      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:01PM Jun 23 2026 10:00PM DIGIPOSTE
+ 88677915 37G17500003      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:01PM Jun 23 2026 10:00PM DIGIPOSTE
+ 88677919 37G1750000A      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:01PM Jun 23 2026 10:00PM DIGIPOSTE
+ 88677925 37G1750000F      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:02PM Jun 23 2026 10:00PM DIGIPOSTE
+ 88677929 37G1750000I      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:02PM Jun 23 2026 10:01PM DIGIPOSTE
+ 88677930 37G1750000J      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:02PM Jun 23 2026 10:01PM DIGIPOSTE
+ 88677931 37G1750000L      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:02PM Jun 23 2026 10:01PM DIGIPOSTE
+ 88677932 37G1750000K      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:02PM Jun 23 2026 10:01PM DIGIPOSTE
+ 88677927 37G1750000M      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:02PM Jun 23 2026 10:01PM DIGIPOSTE
+ 88677926 37G1750000G      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:02PM Jun 23 2026 10:01PM DIGIPOSTE
+ 88677933 37G1750000N      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:02PM Jun 23 2026 10:01PM DIGIPOSTE
+ 88677928 37G1750000H      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:02PM Jun 23 2026 10:01PM DIGIPOSTE
+ 88677935 37G1750000P      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:02PM Jun 23 2026 10:01PM DIGIPOSTE
+ 88677934 37G1750000O      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            100              400         400 Jun 23 2026 10:02PM Jun 23 2026 10:01PM DIGIPOSTE
+ 88677914 37G1750000W      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            38               152         152 Jun 23 2026 10:16PM Jun 23 2026 10:00PM DIGIPOSTE
+ 88677936 37G1750000X      DIGITAL    PROD                 NULL                     SENT                             DIGIPOSTE            75               300         300 Jun 23 2026 10:17PM Jun 23 2026 10:01PM DIGIPOSTE
+
+(50 lignes)
+
+=========================
+Lots en erreur : =
+=========================
+
+ACTION A FAIRE SUR CES LOTS : RetryBatch (204)
+
+ Bat_ID   Reference        Canal      Type                 Affranch.                Etat                             ETAB                 Nb_Env   Nb_Feuille  Nb_Page     Date_Modif          Date_Creation       bat_error_code
+ -------- ---------------- ---------- -------------------- ------------------------ -------------------------------- -------------------- -------- ----------- ----------- ------------------- ------------------- --------------
+ 88673766 37G1740340G      PAPER      PROD                 LETTRE_GRAND_COMPTE      MATERIALIZATION_ERROR            CRECY                1                  1           1 Jun 24 2026 06:41AM Jun 23 2026 12:18PM        1000000
+ 88676245 37G17404609      PAPER      PROD                 SLOW                     MATERIALIZATION_ERROR            CRECY                11               167         334 Jun 24 2026 06:41AM Jun 23 2026 04:33PM        1000000
+
+(2 lignes)
+
+=====================================
+Lots vides bloqués à annuler : =
+=====================================
+
+  Aucun element a traiter
+
+=================================================
+Demandes en erreurs specifiques (Escalade MCO) =
+=================================================
+
+ACTION A FAIRE SUR CES DEMANDES : Escalade MCO
+
+ Canal      Req_ID    Deposit_ID   Affranch.                Login                                    Etat                             Nb_Plis  Env2Batch Date_Modif           Date_Creation        Date_Prod_Esperee    Code_Erreur
+ ---------- --------- ------------ ------------------------ ---------------------------------------- -------------------------------- -------- --------- -------------------- -------------------- -------------------- -----------
+ PAPER      174316960 52Q1740003O  RECOMMANDE_AR            CGCICENTREDEGESTIONETCONSEILSIMM.AUSSEL  WAIT                             1        1         Jun 23 2026  9:03AM  Jun 23 2026  9:02AM  NULL                 0
+ PAPER      174316970 52Q1740006A  RECOMMANDE_AR            CGCICENTREDEGESTIONETCONSEILSIMM.AUSSEL  WAIT                             1        1         Jun 23 2026  9:03AM  Jun 23 2026  9:02AM  NULL                 0
+ PAPER      174296535 2561732071A  RECOMMANDE_AR            EUKLES.EUKLES                            WAIT                             1        1         Jun 23 2026  8:08AM  Jun 22 2026  7:47PM  NULL                 0
+ PAPER      174307929 52Q1740000F  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:26AM  Jun 23 2026  7:26AM  NULL                 0
+ PAPER      174307937 52Q17400009  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:26AM  Jun 23 2026  7:26AM  NULL                 0
+ PAPER      174307941 52Q1740000Q  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:26AM  Jun 23 2026  7:26AM  NULL                 0
+ PAPER      174307948 52Q1740000J  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:26AM  Jun 23 2026  7:26AM  NULL                 0
+ PAPER      174307951 52Q1740000D  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:26AM  Jun 23 2026  7:26AM  NULL                 0
+ PAPER      174307956 52Q1740000M  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:26AM  Jun 23 2026  7:26AM  NULL                 0
+ PAPER      174307957 52Q1740000V  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:26AM  Jun 23 2026  7:26AM  NULL                 0
+ PAPER      174308961 52Q17400015  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:40AM  Jun 23 2026  7:40AM  NULL                 0
+ PAPER      174308964 52Q1740001J  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:40AM  Jun 23 2026  7:40AM  NULL                 0
+ PAPER      174308968 52Q17400017  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:40AM  Jun 23 2026  7:40AM  NULL                 0
+ PAPER      174308971 52Q17400012  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:40AM  Jun 23 2026  7:40AM  NULL                 0
+ PAPER      174308973 52Q1740001T  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:40AM  Jun 23 2026  7:40AM  NULL                 0
+ PAPER      174308974 52Q1740001L  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:40AM  Jun 23 2026  7:40AM  NULL                 0
+ PAPER      174308976 52Q1740001C  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:40AM  Jun 23 2026  7:40AM  NULL                 0
+ PAPER      174308977 52Q17400011  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:40AM  Jun 23 2026  7:40AM  NULL                 0
+ PAPER      174308978 52Q1740001E  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:40AM  Jun 23 2026  7:40AM  NULL                 0
+ PAPER      174308982 52Q1740000X  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:40AM  Jun 23 2026  7:40AM  NULL                 0
+ PAPER      174308983 52Q1740001I  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:40AM  Jun 23 2026  7:40AM  NULL                 0
+ PAPER      174308988 52Q1740000Z  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:40AM  Jun 23 2026  7:40AM  NULL                 0
+ PAPER      174308993 52Q1740001O  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:40AM  Jun 23 2026  7:40AM  NULL                 0
+ PAPER      174308997 52Q1740001M  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:40AM  Jun 23 2026  7:40AM  NULL                 0
+ PAPER      174308998 52Q17400013  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  7:40AM  Jun 23 2026  7:40AM  NULL                 0
+ PAPER      174316159 52Q17400034  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  8:57AM  Jun 23 2026  8:57AM  NULL                 0
+ PAPER      174316783 52Q1740003M  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  9:01AM  Jun 23 2026  9:01AM  NULL                 0
+ PAPER      174316791 52Q1740002T  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  9:01AM  Jun 23 2026  9:01AM  NULL                 0
+ PAPER      174316807 52Q17400032  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  9:01AM  Jun 23 2026  9:01AM  NULL                 0
+ PAPER      174316887 52Q1740002Q  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  9:02AM  Jun 23 2026  9:01AM  NULL                 0
+ PAPER      174316895 52Q1740002Z  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  9:02AM  Jun 23 2026  9:01AM  NULL                 0
+ PAPER      174316930 52Q1740002C  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  9:03AM  Jun 23 2026  9:02AM  NULL                 0
+ PAPER      174316934 52Q17400028  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  9:03AM  Jun 23 2026  9:02AM  NULL                 0
+ PAPER      174316936 52Q17400030  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  9:03AM  Jun 23 2026  9:02AM  NULL                 0
+ PAPER      174316951 52Q1740002J  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  9:03AM  Jun 23 2026  9:02AM  NULL                 0
+ PAPER      174316975 52Q1740002B  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  9:03AM  Jun 23 2026  9:02AM  NULL                 0
+ PAPER      174316976 52Q17400026  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  9:03AM  Jun 23 2026  9:02AM  NULL                 0
+ PAPER      174316987 52Q1740002O  RECOMMANDE_AR            GRECHIMMOBILIERSARLBGTI.GRECH            WAIT                             1        1         Jun 23 2026  9:03AM  Jun 23 2026  9:02AM  NULL                 0
+
+(38 lignes)
+
+=====================================================================
+Demandes bloquees en WAIT avec enveloppes a CREATED (Escalade MCO): =
+=====================================================================
+
+  Aucun element a traiter
+
+==========================================================
+Demandes bloquees en WAIT sans enveloppe (Escalade MCO): =
+==========================================================
+
+  Aucun element a traiter
+
+=================================
+Demandes bloquees de DDNS.LPL : =
+=================================
+
+  Aucun element a traiter
+
+=================================
+Depots bloques (Escalade MCO) : =
+=================================
+
+  Aucun element a traiter
+
+===================================
+Depots en erreur (Escalade MCO) : =
+===================================
+
+ACTION A FAIRE SUR CES DEPOTS : Escalade MCO
+
+ Deposit_ID  Partner         File_Name                                Login                          Type  Protocol Statut                    Code Erreur          Date_Recept          Date_Modif           Compte
+ ----------- --------------- ---------------------------------------- ------------------------------ ----- -------- ------------------------- ---- --------------- -------------------- -------------------- --------------------
+ 2561741428Z MAILEVA              MAILEVAGENEALEX                COU   FTP      Deposit rejected          400  Internal Error            Jun 23 2026 12:33PM  Jun 23 2026 12:43PM  deposit
+ 2561741429C MAILEVA              GISERVICESFRANCE.REGNAULT      COU   FTP      Deposit rejected          400  Internal Error            Jun 23 2026 12:33PM  Jun 23 2026 12:43PM  deposit
+ 2561741429D MAILEVA              DOCA.CONCENTRATEUR             ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 23 2026 12:33PM  Jun 23 2026 12:43PM  mlv-p-GFI
+ 2561741482H MAILEVA              PITNEY.ELSANCLINIQUESAINTODILE ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 23 2026 12:45PM  Jun 23 2026 12:55PM  mlv-p-pitneybowes
+ 2561742124E MAILEVA              PITNEY.770070142SCABONNEVAL    ZCOU  FTP      Deposit rejected          400  Internal Error            Jun 23 2026  5:01PM  Jun 23 2026  5:01PM  mlv-p-pitneybowes
+
+(5 lignes)
+
+============================================================
+Depots SOPRAHRSOFTWARE.ONET sans campagne (Escalade MCO) : =
+============================================================
+
+  Aucun element a traiter
+
+=====================================
+Lots vides Bloques (Escalade MCO) : =
+=====================================
+
+  Aucun element a traiter
+
