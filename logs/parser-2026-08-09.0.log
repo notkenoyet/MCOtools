@@ -1,0 +1,410 @@
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.p.controller.ParserController - POST /api/parser/upload - fichier recu: MCOtools_25062026.txt (48851 octets)
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Debut du parsing du rapport (48849 caracteres)
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.parsing.ReportParser - Analyse du rapport: 311 ligne(s) au total
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.parsing.ReportParser - Bloc REQUEST (ligne 7) - 2 ligne(s) extraite(s)
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.parsing.ReportParser - Bloc REQUEST (ligne 20) - 82 ligne(s) extraite(s)
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.parsing.ReportParser - Bloc BATCH (ligne 119) - 104 ligne(s) extraite(s)
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.parsing.ReportParser - Bloc BATCH (ligne 234) - 9 ligne(s) extraite(s)
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.parsing.ReportParser - Bloc DEPOSIT (ligne 290) - 2 ligne(s) extraite(s)
+2026-08-09 17:48:34 [http-nio-8081-exec-4] INFO  c.m.parser.parsing.ReportParser - Parsing du rapport termine: 84 request(s), 113 batch(es), 2 deposit(s)
+2026-08-09 17:48:34 [http-nio-8081-exec-4] INFO  c.m.parser.service.ParserService - Parsing termine: 84 request(s), 113 batch(es), 2 deposit(s) detecte(s)
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174406418 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174406418 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174406418 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174406418 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174393740 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174393740 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174397339 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174397339 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174389870 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174389870 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174318868 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174318868 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174318872 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174318872 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174398328 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174398328 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174402358 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174402358 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174394055 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174394055 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174391083 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174391083 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174397468 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174397468 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174402939 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174402939 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174405930 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174405930 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174395967 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174395967 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174413342 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174413342 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174358548 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174358548 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174396035 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174396035 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174396104 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174396104 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174395773 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174395773 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174396282 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174396282 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174396320 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174396320 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174415645 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174415645 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174415656 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174415656 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174415662 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174415662 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174415671 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174415671 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417874 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417874 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174358140 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174358140 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174358203 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174358203 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174360247 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174360247 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174360299 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174360299 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174370213 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174370213 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417789 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417789 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418591 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418591 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418618 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418618 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417761 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417761 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417764 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417764 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417765 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417765 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417766 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417766 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417767 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417767 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417768 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417768 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417772 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417772 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417774 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417774 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417779 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417779 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417786 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417786 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417788 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417788 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417790 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417790 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417846 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417846 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417848 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417848 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417853 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417853 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417855 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417855 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417872 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417872 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417879 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417879 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417885 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417885 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417888 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417888 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417893 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417893 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417894 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417894 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417898 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417898 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417899 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417899 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417945 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417945 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417947 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417947 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417949 vers http://localhost:8082/api/requests
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417949 pousse vers mco avec succes
+2026-08-09 17:48:34 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417951 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417951 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417954 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417954 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417955 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417955 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417957 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417957 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417958 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417958 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174417959 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174417959 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418562 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418562 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418573 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418573 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418575 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418575 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418576 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418576 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418578 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418578 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418589 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418589 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418590 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418590 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418593 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418593 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418596 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418596 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418599 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418599 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418606 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418606 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418607 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418607 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418612 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418612 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418617 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418617 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174418620 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174418620 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du request 174406905 vers http://localhost:8082/api/requests
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Request 174406905 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88684985 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88684985 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685036 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685036 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685039 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685039 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685037 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685037 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685042 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685042 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685045 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685045 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685046 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685046 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685065 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685065 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685111 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685111 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685112 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685112 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685113 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685113 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685221 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685221 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685222 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685222 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685231 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685231 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685564 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685564 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685668 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685668 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685734 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685734 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685735 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685735 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685766 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685766 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685998 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685998 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685997 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685997 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686031 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686031 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686106 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686106 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686128 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686128 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686127 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686127 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686126 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686126 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686129 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686129 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686130 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686130 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686137 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686137 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686148 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686148 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686265 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686265 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686318 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686318 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686416 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686416 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686413 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686413 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686415 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686415 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686445 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686445 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686441 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686441 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686431 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686431 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686417 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686417 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686418 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686418 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686456 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686456 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686455 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686455 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686327 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686327 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686419 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686419 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686447 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686447 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686443 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686443 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686457 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686457 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686459 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686459 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686880 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686880 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686878 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686878 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686879 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686879 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686881 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686881 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686898 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686898 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88686964 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88686964 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687035 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687035 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687150 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687150 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687197 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687197 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687219 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687219 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687252 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687252 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687299 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687299 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687321 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687321 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687368 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687368 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687383 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687383 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687418 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687418 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687289 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687289 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687485 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687485 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687503 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687503 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687508 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687508 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687533 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687533 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687547 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687547 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687553 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687553 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687569 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687569 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687576 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687576 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687590 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687590 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687625 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687625 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687639 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687639 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687651 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687651 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687659 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687659 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687716 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687716 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88687723 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88687723 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88688680 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88688680 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88688762 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88688762 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88688764 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88688764 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88688765 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88688765 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88688763 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88688763 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88688766 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88688766 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88688767 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88688767 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88688758 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88688758 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88688757 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88688757 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88688759 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88688759 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88688768 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88688768 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88688760 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88688760 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88688761 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88688761 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88688769 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88688769 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88689211 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88689211 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88689205 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88689205 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88689206 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88689206 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88689213 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88689213 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88689209 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88689209 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88689210 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88689210 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88689208 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88689208 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88689215 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88689215 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88689216 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88689216 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88689217 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88689217 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88673766 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88673766 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88676245 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88676245 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88679583 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88679583 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88685040 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88685040 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88680405 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88680405 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88689313 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88689313 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88689691 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88689691 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88684312 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88684312 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du batch 88681661 vers http://localhost:8082/api/batches
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Batch 88681661 pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du deposit 2561751504I vers http://localhost:8082/api/deposits
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Deposit 2561751504I pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.mcotools.parser.client.McoClient - Envoi du deposit 2561760035N vers http://localhost:8082/api/deposits
+2026-08-09 17:48:35 [http-nio-8081-exec-4] DEBUG c.m.parser.service.ParserService - Deposit 2561760035N pousse vers mco avec succes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] INFO  c.m.parser.service.ParserService - Traitement du rapport termine sans erreur: 84 requests, 113 batches, 2 deposits envoyes
+2026-08-09 17:48:35 [http-nio-8081-exec-4] INFO  c.m.p.controller.ParserController - POST /api/parser/upload - fichier MCOtools_25062026.txt traite: 84 requests, 113 batches, 2 deposits, 0 erreur(s)

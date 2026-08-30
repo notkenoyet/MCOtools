@@ -1,0 +1,13 @@
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\src\main\java\com\mcotools\treatment\client\McoClient.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\src\main\java\com\mcotools\treatment\config\RestClientConfig.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\src\main\java\com\mcotools\treatment\controller\RapportController.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\src\main\java\com\mcotools\treatment\controller\TreatmentController.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\src\main\java\com\mcotools\treatment\dto\BatchDto.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\src\main\java\com\mcotools\treatment\dto\DepositDto.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\src\main\java\com\mcotools\treatment\dto\RequestDto.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\src\main\java\com\mcotools\treatment\exception\GlobalExceptionHandler.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\src\main\java\com\mcotools\treatment\rules\ActionItem.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\src\main\java\com\mcotools\treatment\rules\ActionType.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\src\main\java\com\mcotools\treatment\rules\PdfReportService.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\src\main\java\com\mcotools\treatment\rules\TreatmentRulesService.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\src\main\java\com\mcotools\treatment\TreatmentApplication.java
