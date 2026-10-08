@@ -1,0 +1,20 @@
+# Build
+target/
+node_modules/
+dist/
+
+# Logs & generated
+logs/
+reports/
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+application-local.properties

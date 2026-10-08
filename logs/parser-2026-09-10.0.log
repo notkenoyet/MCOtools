@@ -1,0 +1,4 @@
+2026-09-10 20:33:39 [main] INFO  c.mcotools.parser.ParserApplication - Starting ParserApplication using Java 23.0.2 with PID 23656 (C:\Users\zizom\OneDrive\Escritorio\MCOtools-front test\parser\target\classes started by mouad in C:\Users\zizom\OneDrive\Escritorio\MCOtools-front test\parser)
+2026-09-10 20:33:39 [main] DEBUG c.mcotools.parser.ParserApplication - Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-09-10 20:33:39 [main] INFO  c.mcotools.parser.ParserApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-10 20:33:40 [main] INFO  c.mcotools.parser.ParserApplication - Started ParserApplication in 1.617 seconds (process running for 1.928)
