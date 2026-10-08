@@ -1,8 +1,0 @@
-2026-09-10 20:33:32 [main] INFO  c.m.treatment.TreatmentApplication - Starting TreatmentApplication using Java 23.0.2 with PID 21052 (C:\Users\zizom\OneDrive\Escritorio\MCOtools-front test\treatment\target\classes started by mouad in C:\Users\zizom\OneDrive\Escritorio\MCOtools-front test\treatment)
-2026-09-10 20:33:32 [main] DEBUG c.m.treatment.TreatmentApplication - Running with Spring Boot v4.1.0, Spring v7.0.8
-2026-09-10 20:33:32 [main] INFO  c.m.treatment.TreatmentApplication - No active profile set, falling back to 1 default profile: "default"
-2026-09-10 20:33:33 [main] WARN  o.a.p.p.font.FileSystemFontProvider - 2 new fonts found, font cache will be re-built
-2026-09-10 20:33:33 [main] WARN  o.a.p.p.font.FileSystemFontProvider - Building on-disk font cache, this may take a while
-2026-09-10 20:33:35 [main] WARN  o.a.p.p.font.FileSystemFontProvider - Finished building on-disk font cache, found 510 fonts
-2026-09-10 20:33:35 [main] INFO  c.m.treatment.TreatmentApplication - Started TreatmentApplication in 3.502 seconds (process running for 3.815)
-2026-09-10 20:33:35 [main] INFO  c.m.treatment.TreatmentApplication - Service treatment demarre avec succes
