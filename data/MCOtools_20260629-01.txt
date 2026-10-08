@@ -6,6 +6,7 @@ ACTION A FAIRE SUR CES DEMANDES : ReloadRequest (106) ou Attention si FORMATTED 
 
  Canal      Req_ID    Deposit_ID               Affranch.                Login                                    Etat                             Nb_Plis  Date_Modif           Date_Creation        Date_Prod_Esperee   Deblocage_Envelope
  ---------- --------- ------------------------ ------------------------ ---------------------------------------- -------------------------------- -------- -------------------- -------------------- ------------------- -------------------
+<<<<<<< HEAD
  DIGITAL    174558531 4061800002Z                                       EHPADSAINTJACQUES.RH                     DIGIPOSTE_CREATE_SUBSCRIBERS     210      Jun 29 2026  8:10AM  Jun 29 2026  7:53AM  NULL                NULL
  DIGITAL    174559479 4061800003N                                       SOCIETEDUPARCDUFUTUROSCOPE.LOZANO        DIGIPOSTE_CREATE_SUBSCRIBERS     113      Jun 29 2026  8:18AM  Jun 29 2026  8:10AM  NULL                NULL
  DIGITAL    174561846 4061800005P                                       LOUISSCHROLL.SIEFER                      DIGIPOSTE_CREATE_SUBSCRIBERS     40       Jun 29 2026  8:57AM  Jun 29 2026  8:46AM  NULL                NULL
@@ -28,6 +29,30 @@ ACTION A FAIRE SUR CES DEMANDES : ReloadRequest (106) ou Attention si FORMATTED 
  DIGITAL    174578302 2561801146S                                       SAMSE.SAMSE                              FORMATTED                        282      Jun 29 2026 10:27AM  Jun 29 2026 10:16AM  NULL                NULL
  DIGITAL    174576154 2561801039C                                       SAMSE.BOITEAOUTILS                       FORMATTED                        411      Jun 29 2026 10:28AM  Jun 29 2026 10:05AM  NULL                NULL
  DIGITAL    174577851 2561801104S                                       SAMSE.BOITEAOUTILS                       FORMATTED                        414      Jun 29 2026 10:28AM  Jun 29 2026 10:09AM  NULL                NULL
+=======
+ DIGITAL    174558531 4061800002Z                                       EHPADSAINTJACQUES.RH                     CLIENT_00001     210      Jun 29 2026  8:10AM  Jun 29 2026  7:53AM  NULL                NULL
+ DIGITAL    174559479 4061800003N                                       SOCIETEDUPARCDUFUTUROSCOPE.LOZANO        CLIENT_00001     113      Jun 29 2026  8:18AM  Jun 29 2026  8:10AM  NULL                NULL
+ DIGITAL    174561846 4061800005P                                       LOUISSCHROLL.SIEFER                      CLIENT_00001     40       Jun 29 2026  8:57AM  Jun 29 2026  8:46AM  NULL                NULL
+ DIGITAL    174562140 4061800005Q                                       EHPADAE.EHPADAE                          CLIENT_00001     85       Jun 29 2026  8:59AM  Jun 29 2026  8:47AM  NULL                NULL
+ DIGITAL    174561779 4061800004U                                       NEUILLY.PAIE                             CLIENT_00001     1054     Jun 29 2026  9:23AM  Jun 29 2026  8:45AM  NULL                NULL
+ DIGITAL    174544816 2561780106P                                       INTRASIPA.BP                             CLIENT_00001     25       Jun 29 2026 10:13AM  Jun 27 2026  9:03AM  NULL                NULL
+ DIGITAL    174557688 2561800334O                                       BOTANIC.RHPAIE                           CLIENT_00056                        342      Jun 29 2026  7:56AM  Jun 29 2026  7:40AM  NULL                NULL
+ DIGITAL    174559500 4061800003S                                       MEDICOSOCIALEDEPROVENCE.MHOUDINI         CLIENT_00056                        40       Jun 29 2026  8:13AM  Jun 29 2026  8:11AM  NULL                NULL
+ DIGITAL    174571221 2561800851C                                       ADAPEIDUDOUBS.GB                         CLIENT_00056                        74       Jun 29 2026 10:14AM  Jun 29 2026  9:32AM  NULL                NULL
+ DIGITAL    174574572 2561800978N                                       SAMSE.MAURISBOIS                         CLIENT_00056                        190      Jun 29 2026 10:15AM  Jun 29 2026  9:47AM  NULL                NULL
+ DIGITAL    174573979 4061800007G                                       LOUISSCHROLL.SIEFER                      CLIENT_00056                        217      Jun 29 2026 10:17AM  Jun 29 2026  9:44AM  NULL                NULL
+ DIGITAL    174557046 4061800002D                                       CD64.001                                 CLIENT_00056                        2391     Jun 29 2026 10:18AM  Jun 29 2026  7:37AM  NULL                NULL
+ DIGITAL    174575357 2561801008T                                       SAMSE.MPLUSMATERIAUX                     CLIENT_00056                        189      Jun 29 2026 10:19AM  Jun 29 2026  9:52AM  NULL                NULL
+ DIGITAL    174561335 4061800004C                                       GROUPENOVASEP.FINORGASAS                 CLIENT_00056                        396      Jun 29 2026 10:21AM  Jun 29 2026  8:18AM  NULL                NULL
+ DIGITAL    174574916 2561800991U                                       SAMSE.SAMSE                              CLIENT_00056                        284      Jun 29 2026 10:21AM  Jun 29 2026  9:49AM  NULL                NULL
+ DIGITAL    174577244 2561801081H                                       SAMSE.BTPDISTRIBUTION                    CLIENT_00056                        71       Jun 29 2026 10:22AM  Jun 29 2026 10:07AM  NULL                NULL
+ DIGITAL    174576730 2561801061N                                       HOMESERVE.HOMESERVEPAIE                  CLIENT_00056                        239      Jun 29 2026 10:23AM  Jun 29 2026 10:06AM  NULL                NULL
+ DIGITAL    174577601 2561801095K                                       ALLIOS2                                  CLIENT_00056                        99       Jun 29 2026 10:25AM  Jun 29 2026 10:07AM  NULL                NULL
+ DIGITAL    174578260 2561801136Y                                       SAMSE.SAMSE                              CLIENT_00056                        285      Jun 29 2026 10:27AM  Jun 29 2026 10:16AM  NULL                NULL
+ DIGITAL    174578302 2561801146S                                       SAMSE.SAMSE                              CLIENT_00056                        282      Jun 29 2026 10:27AM  Jun 29 2026 10:16AM  NULL                NULL
+ DIGITAL    174576154 2561801039C                                       SAMSE.BOITEAOUTILS                       CLIENT_00056                        411      Jun 29 2026 10:28AM  Jun 29 2026 10:05AM  NULL                NULL
+ DIGITAL    174577851 2561801104S                                       SAMSE.BOITEAOUTILS                       CLIENT_00056                        414      Jun 29 2026 10:28AM  Jun 29 2026 10:09AM  NULL                NULL
+>>>>>>> e3c48026bbc0dbf775127264bec033d380562877
 
 (22 lignes)
 
@@ -35,10 +60,17 @@ ACTION A FAIRE SUR CES DEMANDES : Escalade MCO
 
  Canal      Req_ID    Deposit_ID               Affranch.                Login                                    Etat                             Nb_Plis  Date_Modif           Date_Creation        Date_Prod_Esperee   Deblocage_Envelope
  ---------- --------- ------------------------ ------------------------ ---------------------------------------- -------------------------------- -------- -------------------- -------------------- ------------------- -------------------
+<<<<<<< HEAD
  PAPER      174498172 2561771094H              LETTRE_GRAND_COMPTE      NESTLEFR.FACTURE                         TO_BATCH                         1        Jun 27 2026  8:53AM  Jun 26 2026  8:46AM  NULL                NULL
  PAPER      174535829 2561772536I              STANDARD                 caudalie.sachot                          TO_BATCH                         1        Jun 29 2026  6:38AM  Jun 26 2026  5:16PM  NULL                Jun 26 2026  5:00PM
  PAPER      174564196 2561800580U              ECOPLI_GRAND_COMPTE      ATLANTICLOG.BALLY                        TO_BATCH                         1        Jun 29 2026  9:45AM  Jun 29 2026  9:02AM  NULL                NULL
  PAPER      174568087 2561800730K              ECOPLI_GRAND_COMPTE      MYPITNEY.770095096.ADMRJURA              TO_BATCH                         1        Jun 29 2026 10:06AM  Jun 29 2026  9:04AM  NULL                NULL
+=======
+ PAPER      174498172 2561771094H              LETTRE_GRAND_COMPTE      CLIENT_00003                         TO_BATCH                         1        Jun 27 2026  8:53AM  Jun 26 2026  8:46AM  NULL                NULL
+ PAPER      174535829 2561772536I              STANDARD                 CLIENT_00073                          TO_BATCH                         1        Jun 29 2026  6:38AM  Jun 26 2026  5:16PM  NULL                Jun 26 2026  5:00PM
+ PAPER      174564196 2561800580U              ECOPLI_GRAND_COMPTE      CLIENT_00074                        TO_BATCH                         1        Jun 29 2026  9:45AM  Jun 29 2026  9:02AM  NULL                NULL
+ PAPER      174568087 2561800730K              ECOPLI_GRAND_COMPTE      CLIENT_00075              TO_BATCH                         1        Jun 29 2026 10:06AM  Jun 29 2026  9:04AM  NULL                NULL
+>>>>>>> e3c48026bbc0dbf775127264bec033d380562877
 
 (4 lignes)
 
@@ -50,6 +82,7 @@ ACTION A FAIRE SUR CES DEMANDES : RetryRequest (105)
 
  Canal      Req_ID    Deposit_ID   Affranch.                Login                                    Etat                             Nb_Plis  Env2Batch Date_Modif           Date_Creation        Date_Prod_Esperee    Code_Erreur
  ---------- --------- ------------ ------------------------ ---------------------------------------- -------------------------------- -------- --------- -------------------- -------------------- -------------------- -----------
+<<<<<<< HEAD
  DIGITAL    174512479 4061770013Q  ECOPLI_GRAND_COMPTE      LGTGUSTAVEF.POLEMUTUALISATION            BATCHING_ERROR                   1877     1877      Jun 29 2026 11:23AM  Jun 26 2026 12:31PM  NULL                 1600003
  DIGITAL    174572516 2561800899V  SLOW                     ADAPEIDUDOUBS.GB                         CONVERTING_ERROR                 9        9         Jun 29 2026 11:22AM  Jun 29 2026  9:37AM  NULL                 2000006
  DIGITAL    174576144 2561801038Y  SLOW                     ADAPEIDUDOUBS.GB                         CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026 10:05AM  NULL                 2000006
@@ -112,6 +145,70 @@ ACTION A FAIRE SUR CES DEMANDES : RetryRequest (105)
  PAPER      174531259 2561772361X  LETTRE_GRAND_COMPTE      frshop737@amplifon.com                   VALORIZATION_ERROR               1        1         Jun 29 2026 10:43AM  Jun 26 2026  3:50PM  NULL                 2800002
  PAPER      174531512 2561772372I  LETTRE_GRAND_COMPTE      frshop737@amplifon.com                   VALORIZATION_ERROR               1        1         Jun 29 2026 10:43AM  Jun 26 2026  3:58PM  NULL                 2800002
  PAPER      174587090 2561801515G  LETTRE_GRAND_COMPTE      SAFERGRANDEST.54                         VALORIZATION_ERROR               1        1         Jun 29 2026 12:03PM  Jun 29 2026 12:03PM  NULL                 2800002
+=======
+ DIGITAL    174512479 4061770013Q  ECOPLI_GRAND_COMPTE      CLIENT_00076            BATCHING_ERROR                   1877     1877      Jun 29 2026 11:23AM  Jun 26 2026 12:31PM  NULL                 1600003
+ DIGITAL    174572516 2561800899V  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 9        9         Jun 29 2026 11:22AM  Jun 29 2026  9:37AM  NULL                 2000006
+ DIGITAL    174576144 2561801038Y  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026 10:05AM  NULL                 2000006
+ DIGITAL    174584083 2561801398P  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 2        2         Jun 29 2026 12:03PM  Jun 29 2026 11:26AM  NULL                 2000006
+ DIGITAL    174584155 2561801401L  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 29 2026 12:03PM  Jun 29 2026 11:26AM  NULL                 2000006
+ DIGITAL    174562719 2561800524M  SLOW                     CLIENT_00077            CONVERTING_ERROR                 5        5         Jun 29 2026 11:22AM  Jun 29 2026  8:58AM  NULL                 2000006
+ DIGITAL    174563536 2561800555I  SLOW                     CLIENT_00077            CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026  9:02AM  NULL                 2000006
+ DIGITAL    174564327 2561800585X  SLOW                     CLIENT_00077            CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  9:02AM  NULL                 2000006
+ DIGITAL    174565560 2561800633J  SLOW                     CLIENT_00077            CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  9:03AM  NULL                 2000006
+ DIGITAL    174565566 2561800633P  SLOW                     CLIENT_00077            CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026  9:03AM  NULL                 2000006
+ DIGITAL    174565605 2561800635C  SLOW                     CLIENT_00077            CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026  9:03AM  NULL                 2000006
+ DIGITAL    174565702 2561800638T  SLOW                     CLIENT_00077            CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  9:03AM  NULL                 2000006
+ DIGITAL    174565717 2561800639K  SLOW                     CLIENT_00077            CONVERTING_ERROR                 3        3         Jun 29 2026 11:22AM  Jun 29 2026  9:03AM  NULL                 2000006
+ DIGITAL    174569590 2561800788D  SLOW                     CLIENT_00077            CONVERTING_ERROR                 3        3         Jun 29 2026 11:22AM  Jun 29 2026  9:05AM  NULL                 2000006
+ DIGITAL    174572521 2561800900A  SLOW                     CLIENT_00077            CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026  9:37AM  NULL                 2000006
+ DIGITAL    174574652 2561800981S  SLOW                     CLIENT_00077            CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026  9:47AM  NULL                 2000006
+ DIGITAL    174575374 2561801009K  SLOW                     CLIENT_00077            CONVERTING_ERROR                 5        5         Jun 29 2026 11:22AM  Jun 29 2026  9:52AM  NULL                 2000006
+ DIGITAL    174577139 2561801077F  SLOW                     CLIENT_00077            CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026 10:07AM  NULL                 2000006
+ DIGITAL    174577860 2561801105B  SLOW                     CLIENT_00077            CONVERTING_ERROR                 3        3         Jun 29 2026 11:22AM  Jun 29 2026 10:09AM  NULL                 2000006
+ DIGITAL    174578008 2561801110M  SLOW                     CLIENT_00077            CONVERTING_ERROR                 3        3         Jun 29 2026 11:22AM  Jun 29 2026 10:13AM  NULL                 2000006
+ DIGITAL    174578603 2561801159C  SLOW                     CLIENT_00077            CONVERTING_ERROR                 6        6         Jun 29 2026 11:22AM  Jun 29 2026 10:21AM  NULL                 2000006
+ DIGITAL    174578607 2561801159G  SLOW                     CLIENT_00077            CONVERTING_ERROR                 4        4         Jun 29 2026 11:22AM  Jun 29 2026 10:21AM  NULL                 2000006
+ DIGITAL    174573573 4061800007B  LETTRE_GRAND_COMPTE      CLIENT_00078             CONVERTING_ERROR                 1324     1324      Jun 29 2026 11:24AM  Jun 29 2026  9:41AM  NULL                 2000006
+ PAPER      174567173 2561800695B  LETTRE_GRAND_COMPTE      CLIENT_00060                     CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  9:04AM  NULL                 1000000
+ PAPER      174576635 2561801057Z  ECOPLI_GRAND_COMPTE      CLIENT_00027                            CONVERTING_ERROR                 1        1         Jun 29 2026 11:23AM  Jun 29 2026 10:06AM  NULL                 2000006
+ PAPER      174585819 2561801465X  ECOPLI_GRAND_COMPTE      CLIENT_00027                            CONVERTING_ERROR                 1        1         Jun 29 2026 12:03PM  Jun 29 2026 11:42AM  NULL                 2000006
+ PAPER      174578572 2561801157W  ECOPLI_GRAND_COMPTE      CLIENT_00079                          CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026 10:20AM  NULL                 1000000
+ PAPER      174552705 2561800143E  LETTRE_GRAND_COMPTE      CLIENT_00080                              CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  6:27AM  NULL                 2000006
+ PAPER      174572554 2561800901I  LETTRE_GRAND_COMPTE      CLIENT_00080                              CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  9:37AM  NULL                 2000006
+ PAPER      174577505 2561801091R  ECOPLI_GRAND_COMPTE      CLIENT_00011                CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026 10:07AM  NULL                 2000006
+ PAPER      174557109 2561800312H  ECOPLI_GRAND_COMPTE      CLIENT_00032                          CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  7:37AM  NULL                 2000006
+ PAPER      174570632 2561800828D  ECOPLI_GRAND_COMPTE      CLIENT_00081                        CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  9:06AM  NULL                 2000006
+ PAPER      174561366 2561800473Y  INDUSTRIEL_G2            CLIENT_00082                                  CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026  8:18AM  NULL                 2000006
+ DIGITAL    174579328 2561801187O  SLOW                     CLIENT_00083                                   CONVERTING_ERROR                 1        1         Jun 29 2026 11:22AM  Jun 29 2026 10:34AM  NULL                 2000006
+ PAPER      174542838 2561780022E  LETTRE_GRAND_COMPTE      CLIENT_00015                    CONVERTING_ERROR                 2        2         Jun 29 2026 11:22AM  Jun 27 2026  2:17AM  NULL                 2000006
+ PAPER      174542884 2561780023Y  ECOPLI_GRAND_COMPTE      CLIENT_00015                    CONVERTING_ERROR                 3        3         Jun 29 2026 11:22AM  Jun 27 2026  2:17AM  NULL                 2000006
+ DIGITAL    174563202 2561800543A  SLOW                     CLIENT_00084                                      CONVERTING_ERROR                 1        1         Jun 29 2026 11:23AM  Jun 29 2026  9:01AM  NULL                 2000006
+ PAPER      174552328 2561800128S  LETTRE_GRAND_COMPTE      CLIENT_00085                             CONVERTING_ERROR                 1        1         Jun 29 2026 11:24AM  Jun 29 2026  6:21AM  NULL                 2000006
+ PAPER      174546826 2561780182T  INDUSTRIEL_G2            CLIENT_00019                CONVERTING_ERROR                 1        1         Jun 29 2026 11:23AM  Jun 27 2026  7:21PM  NULL                 2000006
+ PAPER      174546827 2561780182U  INDUSTRIEL_G2            CLIENT_00019                CONVERTING_ERROR                 1        1         Jun 29 2026 11:23AM  Jun 27 2026  7:31PM  NULL                 2000006
+ PAPER      174587009 2561801511Z  LETTRE_GRAND_COMPTE      CLIENT_00086                               CONVERTING_ERROR                 1        1         Jun 29 2026 12:02PM  Jun 29 2026 12:02PM  NULL                 2000006
+ PAPER      174586895 2561801507P  LETTRE_GRAND_COMPTE      CLIENT_00086                               CONVERTING_ERROR                 1        1         Jun 29 2026 12:03PM  Jun 29 2026 12:00PM  NULL                 2000006
+ DIGITAL    174573974 2561800955R  ECOPLI_GRAND_COMPTE      CLIENT_00087                       DIGITAL_CHECK_ERROR              58       58        Jun 29 2026 11:37AM  Jun 29 2026  9:43AM  NULL                 1000000
+ DIGITAL    174456992 4061760012W  ECOPLI_GRAND_COMPTE      CLIENT_00062                 DIGITOOLS_ERROR                  69       69        Jun 29 2026 11:44AM  Jun 25 2026  2:09PM  NULL                 3400005
+ DIGITAL    174552802 4061800000N  NULL                     CLIENT_00088                               PARSING_ERROR                    0        1         Jun 29 2026 10:11AM  Jun 29 2026  6:31AM  NULL                 1300001
+ DIGITAL    174554332 4061800001F  NULL                     CLIENT_00089 PARSING_ERROR                    0        1         Jun 29 2026 10:11AM  Jun 29 2026  7:05AM  NULL                 1300001
+ PAPER      174580332 2561801226J  NULL                     CLIENT_00090                         PARSING_ERROR                    0        1         Jun 29 2026 11:09AM  Jun 29 2026 10:42AM  NULL                 1100002
+ DIGITAL    174578752 4061800008N  NULL                     CLIENT_00091                              PARSING_ERROR                    0        1         Jun 29 2026 12:03PM  Jun 29 2026 10:25AM  NULL                 1300001
+ DIGITAL    174559481 4061800003L  NULL                     CLIENT_00092        PARSING_ERROR                    0        1         Jun 29 2026 10:11AM  Jun 29 2026  8:10AM  NULL                 1300001
+ PAPER      174579838 2561801207K  LETTRE_GRAND_COMPTE      CLIENT_00093                 VALORIZATION_ERROR               1        1         Jun 29 2026 12:03PM  Jun 29 2026 10:38AM  NULL                 2800002
+ PAPER      174520758 2561771958T  LETTRE_GRAND_COMPTE      CLIENT_00020                              VALORIZATION_ERROR               1        1         Jun 29 2026 10:43AM  Jun 26 2026  1:14PM  NULL                 2800002
+ PAPER      174520791 2561771959X  LETTRE_GRAND_COMPTE      CLIENT_00020                              VALORIZATION_ERROR               1        1         Jun 29 2026 10:43AM  Jun 26 2026  1:16PM  NULL                 2800002
+ PAPER      174583204 2561801337K  LETTRE_GRAND_COMPTE      CLIENT_00042                       VALORIZATION_ERROR               1        1         Jun 29 2026 12:04PM  Jun 29 2026 11:20AM  NULL                 2800002
+ PAPER      174522649 2561772030N  LETTRE_GRAND_COMPTE      CLIENT_00094                    VALORIZATION_ERROR               1        1         Jun 29 2026 10:43AM  Jun 26 2026  1:34PM  NULL                 2800002
+ PAPER      174567268 2561800698V  LETTRE_GRAND_COMPTE      CLIENT_00095                          VALORIZATION_ERROR               1        1         Jun 29 2026 10:40AM  Jun 29 2026  9:04AM  NULL                 2800002
+ PAPER      174576957 2561801070G  LETTRE_GRAND_COMPTE      CLIENT_00095                          VALORIZATION_ERROR               1        1         Jun 29 2026 10:44AM  Jun 29 2026 10:06AM  NULL                 2800002
+ PAPER      174579497 2561801194C  LETTRE_GRAND_COMPTE      CLIENT_00096                   VALORIZATION_ERROR               1        1         Jun 29 2026 12:03PM  Jun 29 2026 10:36AM  Jun 30 2026 12:00AM  2800002
+ PAPER      174575708 2561801022G  LETTRE_GRAND_COMPTE      CLIENT_00097                   VALORIZATION_ERROR               1        1         Jun 29 2026 10:41AM  Jun 29 2026 10:05AM  NULL                 2800002
+ PAPER      174576932 2561801069H  LETTRE_GRAND_COMPTE      CLIENT_00097                   VALORIZATION_ERROR               1        1         Jun 29 2026 10:44AM  Jun 29 2026 10:06AM  NULL                 2800002
+ PAPER      174531259 2561772361X  LETTRE_GRAND_COMPTE      CLIENT_00071                   VALORIZATION_ERROR               1        1         Jun 29 2026 10:43AM  Jun 26 2026  3:50PM  NULL                 2800002
+ PAPER      174531512 2561772372I  LETTRE_GRAND_COMPTE      CLIENT_00071                   VALORIZATION_ERROR               1        1         Jun 29 2026 10:43AM  Jun 26 2026  3:58PM  NULL                 2800002
+ PAPER      174587090 2561801515G  LETTRE_GRAND_COMPTE      CLIENT_00098                         VALORIZATION_ERROR               1        1         Jun 29 2026 12:03PM  Jun 29 2026 12:03PM  NULL                 2800002
+>>>>>>> e3c48026bbc0dbf775127264bec033d380562877
 
 (62 lignes)
 
@@ -119,6 +216,7 @@ ACTION A FAIRE SUR CES DEMANDES : Si le DEPOSIT_ID commence par 14 ou 24, appliq
 
  Canal      Req_ID    Deposit_ID   Affranch.                Login                                    Etat                             Nb_Plis  Env2Batch Date_Modif           Date_Creation        Date_Prod_Esperee    Code_Erreur
  ---------- --------- ------------ ------------------------ ---------------------------------------- -------------------------------- -------- --------- -------------------- -------------------- -------------------- -----------
+<<<<<<< HEAD
  PAPER      174563326 2561800547H  LETTRE_GRAND_COMPTE      675Lyon                                  INTERFACING_ERROR                16       16        Jun 29 2026 10:31AM  Jun 29 2026  9:01AM  NULL                 1100002
  PAPER      174576901 2561801068D  ECOPLI_GRAND_COMPTE      AGRISANTERRE.POLLET                      INTERFACING_ERROR                39       39        Jun 29 2026 10:45AM  Jun 29 2026 10:06AM  NULL                 1100002
  PAPER      174577038 2561801073J  ECOPLI_GRAND_COMPTE      AGRISANTERRE.POLLET                      INTERFACING_ERROR                19       19        Jun 29 2026 10:45AM  Jun 29 2026 10:06AM  NULL                 1100002
@@ -152,6 +250,41 @@ ACTION A FAIRE SUR CES DEMANDES : Si le DEPOSIT_ID commence par 14 ou 24, appliq
  PAPER      174578614 2561801159N  LETTRE_GRAND_COMPTE      THERMSUPPORT                             INTERFACING_ERROR                1        1         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
  PAPER      174564663 2561800598W  ECOPLI_GRAND_COMPTE      UNTOITPOURTOUS.MONTPELLIER               INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:02AM  NULL                 1100002
  PAPER      174583451 2561801346W  LETTRE_GRAND_COMPTE      VINATIS                                  INTERFACING_ERROR                9        9         Jun 29 2026 11:58AM  Jun 29 2026 11:22AM  NULL                 1100002
+=======
+ PAPER      174563326 2561800547H  LETTRE_GRAND_COMPTE      CLIENT_00099                                  INTERFACING_ERROR                16       16        Jun 29 2026 10:31AM  Jun 29 2026  9:01AM  NULL                 1100002
+ PAPER      174576901 2561801068D  ECOPLI_GRAND_COMPTE      CLIENT_00100                      INTERFACING_ERROR                39       39        Jun 29 2026 10:45AM  Jun 29 2026 10:06AM  NULL                 1100002
+ PAPER      174577038 2561801073J  ECOPLI_GRAND_COMPTE      CLIENT_00100                      INTERFACING_ERROR                19       19        Jun 29 2026 10:45AM  Jun 29 2026 10:06AM  NULL                 1100002
+ PAPER      174577111 2561801076F  ECOPLI_GRAND_COMPTE      CLIENT_00101                     INTERFACING_ERROR                2        2         Jun 29 2026 10:45AM  Jun 29 2026 10:07AM  NULL                 1100002
+ PAPER      174565651 2561800636Y  LSM                      CLIENT_00102                        INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:03AM  NULL                 1100002
+ PAPER      174565713 2561800639F  LETTRE_GRAND_COMPTE      CLIENT_00103                                INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:03AM  NULL                 1100002
+ PAPER      174576983 2561801071G  LETTRE_GRAND_COMPTE      CLIENT_00104                            INTERFACING_ERROR                1        1         Jun 29 2026 10:45AM  Jun 29 2026 10:06AM  NULL                 1100002
+ PAPER      174567047 2561800690J  LETTRE_GRAND_COMPTE      CLIENT_00105           INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:04AM  NULL                 1100002
+ PAPER      174564645 2561800598C  ECOPLI_GRAND_COMPTE      CLIENT_00106 INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:02AM  NULL                 1100002
+ PAPER      174565644 2561800636P  ECOPLI_GRAND_COMPTE      CLIENT_00107                        INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:03AM  NULL                 1100002
+ PAPER      174570955 2561800840V  LETTRE_GRAND_COMPTE      CLIENT_00108                            INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:06AM  NULL                 1100002
+ PAPER      174446402 2561761402A  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174571040 2561800844G  LETTRE_GRAND_COMPTE      CLIENT_00109                           INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:06AM  NULL                 1100002
+ PAPER      174559897 2561800418I  ECOPLI_GRAND_COMPTE      CLIENT_00110                    INTERFACING_ERROR                146      7         Jun 29 2026 10:31AM  Jun 29 2026  8:12AM  NULL                 1100002
+ PAPER      174575230 2561801003Y  LETTRE_GRAND_COMPTE      CLIENT_00111                        INTERFACING_ERROR                11       11        Jun 29 2026 10:46AM  Jun 29 2026  9:50AM  NULL                 1100002
+ PAPER      174578627 2561801160A  LETTRE_GRAND_COMPTE      CLIENT_00112      INTERFACING_ERROR                4        4         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
+ PAPER      174578681 2561801162B  LETTRE_GRAND_COMPTE      CLIENT_00113                      INTERFACING_ERROR                4        4         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
+ PAPER      174578641 2561801160O  LETTRE_GRAND_COMPTE      CLIENT_00114                                INTERFACING_ERROR                1        1         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
+ PAPER      174578623 2561801159W  LETTRE_GRAND_COMPTE      CLIENT_00115                          INTERFACING_ERROR                2        2         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
+ PAPER      174571554 2561800862I  LETTRE_GRAND_COMPTE      CLIENT_00116                INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:33AM  NULL                 1100002
+ PAPER      174578089 2561801113Q  ECOPLI_GRAND_COMPTE      CLIENT_00090                         INTERFACING_ERROR                1        1         Jun 29 2026 10:46AM  Jun 29 2026 10:14AM  NULL                 1100002
+ PAPER      174562988 2561800534U  STANDARD                 CLIENT_00117                      INTERFACING_ERROR                9        9         Jun 29 2026 10:31AM  Jun 29 2026  9:01AM  NULL                 1100002
+ PAPER      174578671 2561801161R  LETTRE_GRAND_COMPTE      CLIENT_00118                                INTERFACING_ERROR                1        1         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
+ PAPER      174564759 2561800602M  LETTRE_GRAND_COMPTE      CLIENT_00119           INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:02AM  NULL                 1100002
+ PAPER      174578661 2561801161H  LETTRE_GRAND_COMPTE      CLIENT_00120                            INTERFACING_ERROR                1        1         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
+ PAPER      174570647 2561800828Y  LETTRE_GRAND_COMPTE      CLIENT_00121                    INTERFACING_ERROR                56       56        Jun 29 2026 10:31AM  Jun 29 2026  9:06AM  NULL                 1100002
+ PAPER      174566387 2561800665K  ECOPLI_GRAND_COMPTE      CLIENT_00122                   INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:04AM  NULL                 1100002
+ PAPER      174566505 2561800669Q  ECOPLI_GRAND_COMPTE      CLIENT_00122                   INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:04AM  NULL                 1100002
+ PAPER      174564622 2561800597H  ECOPLI_GRAND_COMPTE      CLIENT_00123                                   INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:02AM  NULL                 1100002
+ PAPER      174578611 2561801159L  LETTRE_GRAND_COMPTE      CLIENT_00124                       INTERFACING_ERROR                3        3         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
+ PAPER      174578614 2561801159N  LETTRE_GRAND_COMPTE      CLIENT_00125                             INTERFACING_ERROR                1        1         Jun 29 2026 10:46AM  Jun 29 2026 10:22AM  NULL                 1100002
+ PAPER      174564663 2561800598W  ECOPLI_GRAND_COMPTE      CLIENT_00126               INTERFACING_ERROR                1        1         Jun 29 2026 10:31AM  Jun 29 2026  9:02AM  NULL                 1100002
+ PAPER      174583451 2561801346W  LETTRE_GRAND_COMPTE      CLIENT_00127                                  INTERFACING_ERROR                9        9         Jun 29 2026 11:58AM  Jun 29 2026 11:22AM  NULL                 1100002
+>>>>>>> e3c48026bbc0dbf775127264bec033d380562877
 
 (33 lignes)
 

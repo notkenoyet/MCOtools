@@ -54,6 +54,7 @@ CREATE INDEX IF NOT EXISTS idx_request_etat ON request(etat);
 CREATE INDEX IF NOT EXISTS idx_batch_etat ON batch(etat);
 CREATE INDEX IF NOT EXISTS idx_request_source_file ON request(source_file);
 CREATE INDEX IF NOT EXISTS idx_batch_source_file ON batch(source_file);
+<<<<<<< HEAD
 CREATE INDEX IF NOT EXISTS idx_deposit_source_file ON deposit(source_file);
 
 -- ===== Service auth =====
@@ -79,3 +80,6 @@ CREATE TABLE IF NOT EXISTS rapport_genere (
 CREATE INDEX IF NOT EXISTS idx_utilisateur_email ON utilisateur(email);
 CREATE INDEX IF NOT EXISTS idx_utilisateur_token_activation ON utilisateur(token_activation);
 CREATE INDEX IF NOT EXISTS idx_rapport_genere_utilisateur ON rapport_genere(utilisateur_id);
+=======
+CREATE INDEX IF NOT EXISTS idx_deposit_source_file ON deposit(source_file);
+>>>>>>> e3c48026bbc0dbf775127264bec033d380562877

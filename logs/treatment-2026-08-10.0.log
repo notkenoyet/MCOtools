@@ -1,0 +1,5 @@
+2026-08-10 14:02:39 [main] INFO  c.m.treatment.TreatmentApplication - Starting TreatmentApplication using Java 23.0.2 with PID 19992 (C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\target\classes started by mouad in C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment)
+2026-08-10 14:02:39 [main] DEBUG c.m.treatment.TreatmentApplication - Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-08-10 14:02:39 [main] INFO  c.m.treatment.TreatmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-10 14:02:41 [main] INFO  c.m.treatment.TreatmentApplication - Started TreatmentApplication in 1.503 seconds (process running for 1.811)
+2026-08-10 14:02:41 [main] INFO  c.m.treatment.TreatmentApplication - Service treatment demarre avec succes

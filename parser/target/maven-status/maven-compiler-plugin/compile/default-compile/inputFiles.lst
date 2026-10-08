@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\zizom\OneDrive\Escritorio\MCOtools-front test\parser\src\main\java\com\mcotools\parser\client\McoClient.java
 C:\Users\zizom\OneDrive\Escritorio\MCOtools-front test\parser\src\main\java\com\mcotools\parser\config\CorsConfig.java
 C:\Users\zizom\OneDrive\Escritorio\MCOtools-front test\parser\src\main\java\com\mcotools\parser\config\RestClientConfig.java
@@ -14,3 +15,20 @@ C:\Users\zizom\OneDrive\Escritorio\MCOtools-front test\parser\src\main\java\com\
 C:\Users\zizom\OneDrive\Escritorio\MCOtools-front test\parser\src\main\java\com\mcotools\parser\parsing\ValueParsers.java
 C:\Users\zizom\OneDrive\Escritorio\MCOtools-front test\parser\src\main\java\com\mcotools\parser\service\ParserService.java
 C:\Users\zizom\OneDrive\Escritorio\MCOtools-front test\parser\src\main\java\com\mcotools\parser\service\ParseSummary.java
+=======
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\parser\src\main\java\com\mcotools\parser\client\McoClient.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\parser\src\main\java\com\mcotools\parser\config\RestClientConfig.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\parser\src\main\java\com\mcotools\parser\controller\ParserController.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\parser\src\main\java\com\mcotools\parser\dto\BatchDto.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\parser\src\main\java\com\mcotools\parser\dto\DepositDto.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\parser\src\main\java\com\mcotools\parser\dto\RequestDto.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\parser\src\main\java\com\mcotools\parser\exception\GlobalExceptionHandler.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\parser\src\main\java\com\mcotools\parser\ParserApplication.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\parser\src\main\java\com\mcotools\parser\parsing\ColumnSpec.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\parser\src\main\java\com\mcotools\parser\parsing\FieldMapper.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\parser\src\main\java\com\mcotools\parser\parsing\ParsingResult.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\parser\src\main\java\com\mcotools\parser\parsing\ReportParser.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\parser\src\main\java\com\mcotools\parser\parsing\ValueParsers.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\parser\src\main\java\com\mcotools\parser\service\ParserService.java
+C:\Users\zizom\OneDrive\Escritorio\MCOtools\parser\src\main\java\com\mcotools\parser\service\ParseSummary.java
+>>>>>>> e3c48026bbc0dbf775127264bec033d380562877

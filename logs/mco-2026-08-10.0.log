@@ -1,0 +1,12 @@
+2026-08-10 14:02:12 [main] INFO  com.mcotools.mco.McoApplication - Starting McoApplication using Java 23.0.2 with PID 6852 (C:\Users\zizom\OneDrive\Escritorio\MCOtools\mco\target\classes started by mouad in C:\Users\zizom\OneDrive\Escritorio\MCOtools\mco)
+2026-08-10 14:02:12 [main] DEBUG com.mcotools.mco.McoApplication - Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-08-10 14:02:12 [main] INFO  com.mcotools.mco.McoApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-10 14:02:18 [main] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-10 14:02:18 [main] INFO  com.mcotools.mco.McoApplication - Started McoApplication in 7.678 seconds (process running for 8.375)
+2026-08-10 14:02:18 [main] INFO  com.mcotools.mco.McoApplication - Service mco demarre avec succes
+2026-08-10 14:02:55 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-10 14:02:55 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-08-10 14:02:55 [http-nio-8082-exec-1] DEBUG c.m.controller.BatchController - GET /api/batches - recuperation de tous les batches
+2026-08-10 14:02:55 [http-nio-8082-exec-1] INFO  c.m.controller.BatchController - GET /api/batches - 114 batch(es) retourne(s)
+2026-08-10 14:03:19 [http-nio-8082-exec-3] DEBUG c.m.controller.BatchController - POST /api/batches - creation demandee: TEST-REF
+2026-08-10 14:03:19 [http-nio-8082-exec-3] INFO  c.m.controller.BatchController - POST /api/batches - batch cree avec id=999999999

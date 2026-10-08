@@ -6,6 +6,7 @@ ACTION A FAIRE SUR CES DEMANDES : ReloadRequest (106) ou Attention si FORMATTED 
 
  Canal      Req_ID    Deposit_ID               Affranch.                Login                                    Etat                             Nb_Plis  Date_Modif           Date_Creation        Date_Prod_Esperee   Deblocage_Envelope
  ---------- --------- ------------------------ ------------------------ ---------------------------------------- -------------------------------- -------- -------------------- -------------------- ------------------- -------------------
+<<<<<<< HEAD
  DIGITAL    174483389 4061770002F                                       CIRAD.PAIE                               DIGIPOSTE_CREATE_SUBSCRIBERS     388      Jun 26 2026  7:37AM  Jun 26 2026  6:51AM  NULL                NULL
  DIGITAL    174497168 4061770006N                                       MAIRIECHAMPIGNY.PAIE                     DIGIPOSTE_CREATE_SUBSCRIBERS     2403     Jun 26 2026  9:20AM  Jun 26 2026  8:36AM  NULL                NULL
  DIGITAL    174497295 2561771060Q                                       MairiedeCambon                           FORMATTED                        28       Jun 26 2026  8:41AM  Jun 26 2026  8:36AM  NULL                NULL
@@ -15,6 +16,17 @@ ACTION A FAIRE SUR CES DEMANDES : ReloadRequest (106) ou Attention si FORMATTED 
  DIGITAL    174500689 2561771189N                                       TOKAICOBEXSAVOIE                         FORMATTED                        249      Jun 26 2026  9:30AM  Jun 26 2026  9:20AM  NULL                NULL
  PAPER      174501068 2561771203M              ECOPLI_GRAND_COMPTE      apservices77.celine                      FORMATTED                        31       Jun 26 2026  9:33AM  Jun 26 2026  9:21AM  NULL                NULL
  DIGITAL    174503420 2561771292O                                       ALCEANE.RH                               FORMATTED                        306      Jun 26 2026 10:04AM  Jun 26 2026  9:54AM  NULL                NULL
+=======
+ DIGITAL    174483389 4061770002F                                       CIRAD.PAIE                               CLIENT_00001     388      Jun 26 2026  7:37AM  Jun 26 2026  6:51AM  NULL                NULL
+ DIGITAL    174497168 4061770006N                                       MAIRIECHAMPIGNY.PAIE                     CLIENT_00001     2403     Jun 26 2026  9:20AM  Jun 26 2026  8:36AM  NULL                NULL
+ DIGITAL    174497295 2561771060Q                                       MairiedeCambon                           CLIENT_00056                        28       Jun 26 2026  8:41AM  Jun 26 2026  8:36AM  NULL                NULL
+ DIGITAL    174499727 2561771153P                                       INTRASIPA.BP                             CLIENT_00056                        110      Jun 26 2026  9:30AM  Jun 26 2026  9:02AM  NULL                NULL
+ DIGITAL    174500615 2561771187C                                       AgglomerationduSaint-Quentinois          CLIENT_00056                        128      Jun 26 2026  9:30AM  Jun 26 2026  9:14AM  NULL                NULL
+ DIGITAL    174500635 4061770008O                                       MLF.RH                                   CLIENT_00056                        113      Jun 26 2026  9:30AM  Jun 26 2026  9:20AM  NULL                NULL
+ DIGITAL    174500689 2561771189N                                       TOKAICOBEXSAVOIE                         CLIENT_00056                        249      Jun 26 2026  9:30AM  Jun 26 2026  9:20AM  NULL                NULL
+ PAPER      174501068 2561771203M              ECOPLI_GRAND_COMPTE      CLIENT_00057                      FORMATTED                        31       Jun 26 2026  9:33AM  Jun 26 2026  9:21AM  NULL                NULL
+ DIGITAL    174503420 2561771292O                                       ALCEANE.RH                               CLIENT_00056                        306      Jun 26 2026 10:04AM  Jun 26 2026  9:54AM  NULL                NULL
+>>>>>>> e3c48026bbc0dbf775127264bec033d380562877
 
 (9 lignes)
 
@@ -22,7 +34,11 @@ ACTION A FAIRE SUR CES DEMANDES : Escalade MCO
 
  Canal      Req_ID    Deposit_ID               Affranch.                Login                                    Etat                             Nb_Plis  Date_Modif           Date_Creation        Date_Prod_Esperee   Deblocage_Envelope
  ---------- --------- ------------------------ ------------------------ ---------------------------------------- -------------------------------- -------- -------------------- -------------------- ------------------- -------------------
+<<<<<<< HEAD
  PAPER      174433354 4061760005H              LETTRE_GRAND_COMPTE      FEDADMRCHARENTE.MAULIN                   TO_BATCH                         4025     Jun 26 2026  8:26AM  Jun 25 2026  8:57AM  NULL                NULL
+=======
+ PAPER      174433354 4061760005H              LETTRE_GRAND_COMPTE      CLIENT_00031                   TO_BATCH                         4025     Jun 26 2026  8:26AM  Jun 25 2026  8:57AM  NULL                NULL
+>>>>>>> e3c48026bbc0dbf775127264bec033d380562877
 
 (1 lignes)
 
@@ -34,6 +50,7 @@ ACTION A FAIRE SUR CES DEMANDES : RetryRequest (105)
 
  Canal      Req_ID    Deposit_ID   Affranch.                Login                                    Etat                             Nb_Plis  Env2Batch Date_Modif           Date_Creation        Date_Prod_Esperee    Code_Erreur
  ---------- --------- ------------ ------------------------ ---------------------------------------- -------------------------------- -------- --------- -------------------- -------------------- -------------------- -----------
+<<<<<<< HEAD
  DIGITAL    174511535 2561771602P  SLOW                     ADAPEIDUDOUBS.GB                         CONVERTING_ERROR                 1        1         Jun 26 2026 11:59AM  Jun 26 2026 11:40AM  NULL                 2000006
  DIGITAL    174511558 2561771603O  SLOW                     ADAPEIDUDOUBS.GB                         CONVERTING_ERROR                 1        1         Jun 26 2026 11:59AM  Jun 26 2026 11:40AM  NULL                 2000006
  DIGITAL    174511560 2561771603Q  SLOW                     ADAPEIDUDOUBS.GB                         CONVERTING_ERROR                 1        1         Jun 26 2026 11:59AM  Jun 26 2026 11:40AM  NULL                 2000006
@@ -76,6 +93,50 @@ ACTION A FAIRE SUR CES DEMANDES : RetryRequest (105)
  DIGITAL    174503665 2561771301Z  STANDARD                 ThermesdeThononlesBains                  CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026  9:55AM  NULL                 2000006
  PAPER      174488319 2561770511I  ECOPLI_GRAND_COMPTE      VALSOLEIL.SERVICEADM                     CONVERTING_ERROR                 22       22        Jun 26 2026 12:00PM  Jun 26 2026  7:37AM  NULL                 2000006
  DIGITAL    174456992 4061760012W  ECOPLI_GRAND_COMPTE      MAIRIE-THUMERIES.LEMOINE                 DIGITOOLS_ERROR                  69       69        Jun 26 2026 12:00PM  Jun 25 2026  2:09PM  NULL                 3400005
+=======
+ DIGITAL    174511535 2561771602P  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 11:59AM  Jun 26 2026 11:40AM  NULL                 2000006
+ DIGITAL    174511558 2561771603O  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 11:59AM  Jun 26 2026 11:40AM  NULL                 2000006
+ DIGITAL    174511560 2561771603Q  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 11:59AM  Jun 26 2026 11:40AM  NULL                 2000006
+ DIGITAL    174511729 2561771610E  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 11:59AM  Jun 26 2026 11:42AM  NULL                 2000006
+ DIGITAL    174511878 2561771616A  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 11:59AM  Jun 26 2026 11:44AM  NULL                 2000006
+ DIGITAL    174512021 2561771621Q  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 11:59AM  Jun 26 2026 11:47AM  NULL                 2000006
+ DIGITAL    174512026 2561771621V  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 11:59AM  Jun 26 2026 11:47AM  NULL                 2000006
+ DIGITAL    174512226 2561771629O  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 11:59AM  Jun 26 2026 11:50AM  NULL                 2000006
+ DIGITAL    174512229 2561771629R  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 11:59AM  Jun 26 2026 11:50AM  NULL                 2000006
+ DIGITAL    174498634 2561771111Y  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026  8:50AM  NULL                 2000006
+ DIGITAL    174507093 2561771428F  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 10:24AM  NULL                 2000006
+ DIGITAL    174507343 2561771437W  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 10:30AM  NULL                 2000006
+ DIGITAL    174507501 2561771444A  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 10:32AM  NULL                 2000006
+ DIGITAL    174507661 2561771450F  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 10:33AM  NULL                 2000006
+ DIGITAL    174507966 2561771462D  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 10:35AM  NULL                 2000006
+ DIGITAL    174508061 2561771465U  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 10:37AM  NULL                 2000006
+ DIGITAL    174508383 2561771478L  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 10:43AM  NULL                 2000006
+ DIGITAL    174509506 2561771522B  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 10:59AM  NULL                 2000006
+ DIGITAL    174509524 2561771522T  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 10:59AM  NULL                 2000006
+ DIGITAL    174509750 2561771531Z  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 11:05AM  NULL                 2000006
+ DIGITAL    174510067 2561771545A  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 11:10AM  NULL                 2000006
+ DIGITAL    174510273 2561771553H  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 11:16AM  NULL                 2000006
+ DIGITAL    174510438 2561771559Q  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 11:18AM  NULL                 2000006
+ DIGITAL    174510743 2561771571G  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 11:22AM  NULL                 2000006
+ DIGITAL    174510746 2561771571J  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 11:22AM  NULL                 2000006
+ DIGITAL    174510841 2561771575I  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 11:26AM  NULL                 2000006
+ DIGITAL    174510857 2561771575Y  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 11:26AM  NULL                 2000006
+ DIGITAL    174510875 2561771576Q  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 11:26AM  NULL                 2000006
+ DIGITAL    174510949 2561771579Q  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 11:28AM  NULL                 2000006
+ DIGITAL    174510968 2561771580K  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 11:28AM  NULL                 2000006
+ DIGITAL    174510970 2561771580M  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 11:28AM  NULL                 2000006
+ DIGITAL    174510976 2561771580S  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 11:28AM  NULL                 2000006
+ DIGITAL    174511229 2561771590U  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 11:34AM  NULL                 2000006
+ DIGITAL    174511311 2561771593Z  SLOW                     CLIENT_00058                         CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 11:36AM  NULL                 2000006
+ PAPER      174452042 2561761621V  ECOPLI_GRAND_COMPTE      CLIENT_00059                          CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 25 2026  1:19PM  NULL                 1000000
+ PAPER      174484889 2561770298S  LETTRE_GRAND_COMPTE      CLIENT_00060                     CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026  7:03AM  NULL                 1000000
+ PAPER      174499592 2561771148K  LETTRE_GRAND_COMPTE      CLIENT_00009                   CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026  8:59AM  NULL                 2000006
+ PAPER      174504528 2561771335G  ECOPLI_GRAND_COMPTE      CLIENT_00011                CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 10:00AM  NULL                 2000006
+ PAPER      174511343 2561771595F  STANDARD                 CLIENT_00018                           CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026 11:36AM  NULL                 2000006
+ DIGITAL    174503665 2561771301Z  STANDARD                 CLIENT_00061                  CONVERTING_ERROR                 1        1         Jun 26 2026 12:00PM  Jun 26 2026  9:55AM  NULL                 2000006
+ PAPER      174488319 2561770511I  ECOPLI_GRAND_COMPTE      CLIENT_00034                     CONVERTING_ERROR                 22       22        Jun 26 2026 12:00PM  Jun 26 2026  7:37AM  NULL                 2000006
+ DIGITAL    174456992 4061760012W  ECOPLI_GRAND_COMPTE      CLIENT_00062                 DIGITOOLS_ERROR                  69       69        Jun 26 2026 12:00PM  Jun 25 2026  2:09PM  NULL                 3400005
+>>>>>>> e3c48026bbc0dbf775127264bec033d380562877
 
 (42 lignes)
 
@@ -83,6 +144,7 @@ ACTION A FAIRE SUR CES DEMANDES : Si le DEPOSIT_ID commence par 14 ou 24, appliq
 
  Canal      Req_ID    Deposit_ID   Affranch.                Login                                    Etat                             Nb_Plis  Env2Batch Date_Modif           Date_Creation        Date_Prod_Esperee    Code_Erreur
  ---------- --------- ------------ ------------------------ ---------------------------------------- -------------------------------- -------- --------- -------------------- -------------------- -------------------- -----------
+<<<<<<< HEAD
  PAPER      174446402 2561761402A  NULL                     EMETTEUR                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
  PAPER      174446403 2561761402B  NULL                     EMETTEUR                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
  PAPER      174446405 2561761402D  NULL                     EMETTEUR                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
@@ -138,6 +200,63 @@ ACTION A FAIRE SUR CES DEMANDES : Si le DEPOSIT_ID commence par 14 ou 24, appliq
  PAPER      174446739 2561761415F  NULL                     EMETTEUR                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:14PM  Jun 25 2026 12:14PM  NULL                 1100002
  PAPER      174446741 2561761415H  NULL                     EMETTEUR                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:14PM  Jun 25 2026 12:14PM  NULL                 1100002
  PAPER      174510715 2561771570G  LETTRE_GRAND_COMPTE      UGECAMBRPL4                              INTERFACING_ERROR                8        8         Jun 26 2026 11:33AM  Jun 26 2026 11:22AM  NULL                 1100002
+=======
+ PAPER      174446402 2561761402A  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446403 2561761402B  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446405 2561761402D  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446406 2561761402E  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446407 2561761402F  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446408 2561761402G  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446411 2561761402J  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446414 2561761402M  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446421 2561761402T  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446422 2561761402U  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446423 2561761402V  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446424 2561761402W  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446425 2561761402X  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446426 2561761402Y  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446428 2561761403A  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446429 2561761403B  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446430 2561761403C  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446431 2561761403D  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446432 2561761403E  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446456 2561761404C  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446458 2561761404E  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:10PM  Jun 25 2026 12:10PM  NULL                 1100002
+ PAPER      174446519 2561761406P  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446527 2561761406X  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446528 2561761406Y  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446577 2561761408V  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446579 2561761408X  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446580 2561761408Y  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446581 2561761408Z  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446583 2561761409B  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446584 2561761409C  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446585 2561761409D  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446591 2561761409J  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446592 2561761409K  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446593 2561761409L  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446597 2561761409P  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446598 2561761409Q  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446599 2561761409R  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446600 2561761409S  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446601 2561761409T  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446603 2561761409V  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:12PM  Jun 25 2026 12:12PM  NULL                 1100002
+ PAPER      174446705 2561761413X  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:14PM  Jun 25 2026 12:14PM  NULL                 1100002
+ PAPER      174446717 2561761414J  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:14PM  Jun 25 2026 12:14PM  NULL                 1100002
+ PAPER      174446718 2561761414K  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:14PM  Jun 25 2026 12:14PM  NULL                 1100002
+ PAPER      174446720 2561761414M  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:14PM  Jun 25 2026 12:14PM  NULL                 1100002
+ PAPER      174446722 2561761414O  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:14PM  Jun 25 2026 12:14PM  NULL                 1100002
+ PAPER      174446723 2561761414P  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:14PM  Jun 25 2026 12:14PM  NULL                 1100002
+ PAPER      174446725 2561761414R  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:14PM  Jun 25 2026 12:14PM  NULL                 1100002
+ PAPER      174446733 2561761414Z  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:14PM  Jun 25 2026 12:14PM  NULL                 1100002
+ PAPER      174446734 2561761415A  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:14PM  Jun 25 2026 12:14PM  NULL                 1100002
+ PAPER      174446735 2561761415B  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:14PM  Jun 25 2026 12:14PM  NULL                 1100002
+ PAPER      174446736 2561761415C  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:14PM  Jun 25 2026 12:14PM  NULL                 1100002
+ PAPER      174446738 2561761415E  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:14PM  Jun 25 2026 12:14PM  NULL                 1100002
+ PAPER      174446739 2561761415F  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:14PM  Jun 25 2026 12:14PM  NULL                 1100002
+ PAPER      174446741 2561761415H  NULL                     CLIENT_00055                                 INTERFACING_ERROR                0        1         Jun 25 2026 12:14PM  Jun 25 2026 12:14PM  NULL                 1100002
+ PAPER      174510715 2561771570G  LETTRE_GRAND_COMPTE      CLIENT_00063                              INTERFACING_ERROR                8        8         Jun 26 2026 11:33AM  Jun 26 2026 11:22AM  NULL                 1100002
+>>>>>>> e3c48026bbc0dbf775127264bec033d380562877
 
 (55 lignes)
 

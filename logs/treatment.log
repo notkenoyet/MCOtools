@@ -1,0 +1,119 @@
+2026-08-30 04:21:56 [main] INFO  c.m.treatment.TreatmentApplication - Starting TreatmentApplication using Java 23.0.2 with PID 6148 (C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\target\classes started by mouad in C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment)
+2026-08-30 04:21:56 [main] DEBUG c.m.treatment.TreatmentApplication - Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-08-30 04:21:56 [main] INFO  c.m.treatment.TreatmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-30 04:21:58 [main] INFO  c.m.treatment.TreatmentApplication - Started TreatmentApplication in 2.782 seconds (process running for 3.185)
+2026-08-30 04:21:58 [main] INFO  c.m.treatment.TreatmentApplication - Service treatment demarre avec succes
+2026-08-30 04:23:02 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-30 04:23:02 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-08-30 04:23:02 [http-nio-8083-exec-1] DEBUG c.m.t.controller.RapportController - GET /rapportTraitement/pdf - generation du rapport PDF demandee (sourceFile=MCOtools-24062026_08h50.txt)
+2026-08-30 04:23:02 [http-nio-8083-exec-1] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools-24062026_08h50.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:02 [http-nio-8083-exec-1] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools-24062026_08h50.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:02 [http-nio-8083-exec-1] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools-24062026_08h50.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:03 [http-nio-8083-exec-1] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools-24062026_08h50.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:03 [http-nio-8083-exec-1] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools-24062026_08h50.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:03 [http-nio-8083-exec-1] DEBUG c.m.treatment.client.McoClient - Recuperation des batches du fichier source MCOtools-24062026_08h50.txt depuis http://localhost:8082/api/batches/source
+2026-08-30 04:23:03 [http-nio-8083-exec-1] DEBUG c.m.treatment.client.McoClient - Recuperation des deposits du fichier source MCOtools-24062026_08h50.txt depuis http://localhost:8082/api/deposits/source
+2026-08-30 04:23:03 [http-nio-8083-exec-1] INFO  c.m.t.rules.TreatmentRulesService - Rapport de traitement genere (source=MCOtools-24062026_08h50.txt) : 50 ligne(s)
+2026-08-30 04:23:03 [http-nio-8083-exec-1] INFO  c.m.treatment.rules.PdfReportService - Rapport PDF genere : 50 ligne(s), 4 page(s)
+2026-08-30 04:23:03 [http-nio-8083-exec-1] INFO  c.m.t.controller.RapportController - GET /rapportTraitement/pdf - PDF genere (50 ligne(s), 4564 octets)
+2026-08-30 04:23:04 [http-nio-8083-exec-3] DEBUG c.m.t.controller.RapportController - GET /rapportTraitement/pdf - generation du rapport PDF demandee (sourceFile=MCOtools-25062026_14h10.txt)
+2026-08-30 04:23:04 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools-25062026_14h10.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:04 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools-25062026_14h10.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:04 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools-25062026_14h10.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:04 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools-25062026_14h10.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:04 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools-25062026_14h10.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:04 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation des batches du fichier source MCOtools-25062026_14h10.txt depuis http://localhost:8082/api/batches/source
+2026-08-30 04:23:04 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation des deposits du fichier source MCOtools-25062026_14h10.txt depuis http://localhost:8082/api/deposits/source
+2026-08-30 04:23:04 [http-nio-8083-exec-3] INFO  c.m.t.rules.TreatmentRulesService - Rapport de traitement genere (source=MCOtools-25062026_14h10.txt) : 135 ligne(s)
+2026-08-30 04:23:04 [http-nio-8083-exec-3] INFO  c.m.treatment.rules.PdfReportService - Rapport PDF genere : 135 ligne(s), 9 page(s)
+2026-08-30 04:23:04 [http-nio-8083-exec-3] INFO  c.m.t.controller.RapportController - GET /rapportTraitement/pdf - PDF genere (135 ligne(s), 10259 octets)
+2026-08-30 04:23:06 [http-nio-8083-exec-5] DEBUG c.m.t.controller.RapportController - GET /rapportTraitement/pdf - generation du rapport PDF demandee (sourceFile=MCOtools-26062026_14h00.txt)
+2026-08-30 04:23:06 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools-26062026_14h00.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:06 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools-26062026_14h00.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:06 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools-26062026_14h00.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:06 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools-26062026_14h00.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:06 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools-26062026_14h00.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:06 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation des batches du fichier source MCOtools-26062026_14h00.txt depuis http://localhost:8082/api/batches/source
+2026-08-30 04:23:06 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation des deposits du fichier source MCOtools-26062026_14h00.txt depuis http://localhost:8082/api/deposits/source
+2026-08-30 04:23:06 [http-nio-8083-exec-5] INFO  c.m.t.rules.TreatmentRulesService - Rapport de traitement genere (source=MCOtools-26062026_14h00.txt) : 267 ligne(s)
+2026-08-30 04:23:06 [http-nio-8083-exec-5] INFO  c.m.treatment.rules.PdfReportService - Rapport PDF genere : 267 ligne(s), 17 page(s)
+2026-08-30 04:23:06 [http-nio-8083-exec-5] INFO  c.m.t.controller.RapportController - GET /rapportTraitement/pdf - PDF genere (267 ligne(s), 18969 octets)
+2026-08-30 04:23:07 [http-nio-8083-exec-6] DEBUG c.m.t.controller.RapportController - GET /rapportTraitement/pdf - generation du rapport PDF demandee (sourceFile=MCOtools_20260624.txt)
+2026-08-30 04:23:07 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_20260624.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:07 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_20260624.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:07 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_20260624.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:07 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_20260624.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:07 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_20260624.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:07 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation des batches du fichier source MCOtools_20260624.txt depuis http://localhost:8082/api/batches/source
+2026-08-30 04:23:07 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation des deposits du fichier source MCOtools_20260624.txt depuis http://localhost:8082/api/deposits/source
+2026-08-30 04:23:07 [http-nio-8083-exec-6] INFO  c.m.t.rules.TreatmentRulesService - Rapport de traitement genere (source=MCOtools_20260624.txt) : 103 ligne(s)
+2026-08-30 04:23:07 [http-nio-8083-exec-6] INFO  c.m.treatment.rules.PdfReportService - Rapport PDF genere : 103 ligne(s), 7 page(s)
+2026-08-30 04:23:07 [http-nio-8083-exec-6] INFO  c.m.t.controller.RapportController - GET /rapportTraitement/pdf - PDF genere (103 ligne(s), 7952 octets)
+2026-08-30 04:23:08 [http-nio-8083-exec-8] DEBUG c.m.t.controller.RapportController - GET /rapportTraitement/pdf - generation du rapport PDF demandee (sourceFile=MCOtools_20260629-01.txt)
+2026-08-30 04:23:08 [http-nio-8083-exec-8] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_20260629-01.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:08 [http-nio-8083-exec-8] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_20260629-01.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:08 [http-nio-8083-exec-8] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_20260629-01.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:08 [http-nio-8083-exec-8] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_20260629-01.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:08 [http-nio-8083-exec-8] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_20260629-01.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:08 [http-nio-8083-exec-8] DEBUG c.m.treatment.client.McoClient - Recuperation des batches du fichier source MCOtools_20260629-01.txt depuis http://localhost:8082/api/batches/source
+2026-08-30 04:23:08 [http-nio-8083-exec-8] DEBUG c.m.treatment.client.McoClient - Recuperation des deposits du fichier source MCOtools_20260629-01.txt depuis http://localhost:8082/api/deposits/source
+2026-08-30 04:23:08 [http-nio-8083-exec-8] INFO  c.m.t.rules.TreatmentRulesService - Rapport de traitement genere (source=MCOtools_20260629-01.txt) : 92 ligne(s)
+2026-08-30 04:23:08 [http-nio-8083-exec-8] INFO  c.m.treatment.rules.PdfReportService - Rapport PDF genere : 92 ligne(s), 6 page(s)
+2026-08-30 04:23:08 [http-nio-8083-exec-8] INFO  c.m.t.controller.RapportController - GET /rapportTraitement/pdf - PDF genere (92 ligne(s), 7139 octets)
+2026-08-30 04:23:13 [http-nio-8083-exec-10] DEBUG c.m.t.controller.RapportController - GET /rapportTraitement/pdf - generation du rapport PDF demandee (sourceFile=MCOtools_20260629.txt)
+2026-08-30 04:23:13 [http-nio-8083-exec-10] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_20260629.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:13 [http-nio-8083-exec-10] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_20260629.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:13 [http-nio-8083-exec-10] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_20260629.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:13 [http-nio-8083-exec-10] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_20260629.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:13 [http-nio-8083-exec-10] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_20260629.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:13 [http-nio-8083-exec-10] DEBUG c.m.treatment.client.McoClient - Recuperation des batches du fichier source MCOtools_20260629.txt depuis http://localhost:8082/api/batches/source
+2026-08-30 04:23:13 [http-nio-8083-exec-10] DEBUG c.m.treatment.client.McoClient - Recuperation des deposits du fichier source MCOtools_20260629.txt depuis http://localhost:8082/api/deposits/source
+2026-08-30 04:23:13 [http-nio-8083-exec-10] INFO  c.m.t.rules.TreatmentRulesService - Rapport de traitement genere (source=MCOtools_20260629.txt) : 513 ligne(s)
+2026-08-30 04:23:13 [http-nio-8083-exec-10] INFO  c.m.treatment.rules.PdfReportService - Rapport PDF genere : 513 ligne(s), 33 page(s)
+2026-08-30 04:23:13 [http-nio-8083-exec-10] INFO  c.m.t.controller.RapportController - GET /rapportTraitement/pdf - PDF genere (513 ligne(s), 36244 octets)
+2026-08-30 04:23:14 [http-nio-8083-exec-3] DEBUG c.m.t.controller.RapportController - GET /rapportTraitement/pdf - generation du rapport PDF demandee (sourceFile=MCOtools_23062026-01.txt)
+2026-08-30 04:23:14 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_23062026-01.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:14 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_23062026-01.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:14 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_23062026-01.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:14 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_23062026-01.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:14 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_23062026-01.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:14 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation des batches du fichier source MCOtools_23062026-01.txt depuis http://localhost:8082/api/batches/source
+2026-08-30 04:23:14 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation des deposits du fichier source MCOtools_23062026-01.txt depuis http://localhost:8082/api/deposits/source
+2026-08-30 04:23:14 [http-nio-8083-exec-3] INFO  c.m.t.rules.TreatmentRulesService - Rapport de traitement genere (source=MCOtools_23062026-01.txt) : 12 ligne(s)
+2026-08-30 04:23:14 [http-nio-8083-exec-3] INFO  c.m.treatment.rules.PdfReportService - Rapport PDF genere : 12 ligne(s), 1 page(s)
+2026-08-30 04:23:14 [http-nio-8083-exec-3] INFO  c.m.t.controller.RapportController - GET /rapportTraitement/pdf - PDF genere (12 ligne(s), 1598 octets)
+2026-08-30 04:23:14 [http-nio-8083-exec-5] DEBUG c.m.t.controller.RapportController - GET /rapportTraitement/pdf - generation du rapport PDF demandee (sourceFile=MCOtools_23062026.txt)
+2026-08-30 04:23:14 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_23062026.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:14 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_23062026.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:15 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_23062026.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:15 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_23062026.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:15 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_23062026.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:15 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation du request 174288158 depuis http://localhost:8082/api/requests
+2026-08-30 04:23:15 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation du request 174288640 depuis http://localhost:8082/api/requests
+2026-08-30 04:23:15 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation des batches du fichier source MCOtools_23062026.txt depuis http://localhost:8082/api/batches/source
+2026-08-30 04:23:15 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation des deposits du fichier source MCOtools_23062026.txt depuis http://localhost:8082/api/deposits/source
+2026-08-30 04:23:15 [http-nio-8083-exec-5] INFO  c.m.t.rules.TreatmentRulesService - Rapport de traitement genere (source=MCOtools_23062026.txt) : 33 ligne(s)
+2026-08-30 04:23:15 [http-nio-8083-exec-5] INFO  c.m.treatment.rules.PdfReportService - Rapport PDF genere : 33 ligne(s), 3 page(s)
+2026-08-30 04:23:15 [http-nio-8083-exec-5] INFO  c.m.t.controller.RapportController - GET /rapportTraitement/pdf - PDF genere (33 ligne(s), 3925 octets)
+2026-08-30 04:23:15 [http-nio-8083-exec-6] DEBUG c.m.t.controller.RapportController - GET /rapportTraitement/pdf - generation du rapport PDF demandee (sourceFile=MCOtools_25062026.txt)
+2026-08-30 04:23:15 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_25062026.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:15 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_25062026.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:15 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_25062026.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:15 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_25062026.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:15 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_25062026.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:15 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation des batches du fichier source MCOtools_25062026.txt depuis http://localhost:8082/api/batches/source
+2026-08-30 04:23:16 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation des deposits du fichier source MCOtools_25062026.txt depuis http://localhost:8082/api/deposits/source
+2026-08-30 04:23:16 [http-nio-8083-exec-6] INFO  c.m.t.rules.TreatmentRulesService - Rapport de traitement genere (source=MCOtools_25062026.txt) : 104 ligne(s)
+2026-08-30 04:23:16 [http-nio-8083-exec-6] INFO  c.m.treatment.rules.PdfReportService - Rapport PDF genere : 104 ligne(s), 7 page(s)
+2026-08-30 04:23:16 [http-nio-8083-exec-6] INFO  c.m.t.controller.RapportController - GET /rapportTraitement/pdf - PDF genere (104 ligne(s), 8019 octets)
+2026-08-30 04:23:32 [http-nio-8083-exec-8] DEBUG c.m.t.controller.RapportController - GET /rapportTraitement/pdf - generation du rapport PDF demandee (sourceFile=MCOtools_26062026-01.txt)
+2026-08-30 04:23:32 [http-nio-8083-exec-8] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_26062026-01.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:33 [http-nio-8083-exec-8] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_26062026-01.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:34 [http-nio-8083-exec-8] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_26062026-01.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:35 [http-nio-8083-exec-8] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_26062026-01.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:36 [http-nio-8083-exec-8] DEBUG c.m.treatment.client.McoClient - Recuperation des requests du fichier source MCOtools_26062026-01.txt depuis http://localhost:8082/api/requests/source
+2026-08-30 04:23:37 [http-nio-8083-exec-8] DEBUG c.m.treatment.client.McoClient - Recuperation des batches du fichier source MCOtools_26062026-01.txt depuis http://localhost:8082/api/batches/source
+2026-08-30 04:23:37 [http-nio-8083-exec-8] DEBUG c.m.treatment.client.McoClient - Recuperation des deposits du fichier source MCOtools_26062026-01.txt depuis http://localhost:8082/api/deposits/source
+2026-08-30 04:23:37 [http-nio-8083-exec-8] INFO  c.m.t.rules.TreatmentRulesService - Rapport de traitement genere (source=MCOtools_26062026-01.txt) : 168 ligne(s)
+2026-08-30 04:23:37 [http-nio-8083-exec-8] INFO  c.m.treatment.rules.PdfReportService - Rapport PDF genere : 168 ligne(s), 11 page(s)
+2026-08-30 04:23:37 [http-nio-8083-exec-8] INFO  c.m.t.controller.RapportController - GET /rapportTraitement/pdf - PDF genere (168 ligne(s), 12406 octets)

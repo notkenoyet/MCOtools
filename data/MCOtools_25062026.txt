@@ -6,8 +6,13 @@ ACTION A FAIRE SUR CES DEMANDES : Escalade MCO
 
  Canal      Req_ID    Deposit_ID               Affranch.                Login                                    Etat                             Nb_Plis  Date_Modif           Date_Creation        Date_Prod_Esperee   Deblocage_Envelope
  ---------- --------- ------------------------ ------------------------ ---------------------------------------- -------------------------------- -------- -------------------- -------------------- ------------------- -------------------
+<<<<<<< HEAD
  PAPER      174406418 2561751753Y              ECOPLI_GRAND_COMPTE      SMEGFRANCE.GALDERIQUE                    TO_BATCH                         11       Jun 25 2026  3:01AM  Jun 24 2026  6:01PM  NULL                NULL
  PAPER      174406418 2561751753Y              ECOPLI_GRAND_COMPTE      SMEGFRANCE.GALDERIQUE                    TO_BATCH                         4        Jun 25 2026  3:01AM  Jun 24 2026  6:01PM  NULL                Jun 24 2026  5:00PM
+=======
+ PAPER      174406418 2561751753Y              ECOPLI_GRAND_COMPTE      CLIENT_00002                    TO_BATCH                         11       Jun 25 2026  3:01AM  Jun 24 2026  6:01PM  NULL                NULL
+ PAPER      174406418 2561751753Y              ECOPLI_GRAND_COMPTE      CLIENT_00002                    TO_BATCH                         4        Jun 25 2026  3:01AM  Jun 24 2026  6:01PM  NULL                Jun 24 2026  5:00PM
+>>>>>>> e3c48026bbc0dbf775127264bec033d380562877
 
 (2 lignes)
 
@@ -19,6 +24,7 @@ ACTION A FAIRE SUR CES DEMANDES : RetryRequest (105)
 
  Canal      Req_ID    Deposit_ID   Affranch.                Login                                    Etat                             Nb_Plis  Env2Batch Date_Modif           Date_Creation        Date_Prod_Esperee    Code_Erreur
  ---------- --------- ------------ ------------------------ ---------------------------------------- -------------------------------- -------- --------- -------------------- -------------------- -------------------- -----------
+<<<<<<< HEAD
  PAPER      174393740 2561751274J  ECOPLI_GRAND_COMPTE      A.I.R.LEFILDARIANE.GUIRAUD               CONVERTING_ERROR                 1        1         Jun 25 2026  6:21AM  Jun 24 2026 12:53PM  NULL                 2000006
  DIGITAL    174397339 2561751411X  SLOW                     AGRODIA                                  CONVERTING_ERROR                 1        1         Jun 25 2026  6:21AM  Jun 24 2026  1:37PM  NULL                 2000006
  PAPER      174389870 2561751123D  ECOPLI_GRAND_COMPTE      ALTISYS.BRINKS1                          CONVERTING_ERROR                 1        1         Jun 25 2026  6:21AM  Jun 24 2026 11:51AM  NULL                 2000006
@@ -101,6 +107,90 @@ ACTION A FAIRE SUR CES DEMANDES : RetryRequest (105)
  DIGITAL    174418617 2561760185F  SLOW                     GRANDPORTMARITIMEDUHAVRE.LANGLOIS        DIGITOOLS_ERROR                  17       17        Jun 25 2026  6:25AM  Jun 25 2026  6:24AM  NULL                 1000000
  DIGITAL    174418620 2561760185I  SLOW                     GRANDPORTMARITIMEDUHAVRE.LANGLOIS        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:25AM  Jun 25 2026  6:24AM  NULL                 1000000
  PAPER      174406905 2561751772U  LETTRE_GRAND_COMPTE      PROSOLGESTION.PAIE                       VALORIZATION_ERROR               1        1         Jun 25 2026  6:29AM  Jun 24 2026  6:17PM  NULL                 2800002
+=======
+ PAPER      174393740 2561751274J  ECOPLI_GRAND_COMPTE      CLIENT_00166               CONVERTING_ERROR                 1        1         Jun 25 2026  6:21AM  Jun 24 2026 12:53PM  NULL                 2000006
+ DIGITAL    174397339 2561751411X  SLOW                     CLIENT_00167                                  CONVERTING_ERROR                 1        1         Jun 25 2026  6:21AM  Jun 24 2026  1:37PM  NULL                 2000006
+ PAPER      174389870 2561751123D  ECOPLI_GRAND_COMPTE      CLIENT_00064                          CONVERTING_ERROR                 1        1         Jun 25 2026  6:21AM  Jun 24 2026 11:51AM  NULL                 2000006
+ PAPER      174318868 2561740763E  ECOPLI_GRAND_COMPTE      CLIENT_00007                     CONVERTING_ERROR                 1        1         Jun 25 2026  6:21AM  Jun 23 2026  9:16AM  NULL                 2000006
+ PAPER      174318872 2561740763I  ECOPLI_GRAND_COMPTE      CLIENT_00007                     CONVERTING_ERROR                 1        1         Jun 25 2026  6:21AM  Jun 23 2026  9:16AM  NULL                 2000006
+ PAPER      174398328 2561751450C  LETTRE_GRAND_COMPTE      CLIENT_00129                          CONVERTING_ERROR                 1        1         Jun 25 2026  6:21AM  Jun 24 2026  1:55PM  NULL                 2000006
+ PAPER      174402358 2561751604S  LETTRE_GRAND_COMPTE      CLIENT_00129                          CONVERTING_ERROR                 1        1         Jun 25 2026  6:21AM  Jun 24 2026  3:14PM  NULL                 2000006
+ PAPER      174394055 2561751286N  LETTRE_GRAND_COMPTE      CLIENT_00010                             CONVERTING_ERROR                 1        1         Jun 25 2026  6:21AM  Jun 24 2026 12:59PM  NULL                 2000006
+ PAPER      174391083 2561751170M  ECOPLI_GRAND_COMPTE      CLIENT_00011                CONVERTING_ERROR                 1        1         Jun 25 2026  6:21AM  Jun 24 2026 12:15PM  NULL                 2000006
+ DIGITAL    174397468 2561751417I  SLOW                     CLIENT_00168                               CONVERTING_ERROR                 1        1         Jun 25 2026  6:21AM  Jun 24 2026  1:41PM  NULL                 2000006
+ PAPER      174402939 2561751627B  ECOPLI_GRAND_COMPTE      CLIENT_00032                          CONVERTING_ERROR                 1        1         Jun 25 2026  6:24AM  Jun 24 2026  3:30PM  NULL                 2000006
+ PAPER      174405930 2561751751D  ECOPLI_GRAND_COMPTE      CLIENT_00012                               CONVERTING_ERROR                 35       35        Jun 25 2026  6:26AM  Jun 24 2026  5:37PM  NULL                 2000006
+ DIGITAL    174395967 2561751359L  STANDARD                 CLIENT_00065                           CONVERTING_ERROR                 1        1         Jun 25 2026  6:24AM  Jun 24 2026  1:21PM  NULL                 2000006
+ PAPER      174413342 2561752021O  ECOPLI_GRAND_COMPTE      CLIENT_00169 CONVERTING_ERROR                 1        1         Jun 25 2026  6:25AM  Jun 24 2026  8:31PM  NULL                 2000006
+ DIGITAL    174358548 2561742190U  STANDARD                 CLIENT_00013                                 CONVERTING_ERROR                 39       39        Jun 25 2026  6:24AM  Jun 23 2026  7:50PM  NULL                 2000006
+ PAPER      174396035 2561751362C  LETTRE_GRAND_COMPTE      CLIENT_00066                    CONVERTING_ERROR                 1        1         Jun 25 2026  6:24AM  Jun 24 2026  1:23PM  Jun 25 2026  1:00AM  2000006
+ PAPER      174396104 2561751365D  LETTRE_GRAND_COMPTE      CLIENT_00066                    CONVERTING_ERROR                 2        2         Jun 25 2026  6:24AM  Jun 24 2026  1:23PM  Jun 25 2026  1:00AM  2000006
+ PAPER      174395773 2561751352A  LETTRE_GRAND_COMPTE      CLIENT_00066                    CONVERTING_ERROR                 3        3         Jun 25 2026  6:25AM  Jun 24 2026  1:19PM  Jun 25 2026  1:00AM  2000006
+ PAPER      174396282 2561751371Z  LETTRE_GRAND_COMPTE      CLIENT_00066                    CONVERTING_ERROR                 2        2         Jun 25 2026  6:25AM  Jun 24 2026  1:27PM  Jun 25 2026  1:00AM  2000006
+ PAPER      174396320 2561751373L  LETTRE_GRAND_COMPTE      CLIENT_00066                    CONVERTING_ERROR                 16       16        Jun 25 2026  6:25AM  Jun 24 2026  1:27PM  Jun 25 2026  1:00AM  2000006
+ PAPER      174415645 2561760065U  LETTRE_GRAND_COMPTE      CLIENT_00015                    CONVERTING_ERROR                 1        1         Jun 25 2026  6:24AM  Jun 25 2026  2:17AM  NULL                 2000006
+ PAPER      174415656 2561760066F  LETTRE_GRAND_COMPTE      CLIENT_00016                   CONVERTING_ERROR                 1        1         Jun 25 2026  6:24AM  Jun 25 2026  2:17AM  NULL                 2000006
+ PAPER      174415662 2561760066L  LETTRE_GRAND_COMPTE      CLIENT_00016                   CONVERTING_ERROR                 1        1         Jun 25 2026  6:24AM  Jun 25 2026  2:17AM  NULL                 2000006
+ PAPER      174415671 2561760066U  ECOPLI_GRAND_COMPTE      CLIENT_00016                   CONVERTING_ERROR                 1        1         Jun 25 2026  6:24AM  Jun 25 2026  2:17AM  NULL                 2000006
+ DIGITAL    174417874 2561760155Y  LETTRE_GRAND_COMPTE      CLIENT_00170                   CONVERTING_ERROR                 686      686       Jun 25 2026  6:22AM  Jun 25 2026  6:08AM  NULL                 2000006
+ PAPER      174358140 2561742175D  INDUSTRIEL_G2            CLIENT_00019                CONVERTING_ERROR                 1        1         Jun 25 2026  6:24AM  Jun 23 2026  7:21PM  NULL                 2000006
+ PAPER      174358203 2561742177O  INDUSTRIEL_G2            CLIENT_00019                CONVERTING_ERROR                 1        1         Jun 25 2026  6:24AM  Jun 23 2026  7:41PM  NULL                 2000006
+ PAPER      174360247 2561742256G  INDUSTRIEL_G2            CLIENT_00019                CONVERTING_ERROR                 1        1         Jun 25 2026  6:24AM  Jun 23 2026  8:04PM  NULL                 2000006
+ PAPER      174360299 2561742258H  INDUSTRIEL_G2            CLIENT_00019                CONVERTING_ERROR                 1        1         Jun 25 2026  6:25AM  Jun 23 2026  8:20PM  NULL                 2000006
+ PAPER      174370213 2561750373M  ECOPLI_GRAND_COMPTE      CLIENT_00034                     CONVERTING_ERROR                 19       19        Jun 25 2026  6:25AM  Jun 24 2026  7:33AM  NULL                 2000006
+ DIGITAL    174417789 2561760153G  ECOPLI_GRAND_COMPTE      CLIENT_00171           DIGITOOLS_ERROR                  163      163       Jun 25 2026  6:23AM  Jun 25 2026  6:06AM  NULL                 1000000
+ DIGITAL    174418591 2561760184F  ECOPLI_GRAND_COMPTE      CLIENT_00171           DIGITOOLS_ERROR                  335      335       Jun 25 2026  6:23AM  Jun 25 2026  6:22AM  NULL                 1000000
+ DIGITAL    174418618 2561760185G  ECOPLI_GRAND_COMPTE      CLIENT_00171           DIGITOOLS_ERROR                  334      334       Jun 25 2026  6:25AM  Jun 25 2026  6:24AM  NULL                 1000000
+ DIGITAL    174417761 2561760152E  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:06AM  NULL                 1000000
+ DIGITAL    174417764 2561760152H  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:06AM  NULL                 1000000
+ DIGITAL    174417765 2561760152I  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  11       11        Jun 25 2026  6:23AM  Jun 25 2026  6:06AM  NULL                 1000000
+ DIGITAL    174417766 2561760152J  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:06AM  NULL                 1000000
+ DIGITAL    174417767 2561760152K  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:06AM  NULL                 1000000
+ DIGITAL    174417768 2561760152L  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:06AM  NULL                 1000000
+ DIGITAL    174417772 2561760152P  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:06AM  NULL                 1000000
+ DIGITAL    174417774 2561760152R  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:06AM  NULL                 1000000
+ DIGITAL    174417779 2561760152W  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:06AM  NULL                 1000000
+ DIGITAL    174417786 2561760153D  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:06AM  NULL                 1000000
+ DIGITAL    174417788 2561760153F  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:06AM  NULL                 1000000
+ DIGITAL    174417790 2561760153H  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:06AM  NULL                 1000000
+ DIGITAL    174417846 2561760155L  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:08AM  NULL                 1000000
+ DIGITAL    174417848 2561760155N  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:08AM  NULL                 1000000
+ DIGITAL    174417853 2561760155S  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:08AM  NULL                 1000000
+ DIGITAL    174417855 2561760155U  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:08AM  NULL                 1000000
+ DIGITAL    174417872 2561760156M  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:08AM  NULL                 1000000
+ DIGITAL    174417879 2561760156R  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:08AM  NULL                 1000000
+ DIGITAL    174417885 2561760156X  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:08AM  NULL                 1000000
+ DIGITAL    174417888 2561760157A  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:08AM  NULL                 1000000
+ DIGITAL    174417893 2561760157G  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:08AM  NULL                 1000000
+ DIGITAL    174417894 2561760157H  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:08AM  NULL                 1000000
+ DIGITAL    174417898 2561760157L  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:08AM  NULL                 1000000
+ DIGITAL    174417899 2561760157M  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:08AM  NULL                 1000000
+ DIGITAL    174417945 2561760159G  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:10AM  NULL                 1000000
+ DIGITAL    174417947 2561760159I  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:10AM  NULL                 1000000
+ DIGITAL    174417949 2561760159K  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  17       17        Jun 25 2026  6:23AM  Jun 25 2026  6:10AM  NULL                 1000000
+ DIGITAL    174417951 2561760159M  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:10AM  NULL                 1000000
+ DIGITAL    174417954 2561760159P  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:10AM  NULL                 1000000
+ DIGITAL    174417955 2561760159Q  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:10AM  NULL                 1000000
+ DIGITAL    174417957 2561760159S  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:10AM  NULL                 1000000
+ DIGITAL    174417958 2561760159T  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:10AM  NULL                 1000000
+ DIGITAL    174417959 2561760159U  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:10AM  NULL                 1000000
+ DIGITAL    174418562 2561760183B  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:22AM  NULL                 1000000
+ DIGITAL    174418573 2561760183M  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:22AM  NULL                 1000000
+ DIGITAL    174418575 2561760183O  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:22AM  NULL                 1000000
+ DIGITAL    174418576 2561760183P  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:22AM  NULL                 1000000
+ DIGITAL    174418578 2561760183S  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:22AM  NULL                 1000000
+ DIGITAL    174418589 2561760184D  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:22AM  NULL                 1000000
+ DIGITAL    174418590 2561760184E  STANDARD                 CLIENT_00172        DIGITOOLS_ERROR                  2        2         Jun 25 2026  6:23AM  Jun 25 2026  6:22AM  NULL                 1000000
+ DIGITAL    174418593 2561760184H  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  3        3         Jun 25 2026  6:23AM  Jun 25 2026  6:22AM  NULL                 1000000
+ DIGITAL    174418596 2561760184K  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:22AM  NULL                 1000000
+ DIGITAL    174418599 2561760184N  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:23AM  Jun 25 2026  6:22AM  NULL                 1000000
+ DIGITAL    174418606 2561760184U  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:25AM  Jun 25 2026  6:24AM  NULL                 1000000
+ DIGITAL    174418607 2561760184V  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:25AM  Jun 25 2026  6:24AM  NULL                 1000000
+ DIGITAL    174418612 2561760185A  ECOPLI_GRAND_COMPTE      CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:25AM  Jun 25 2026  6:24AM  NULL                 1000000
+ DIGITAL    174418617 2561760185F  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  17       17        Jun 25 2026  6:25AM  Jun 25 2026  6:24AM  NULL                 1000000
+ DIGITAL    174418620 2561760185I  SLOW                     CLIENT_00172        DIGITOOLS_ERROR                  18       18        Jun 25 2026  6:25AM  Jun 25 2026  6:24AM  NULL                 1000000
+ PAPER      174406905 2561751772U  LETTRE_GRAND_COMPTE      CLIENT_00173                       VALORIZATION_ERROR               1        1         Jun 25 2026  6:29AM  Jun 24 2026  6:17PM  NULL                 2800002
+>>>>>>> e3c48026bbc0dbf775127264bec033d380562877
 
 (82 lignes)
 

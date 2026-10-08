@@ -6,7 +6,11 @@ ACTION A FAIRE SUR CES DEMANDES : ReloadRequest (106) ou Attention si FORMATTED 
 
  Canal      Req_ID    Deposit_ID               Affranch.                Login                                    Etat                             Nb_Plis  Date_Modif           Date_Creation        Date_Prod_Esperee   Deblocage_Envelope
  ---------- --------- ------------------------ ------------------------ ---------------------------------------- -------------------------------- -------- -------------------- -------------------- ------------------- -------------------
+<<<<<<< HEAD
  DIGITAL    174379986 4061750002R                                       EPA.SELLIER                              DIGIPOSTE_CREATE_SUBSCRIBERS     84       Jun 24 2026  9:46AM  Jun 24 2026  9:43AM  NULL                NULL
+=======
+ DIGITAL    174379986 4061750002R                                       EPA.SELLIER                              CLIENT_00001     84       Jun 24 2026  9:46AM  Jun 24 2026  9:43AM  NULL                NULL
+>>>>>>> e3c48026bbc0dbf775127264bec033d380562877
 
 (1 lignes)
 
@@ -18,6 +22,7 @@ ACTION A FAIRE SUR CES DEMANDES : RetryRequest (105)
 
  Canal      Req_ID    Deposit_ID   Affranch.                Login                                    Etat                             Nb_Plis  Env2Batch Date_Modif           Date_Creation        Date_Prod_Esperee    Code_Erreur
  ---------- --------- ------------ ------------------------ ---------------------------------------- -------------------------------- -------- --------- -------------------- -------------------- -------------------- -----------
+<<<<<<< HEAD
  DIGITAL    174373661 2561750504S  SLOW                     ALPHA                                    CONVERTING_ERROR                 4        4         Jun 24 2026  8:34AM  Jun 24 2026  8:19AM  NULL                 2000006
  PAPER      174389870 2561751123D  ECOPLI_GRAND_COMPTE      ALTISYS.BRINKS1                          CONVERTING_ERROR                 1        1         Jun 24 2026 12:03PM  Jun 24 2026 11:51AM  NULL                 2000006
  PAPER      174318868 2561740763E  ECOPLI_GRAND_COMPTE      ATLANTICLOG.FERRANDO                     CONVERTING_ERROR                 1        1         Jun 24 2026  6:47AM  Jun 23 2026  9:16AM  NULL                 2000006
@@ -53,6 +58,43 @@ ACTION A FAIRE SUR CES DEMANDES : RetryRequest (105)
  PAPER      174370977 2561750402P  INDUSTRIEL_G2            AMPLIFONPONTAUDEMER                      VALORIZATION_ERROR               1        1         Jun 24 2026 12:08PM  Jun 24 2026  7:42AM  NULL                 2800002
  PAPER      174384682 2561750921Y  LETTRE_GRAND_COMPTE      frshop737@amplifon.com                   VALORIZATION_ERROR               1        1         Jun 24 2026 12:08PM  Jun 24 2026 10:21AM  NULL                 2800002
  PAPER      174387350 2561751022S  ECOPLI_GRAND_COMPTE      sergic.compiegne.copro                   VALORIZATION_ERROR               1        1         Jun 24 2026 12:08PM  Jun 24 2026 11:06AM  NULL                 2800002
+=======
+ DIGITAL    174373661 2561750504S  SLOW                     CLIENT_00006                                    CONVERTING_ERROR                 4        4         Jun 24 2026  8:34AM  Jun 24 2026  8:19AM  NULL                 2000006
+ PAPER      174389870 2561751123D  ECOPLI_GRAND_COMPTE      CLIENT_00064                          CONVERTING_ERROR                 1        1         Jun 24 2026 12:03PM  Jun 24 2026 11:51AM  NULL                 2000006
+ PAPER      174318868 2561740763E  ECOPLI_GRAND_COMPTE      CLIENT_00007                     CONVERTING_ERROR                 1        1         Jun 24 2026  6:47AM  Jun 23 2026  9:16AM  NULL                 2000006
+ PAPER      174318872 2561740763I  ECOPLI_GRAND_COMPTE      CLIENT_00007                     CONVERTING_ERROR                 1        1         Jun 24 2026  6:47AM  Jun 23 2026  9:16AM  NULL                 2000006
+ PAPER      174378233 2561750679U  LETTRE_GRAND_COMPTE      CLIENT_00009                   CONVERTING_ERROR                 1        1         Jun 24 2026 10:24AM  Jun 24 2026  9:17AM  NULL                 2000006
+ PAPER      174378357 2561750684O  LETTRE_GRAND_COMPTE      CLIENT_00009                   CONVERTING_ERROR                 1        1         Jun 24 2026 10:24AM  Jun 24 2026  9:19AM  NULL                 2000006
+ PAPER      174376018 2561750594G  ECOPLI_GRAND_COMPTE      CLIENT_00011                CONVERTING_ERROR                 1        1         Jun 24 2026  9:04AM  Jun 24 2026  8:53AM  NULL                 2000006
+ PAPER      174386482 2561750991S  ECOPLI_GRAND_COMPTE      CLIENT_00011                CONVERTING_ERROR                 1        1         Jun 24 2026 11:01AM  Jun 24 2026 10:38AM  NULL                 2000006
+ PAPER      174386489 2561750991T  ECOPLI_GRAND_COMPTE      CLIENT_00011                CONVERTING_ERROR                 1        1         Jun 24 2026 11:01AM  Jun 24 2026 10:38AM  NULL                 2000006
+ PAPER      174387209 2561751017H  ECOPLI_GRAND_COMPTE      CLIENT_00011                CONVERTING_ERROR                 1        1         Jun 24 2026 11:52AM  Jun 24 2026 11:04AM  NULL                 2000006
+ DIGITAL    174369827 2561750358P  STANDARD                 CLIENT_00065                           CONVERTING_ERROR                 1        1         Jun 24 2026  7:33AM  Jun 24 2026  7:31AM  NULL                 2000006
+ DIGITAL    174358548 2561742190U  STANDARD                 CLIENT_00013                                 CONVERTING_ERROR                 39       39        Jun 24 2026  6:40AM  Jun 23 2026  7:50PM  NULL                 2000006
+ PAPER      174369330 2561750341B  LETTRE_GRAND_COMPTE      CLIENT_00066                    CONVERTING_ERROR                 2        2         Jun 24 2026  7:25AM  Jun 24 2026  7:23AM  NULL                 2000006
+ PAPER      174369449 2561750344H  LETTRE_GRAND_COMPTE      CLIENT_00066                    CONVERTING_ERROR                 1        1         Jun 24 2026  7:33AM  Jun 24 2026  7:25AM  NULL                 2000006
+ PAPER      174369714 2561750354G  LETTRE_GRAND_COMPTE      CLIENT_00066                    CONVERTING_ERROR                 4        4         Jun 24 2026  7:33AM  Jun 24 2026  7:29AM  NULL                 2000006
+ PAPER      174369829 2561750358R  LETTRE_GRAND_COMPTE      CLIENT_00066                    CONVERTING_ERROR                 6        6         Jun 24 2026  7:33AM  Jun 24 2026  7:31AM  NULL                 2000006
+ PAPER      174369836 2561750358Y  LETTRE_GRAND_COMPTE      CLIENT_00066                    CONVERTING_ERROR                 2        2         Jun 24 2026  7:33AM  Jun 24 2026  7:31AM  NULL                 2000006
+ PAPER      174370411 2561750381A  LETTRE_GRAND_COMPTE      CLIENT_00066                    CONVERTING_ERROR                 1        1         Jun 24 2026  8:34AM  Jun 24 2026  7:35AM  NULL                 2000006
+ PAPER      174374439 2561750534F  LETTRE_GRAND_COMPTE      CLIENT_00066                    CONVERTING_ERROR                 1        1         Jun 24 2026  8:34AM  Jun 24 2026  8:29AM  NULL                 2000006
+ PAPER      174374527 2561750537N  LETTRE_GRAND_COMPTE      CLIENT_00066                    CONVERTING_ERROR                 1        1         Jun 24 2026  8:34AM  Jun 24 2026  8:31AM  NULL                 2000006
+ PAPER      174374872 2561750550R  LETTRE_GRAND_COMPTE      CLIENT_00066                    CONVERTING_ERROR                 1        1         Jun 24 2026  8:34AM  Jun 24 2026  8:33AM  NULL                 2000006
+ PAPER      174362474 2561750068D  ECOPLI_GRAND_COMPTE      CLIENT_00016                   CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 24 2026  2:17AM  NULL                 2000006
+ DIGITAL    174377771 2561750661Y  SLOW                     CLIENT_00067                                      CONVERTING_ERROR                 1        1         Jun 24 2026 10:24AM  Jun 24 2026  9:10AM  NULL                 2000006
+ PAPER      174358140 2561742175D  INDUSTRIEL_G2            CLIENT_00019                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:21PM  NULL                 2000006
+ PAPER      174358203 2561742177O  INDUSTRIEL_G2            CLIENT_00019                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  7:41PM  NULL                 2000006
+ PAPER      174360247 2561742256G  INDUSTRIEL_G2            CLIENT_00019                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  8:04PM  NULL                 2000006
+ PAPER      174360299 2561742258H  INDUSTRIEL_G2            CLIENT_00019                CONVERTING_ERROR                 1        1         Jun 24 2026  6:41AM  Jun 23 2026  8:20PM  NULL                 2000006
+ PAPER      174370213 2561750373M  ECOPLI_GRAND_COMPTE      CLIENT_00034                     CONVERTING_ERROR                 19       19        Jun 24 2026  8:34AM  Jun 24 2026  7:33AM  NULL                 2000006
+ PAPER      174386441 2561750990E  LETTRE_GRAND_COMPTE      CLIENT_00068                             VALORIZATION_ERROR               1        1         Jun 24 2026 12:08PM  Jun 24 2026 10:37AM  NULL                 2800002
+ PAPER      174386827 2561751002D  STANDARD                 CLIENT_00068                             VALORIZATION_ERROR               1        1         Jun 24 2026 12:08PM  Jun 24 2026 10:45AM  NULL                 2800002
+ PAPER      174382218 2561750829J  LETTRE_GRAND_COMPTE      CLIENT_00020                              VALORIZATION_ERROR               1        1         Jun 24 2026 12:08PM  Jun 24 2026 10:01AM  NULL                 2800002
+ PAPER      174390017 2561751129B  INDUSTRIEL_G2            CLIENT_00069                          VALORIZATION_ERROR               1        1         Jun 24 2026 12:08PM  Jun 24 2026 11:54AM  NULL                 2800002
+ PAPER      174370977 2561750402P  INDUSTRIEL_G2            CLIENT_00070                      VALORIZATION_ERROR               1        1         Jun 24 2026 12:08PM  Jun 24 2026  7:42AM  NULL                 2800002
+ PAPER      174384682 2561750921Y  LETTRE_GRAND_COMPTE      CLIENT_00071                   VALORIZATION_ERROR               1        1         Jun 24 2026 12:08PM  Jun 24 2026 10:21AM  NULL                 2800002
+ PAPER      174387350 2561751022S  ECOPLI_GRAND_COMPTE      CLIENT_00072                   VALORIZATION_ERROR               1        1         Jun 24 2026 12:08PM  Jun 24 2026 11:06AM  NULL                 2800002
+>>>>>>> e3c48026bbc0dbf775127264bec033d380562877
 
 (35 lignes)
 

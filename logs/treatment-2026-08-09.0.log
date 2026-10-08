@@ -1,0 +1,588 @@
+2026-08-09 17:20:26 [main] INFO  c.m.treatment.TreatmentApplication - Starting TreatmentApplication using Java 23.0.2 with PID 21216 (C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\target\classes started by mouad in C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment)
+2026-08-09 17:20:26 [main] DEBUG c.m.treatment.TreatmentApplication - Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-08-09 17:20:26 [main] INFO  c.m.treatment.TreatmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-09 17:20:27 [main] INFO  c.m.treatment.TreatmentApplication - Started TreatmentApplication in 1.615 seconds (process running for 1.946)
+2026-08-09 17:20:27 [main] INFO  c.m.treatment.TreatmentApplication - Service treatment demarre avec succes
+2026-08-09 17:46:45 [main] INFO  c.m.treatment.TreatmentApplication - Starting TreatmentApplication using Java 23.0.2 with PID 28996 (C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\target\classes started by mouad in C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment)
+2026-08-09 17:46:45 [main] DEBUG c.m.treatment.TreatmentApplication - Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-08-09 17:46:45 [main] INFO  c.m.treatment.TreatmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-09 17:46:46 [main] INFO  c.m.treatment.TreatmentApplication - Started TreatmentApplication in 1.485 seconds (process running for 1.807)
+2026-08-09 17:46:46 [main] INFO  c.m.treatment.TreatmentApplication - Service treatment demarre avec succes
+2026-08-09 17:49:09 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-09 17:49:09 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-08-09 17:49:09 [http-nio-8083-exec-1] DEBUG c.m.t.controller.TreatmentController - GET /treatementRequest/174393740 - traitement demande
+2026-08-09 17:49:09 [http-nio-8083-exec-1] DEBUG c.m.treatment.client.McoClient - Recuperation du request 174393740 depuis http://localhost:8082/api/requests
+2026-08-09 17:49:09 [http-nio-8083-exec-1] INFO  c.m.t.controller.TreatmentController - GET /treatementRequest/174393740 - codeErreur=2000006
+2026-08-09 17:50:13 [http-nio-8083-exec-2] ERROR c.m.t.e.GlobalExceptionHandler - Erreur non geree interceptee dans treatment: No static resource treatementRequest for request '/treatementRequest/'.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource treatementRequest for request '/treatementRequest/'.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:527)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-08-09 18:09:33 [http-nio-8083-exec-3] DEBUG c.m.t.controller.TreatmentController - GET /treatementRequest/174393740 - traitement demande
+2026-08-09 18:09:33 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation du request 174393740 depuis http://localhost:8082/api/requests
+2026-08-09 18:09:33 [http-nio-8083-exec-3] INFO  c.m.t.controller.TreatmentController - GET /treatementRequest/174393740 - codeErreur=2000006
+2026-08-09 18:09:33 [http-nio-8083-exec-4] ERROR c.m.t.e.GlobalExceptionHandler - Erreur non geree interceptee dans treatment: No static resource favicon.ico for request '/favicon.ico'.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:527)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-08-09 18:16:09 [http-nio-8083-exec-5] ERROR c.m.t.e.GlobalExceptionHandler - Erreur non geree interceptee dans treatment: No static resource treatementRequest for request '/treatementRequest/'.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource treatementRequest for request '/treatementRequest/'.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:527)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-08-09 18:16:14 [http-nio-8083-exec-6] DEBUG c.m.t.controller.TreatmentController - GET /treatementRequest/174393740 - traitement demande
+2026-08-09 18:16:14 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation du request 174393740 depuis http://localhost:8082/api/requests
+2026-08-09 18:16:14 [http-nio-8083-exec-6] INFO  c.m.t.controller.TreatmentController - GET /treatementRequest/174393740 - codeErreur=2000006
+2026-08-09 18:16:50 [http-nio-8083-exec-7] ERROR c.m.t.e.GlobalExceptionHandler - Erreur non geree interceptee dans treatment: No static resource treatementRequest for request '/treatementRequest/'.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource treatementRequest for request '/treatementRequest/'.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:527)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-08-09 18:17:15 [http-nio-8083-exec-9] ERROR c.m.t.e.GlobalExceptionHandler - Erreur non geree interceptee dans treatment: No static resource treatementRequest for request '/treatementRequest'.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource treatementRequest for request '/treatementRequest'.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:527)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-08-09 18:17:23 [http-nio-8083-exec-8] ERROR c.m.t.e.GlobalExceptionHandler - Erreur non geree interceptee dans treatment: No static resource treatementRequest for request '/treatementRequest'.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource treatementRequest for request '/treatementRequest'.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:527)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-08-09 18:19:44 [main] INFO  c.m.treatment.TreatmentApplication - Starting TreatmentApplication using Java 23.0.2 with PID 5740 (C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\target\classes started by mouad in C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment)
+2026-08-09 18:19:44 [main] DEBUG c.m.treatment.TreatmentApplication - Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-08-09 18:19:44 [main] INFO  c.m.treatment.TreatmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-09 18:19:46 [main] INFO  c.m.treatment.TreatmentApplication - Started TreatmentApplication in 1.597 seconds (process running for 1.91)
+2026-08-09 18:19:46 [main] INFO  c.m.treatment.TreatmentApplication - Service treatment demarre avec succes
+2026-08-09 18:19:51 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-09 18:19:51 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-08-09 18:19:51 [http-nio-8083-exec-1] DEBUG c.m.t.controller.TreatmentController - GET /treatementRequest - traitement demande
+2026-08-09 18:19:51 [http-nio-8083-exec-1] DEBUG c.m.treatment.client.McoClient - Recuperation de tous les requests depuis http://localhost:8082/api/requests
+2026-08-09 18:19:51 [http-nio-8083-exec-1] INFO  c.m.t.controller.TreatmentController - GET /treatementRequest - 83 request(s) traite(s)
+2026-08-09 18:20:05 [http-nio-8083-exec-3] ERROR c.m.t.e.GlobalExceptionHandler - Erreur non geree interceptee dans treatment: No static resource treatementRequest/174418617 for request '/treatementRequest/174418617'.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource treatementRequest/174418617 for request '/treatementRequest/174418617'.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:527)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-08-09 18:21:31 [main] INFO  c.m.treatment.TreatmentApplication - Starting TreatmentApplication using Java 23.0.2 with PID 3264 (C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\target\classes started by mouad in C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment)
+2026-08-09 18:21:31 [main] DEBUG c.m.treatment.TreatmentApplication - Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-08-09 18:21:31 [main] INFO  c.m.treatment.TreatmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-09 18:21:32 [main] INFO  c.m.treatment.TreatmentApplication - Started TreatmentApplication in 1.52 seconds (process running for 1.822)
+2026-08-09 18:21:32 [main] INFO  c.m.treatment.TreatmentApplication - Service treatment demarre avec succes
+2026-08-09 18:22:40 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-09 18:22:40 [http-nio-8083-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-08-09 18:22:40 [http-nio-8083-exec-1] ERROR c.m.t.e.GlobalExceptionHandler - Erreur non geree interceptee dans treatment: No static resource treatementRequest/174418617 for request '/treatementRequest/174418617'.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource treatementRequest/174418617 for request '/treatementRequest/174418617'.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:527)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-08-09 18:22:50 [http-nio-8083-exec-2] DEBUG c.m.t.controller.TreatmentController - GET /treatementRequest - traitement demande
+2026-08-09 18:22:50 [http-nio-8083-exec-2] DEBUG c.m.treatment.client.McoClient - Recuperation de tous les requests depuis http://localhost:8082/api/requests
+2026-08-09 18:22:50 [http-nio-8083-exec-2] INFO  c.m.t.controller.TreatmentController - GET /treatementRequest - 83 request(s) traite(s)
+2026-08-09 18:23:08 [http-nio-8083-exec-4] ERROR c.m.t.e.GlobalExceptionHandler - Erreur non geree interceptee dans treatment: No static resource treatementRequest/%C3%A7 for request '/treatementRequest/%C3%A7'.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource treatementRequest/%C3%A7 for request '/treatementRequest/%C3%A7'.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:527)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-08-09 18:23:12 [http-nio-8083-exec-5] ERROR c.m.t.e.GlobalExceptionHandler - Erreur non geree interceptee dans treatment: No static resource treatementRequest for request '/treatementRequest/'.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource treatementRequest for request '/treatementRequest/'.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:527)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-08-09 18:23:15 [http-nio-8083-exec-6] DEBUG c.m.t.controller.TreatmentController - GET /treatementRequest - traitement demande
+2026-08-09 18:23:15 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation de tous les requests depuis http://localhost:8082/api/requests
+2026-08-09 18:23:15 [http-nio-8083-exec-6] INFO  c.m.t.controller.TreatmentController - GET /treatementRequest - 83 request(s) traite(s)
+2026-08-09 18:24:13 [http-nio-8083-exec-8] DEBUG c.m.t.controller.TreatmentController - GET /treatementRequest - traitement demande
+2026-08-09 18:24:13 [http-nio-8083-exec-8] DEBUG c.m.treatment.client.McoClient - Recuperation de tous les requests depuis http://localhost:8082/api/requests
+2026-08-09 18:24:13 [http-nio-8083-exec-8] INFO  c.m.t.controller.TreatmentController - GET /treatementRequest - 83 request(s) traite(s)
+2026-08-09 18:24:29 [http-nio-8083-exec-10] DEBUG c.m.t.controller.TreatmentController - GET /treatementRequest - traitement demande
+2026-08-09 18:24:29 [http-nio-8083-exec-10] DEBUG c.m.treatment.client.McoClient - Recuperation de tous les requests depuis http://localhost:8082/api/requests
+2026-08-09 18:24:29 [http-nio-8083-exec-10] INFO  c.m.t.controller.TreatmentController - GET /treatementRequest - 83 request(s) traite(s)
+2026-08-09 18:24:48 [http-nio-8083-exec-1] ERROR c.m.t.e.GlobalExceptionHandler - Erreur non geree interceptee dans treatment: No static resource treatementRequest for request '/treatementRequest/'.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource treatementRequest for request '/treatementRequest/'.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:527)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-08-09 18:24:51 [http-nio-8083-exec-3] DEBUG c.m.t.controller.TreatmentController - GET /treatementRequest - traitement demande
+2026-08-09 18:24:51 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation de tous les requests depuis http://localhost:8082/api/requests
+2026-08-09 18:24:51 [http-nio-8083-exec-3] INFO  c.m.t.controller.TreatmentController - GET /treatementRequest - 83 request(s) traite(s)
+2026-08-09 18:24:57 [http-nio-8083-exec-4] DEBUG c.m.t.controller.TreatmentController - GET /treatementRequest - traitement demande
+2026-08-09 18:24:57 [http-nio-8083-exec-4] DEBUG c.m.treatment.client.McoClient - Recuperation de tous les requests depuis http://localhost:8082/api/requests
+2026-08-09 18:24:57 [http-nio-8083-exec-4] INFO  c.m.t.controller.TreatmentController - GET /treatementRequest - 83 request(s) traite(s)
+2026-08-09 18:25:03 [http-nio-8083-exec-5] DEBUG c.m.t.controller.TreatmentController - GET /treatementRequest - traitement demande
+2026-08-09 18:25:03 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation de tous les requests depuis http://localhost:8082/api/requests
+2026-08-09 18:25:03 [http-nio-8083-exec-5] INFO  c.m.t.controller.TreatmentController - GET /treatementRequest - 83 request(s) traite(s)
+2026-08-09 18:28:31 [main] INFO  c.m.treatment.TreatmentApplication - Starting TreatmentApplication using Java 23.0.2 with PID 18372 (C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\target\classes started by mouad in C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment)
+2026-08-09 18:28:31 [main] DEBUG c.m.treatment.TreatmentApplication - Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-08-09 18:28:31 [main] INFO  c.m.treatment.TreatmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-09 18:28:33 [main] INFO  c.m.treatment.TreatmentApplication - Started TreatmentApplication in 1.589 seconds (process running for 1.914)
+2026-08-09 18:28:33 [main] INFO  c.m.treatment.TreatmentApplication - Service treatment demarre avec succes
+2026-08-09 18:28:53 [http-nio-8083-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-09 18:28:53 [http-nio-8083-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-08-09 18:28:53 [http-nio-8083-exec-2] DEBUG c.m.t.controller.TreatmentController - GET /treatementBatch - traitement demande
+2026-08-09 18:28:53 [http-nio-8083-exec-2] DEBUG c.m.treatment.client.McoClient - Recuperation de tous les batches depuis http://localhost:8082/api/batches
+2026-08-09 18:28:53 [http-nio-8083-exec-2] INFO  c.m.t.controller.TreatmentController - GET /treatementBatch - 114 batch(es) traite(s)
+2026-08-09 18:29:11 [http-nio-8083-exec-4] DEBUG c.m.t.controller.TreatmentController - GET /treatementBatch - traitement demande
+2026-08-09 18:29:11 [http-nio-8083-exec-4] DEBUG c.m.treatment.client.McoClient - Recuperation de tous les batches depuis http://localhost:8082/api/batches
+2026-08-09 18:29:11 [http-nio-8083-exec-4] INFO  c.m.t.controller.TreatmentController - GET /treatementBatch - 114 batch(es) traite(s)
+2026-08-09 19:09:21 [http-nio-8083-exec-6] DEBUG c.m.t.controller.TreatmentController - GET /treatementBatch - traitement demande
+2026-08-09 19:09:21 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation de tous les batches depuis http://localhost:8082/api/batches
+2026-08-09 19:09:21 [http-nio-8083-exec-6] INFO  c.m.t.controller.TreatmentController - GET /treatementBatch - 114 batch(es) traite(s)
+2026-08-09 19:09:31 [http-nio-8083-exec-9] DEBUG c.m.t.controller.TreatmentController - GET /treatementBatch/88681661 - traitement demande
+2026-08-09 19:09:31 [http-nio-8083-exec-9] DEBUG c.m.treatment.client.McoClient - Recuperation du batch 88681661 depuis http://localhost:8082/api/batches
+2026-08-09 19:09:31 [http-nio-8083-exec-9] INFO  c.m.t.controller.TreatmentController - GET /treatementBatch/88681661 - codeErreur=1000000
+2026-08-09 19:09:45 [http-nio-8083-exec-10] DEBUG c.m.t.controller.TreatmentController - GET /treatementBatch/88681661 - traitement demande
+2026-08-09 19:09:45 [http-nio-8083-exec-10] DEBUG c.m.treatment.client.McoClient - Recuperation du batch 88681661 depuis http://localhost:8082/api/batches
+2026-08-09 19:09:45 [http-nio-8083-exec-10] INFO  c.m.t.controller.TreatmentController - GET /treatementBatch/88681661 - codeErreur=1000000
+2026-08-09 19:14:37 [http-nio-8083-exec-4] DEBUG c.m.t.controller.TreatmentController - GET /treatementBatch - traitement demande
+2026-08-09 19:14:37 [http-nio-8083-exec-4] DEBUG c.m.treatment.client.McoClient - Recuperation de tous les batches depuis http://localhost:8082/api/batches
+2026-08-09 19:14:37 [http-nio-8083-exec-4] INFO  c.m.t.controller.TreatmentController - GET /treatementBatch - 114 batch(es) traite(s)
+2026-08-09 19:14:40 [http-nio-8083-exec-3] DEBUG c.m.t.controller.TreatmentController - GET /treatementBatch/8868166 - traitement demande
+2026-08-09 19:14:40 [http-nio-8083-exec-3] DEBUG c.m.treatment.client.McoClient - Recuperation du batch 8868166 depuis http://localhost:8082/api/batches
+2026-08-09 19:14:40 [http-nio-8083-exec-3] WARN  c.m.treatment.client.McoClient - Batch 8868166 introuvable dans mco
+2026-08-09 19:14:40 [http-nio-8083-exec-3] WARN  c.m.t.controller.TreatmentController - GET /treatementBatch/8868166 - batch introuvable dans mco
+2026-08-09 19:14:43 [http-nio-8083-exec-5] DEBUG c.m.t.controller.TreatmentController - GET /treatementBatch/8868166 - traitement demande
+2026-08-09 19:14:43 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation du batch 8868166 depuis http://localhost:8082/api/batches
+2026-08-09 19:14:43 [http-nio-8083-exec-5] WARN  c.m.treatment.client.McoClient - Batch 8868166 introuvable dans mco
+2026-08-09 19:14:43 [http-nio-8083-exec-5] WARN  c.m.t.controller.TreatmentController - GET /treatementBatch/8868166 - batch introuvable dans mco
+2026-08-09 19:14:56 [http-nio-8083-exec-6] DEBUG c.m.t.controller.TreatmentController - GET /treatementBatch/88681661 - traitement demande
+2026-08-09 19:14:56 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation du batch 88681661 depuis http://localhost:8082/api/batches
+2026-08-09 19:14:56 [http-nio-8083-exec-6] INFO  c.m.t.controller.TreatmentController - GET /treatementBatch/88681661 - codeErreur=1000000
+2026-08-09 19:15:02 [http-nio-8083-exec-7] DEBUG c.m.t.controller.TreatmentController - GET /treatementBatch - traitement demande
+2026-08-09 19:15:02 [http-nio-8083-exec-7] DEBUG c.m.treatment.client.McoClient - Recuperation de tous les batches depuis http://localhost:8082/api/batches
+2026-08-09 19:15:02 [http-nio-8083-exec-7] INFO  c.m.t.controller.TreatmentController - GET /treatementBatch - 114 batch(es) traite(s)
+2026-08-09 19:20:48 [main] INFO  c.m.treatment.TreatmentApplication - Starting TreatmentApplication using Java 23.0.2 with PID 30820 (C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment\target\classes started by mouad in C:\Users\zizom\OneDrive\Escritorio\MCOtools\treatment)
+2026-08-09 19:20:48 [main] DEBUG c.m.treatment.TreatmentApplication - Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-08-09 19:20:48 [main] INFO  c.m.treatment.TreatmentApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-09 19:20:50 [main] INFO  c.m.treatment.TreatmentApplication - Started TreatmentApplication in 1.91 seconds (process running for 2.253)
+2026-08-09 19:20:50 [main] INFO  c.m.treatment.TreatmentApplication - Service treatment demarre avec succes
+2026-08-09 19:20:50 [http-nio-8083-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-09 19:20:50 [http-nio-8083-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2026-08-09 19:20:50 [http-nio-8083-exec-2] ERROR c.m.t.e.GlobalExceptionHandler - Erreur non geree interceptee dans treatment: No static resource treatementBatch for request '/treatementBatch/'.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource treatementBatch for request '/treatementBatch/'.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:527)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2026-08-09 19:20:53 [http-nio-8083-exec-4] DEBUG c.m.t.controller.TreatmentController - GET /treatementBatch - traitement demande
+2026-08-09 19:20:53 [http-nio-8083-exec-4] DEBUG c.m.treatment.client.McoClient - Recuperation de tous les batches depuis http://localhost:8082/api/batches
+2026-08-09 19:20:54 [http-nio-8083-exec-4] INFO  c.m.t.controller.TreatmentController - GET /treatementBatch - 114 batch(es) traite(s)
+2026-08-09 19:21:01 [http-nio-8083-exec-6] DEBUG c.m.t.controller.TreatmentController - GET /treatementBatch/99001 - traitement demande
+2026-08-09 19:21:01 [http-nio-8083-exec-6] DEBUG c.m.treatment.client.McoClient - Recuperation du batch 99001 depuis http://localhost:8082/api/batches
+2026-08-09 19:21:01 [http-nio-8083-exec-6] INFO  c.m.t.controller.TreatmentController - GET /treatementBatch/99001 - codeErreur=null
+2026-08-09 19:21:24 [http-nio-8083-exec-5] DEBUG c.m.t.controller.TreatmentController - GET /treatementBatch - traitement demande
+2026-08-09 19:21:24 [http-nio-8083-exec-5] DEBUG c.m.treatment.client.McoClient - Recuperation de tous les batches depuis http://localhost:8082/api/batches
+2026-08-09 19:21:24 [http-nio-8083-exec-5] INFO  c.m.t.controller.TreatmentController - GET /treatementBatch - 114 batch(es) traite(s)
+2026-08-09 19:22:32 [http-nio-8083-exec-9] DEBUG c.m.t.controller.TreatmentController - GET /treatementBatch/88673766 - traitement demande
+2026-08-09 19:22:32 [http-nio-8083-exec-9] DEBUG c.m.treatment.client.McoClient - Recuperation du batch 88673766 depuis http://localhost:8082/api/batches
+2026-08-09 19:22:32 [http-nio-8083-exec-9] INFO  c.m.t.controller.TreatmentController - GET /treatementBatch/88673766 - codeErreur=1000000
+2026-08-09 19:32:17 [http-nio-8083-exec-1] DEBUG c.m.t.controller.TreatmentController - GET /treatementBatch/88673766 - traitement demande
+2026-08-09 19:32:17 [http-nio-8083-exec-1] DEBUG c.m.treatment.client.McoClient - Recuperation du batch 88673766 depuis http://localhost:8082/api/batches
+2026-08-09 19:32:17 [http-nio-8083-exec-1] INFO  c.m.t.controller.TreatmentController - GET /treatementBatch/88673766 - codeErreur=1000000
